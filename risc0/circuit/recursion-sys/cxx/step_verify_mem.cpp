@@ -37,25 +37,25 @@ Fp step_verify_mem(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** 
   Fp x0(1);
   // loc(unknown)
   Fp x1(0);
-  // loc("top(recursion::Top)/code(recursion::Code)/select(OneHot)/micro_ops(Reg)"("./zirgen/components/mux.h":49:0))
+  // loc("top(recursion::Top)/code(recursion::Code)/select(OneHot)/micro_ops(Bit)/bit(Reg)"("./zirgen/components/mux.h":49:0))
   auto x2 = args[0][1 * steps + ((cycle - 0) & mask)];
   assert(x2 != Fp::invalid());
-  // loc("top(recursion::Top)/code(recursion::Code)/select(OneHot)/macro_ops(Reg)"("./zirgen/components/mux.h":49:0))
+  // loc("top(recursion::Top)/code(recursion::Code)/select(OneHot)/macro_ops(Bit)/bit(Reg)"("./zirgen/components/mux.h":49:0))
   auto x3 = args[0][2 * steps + ((cycle - 0) & mask)];
   assert(x3 != Fp::invalid());
-  // loc("top(recursion::Top)/code(recursion::Code)/select(OneHot)/poseidon2_load(Reg)"("./zirgen/components/mux.h":49:0))
+  // loc("top(recursion::Top)/code(recursion::Code)/select(OneHot)/poseidon2_load(Bit)/bit(Reg)"("./zirgen/components/mux.h":49:0))
   auto x4 = args[0][3 * steps + ((cycle - 0) & mask)];
   assert(x4 != Fp::invalid());
-  // loc("top(recursion::Top)/code(recursion::Code)/select(OneHot)/poseidon2_full(Reg)"("./zirgen/components/mux.h":49:0))
+  // loc("top(recursion::Top)/code(recursion::Code)/select(OneHot)/poseidon2_full(Bit)/bit(Reg)"("./zirgen/components/mux.h":49:0))
   auto x5 = args[0][4 * steps + ((cycle - 0) & mask)];
   assert(x5 != Fp::invalid());
-  // loc("top(recursion::Top)/code(recursion::Code)/select(OneHot)/poseidon2_partial(Reg)"("./zirgen/components/mux.h":49:0))
+  // loc("top(recursion::Top)/code(recursion::Code)/select(OneHot)/poseidon2_partial(Bit)/bit(Reg)"("./zirgen/components/mux.h":49:0))
   auto x6 = args[0][5 * steps + ((cycle - 0) & mask)];
   assert(x6 != Fp::invalid());
-  // loc("top(recursion::Top)/code(recursion::Code)/select(OneHot)/poseidon2_store(Reg)"("./zirgen/components/mux.h":49:0))
+  // loc("top(recursion::Top)/code(recursion::Code)/select(OneHot)/poseidon2_store(Bit)/bit(Reg)"("./zirgen/components/mux.h":49:0))
   auto x7 = args[0][6 * steps + ((cycle - 0) & mask)];
   assert(x7 != Fp::invalid());
-  // loc("top(recursion::Top)/code(recursion::Code)/select(OneHot)/checked_bytes(Reg)"("./zirgen/components/mux.h":49:0))
+  // loc("top(recursion::Top)/code(recursion::Code)/select(OneHot)/checked_bytes(Bit)/bit(Reg)"("./zirgen/components/mux.h":49:0))
   auto x8 = args[0][7 * steps + ((cycle - 0) & mask)];
   assert(x8 != Fp::invalid());
   if (x2 != 0) {

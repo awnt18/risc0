@@ -265,11 +265,11 @@ fn test_recursion_lift_resolve_e2e() {
 
 #[test]
 fn stable_root() {
-    // This tests that none of the control IDs have changed unexpectedly
+    // This tests that none of the control IDs have changed unexpectedly.
     // If you have _intentionally_ changed control IDs, update this hash.
 
     assert_eq!(
         ALLOWED_IDS_ROOT,
-        "88c1f749250aba181168c33839d7a351671e7a5b7f3e746dde91ef6c6e9ef344"
+        "12dcee702de31c25ddac59432cf2630c0947fb006170b810ca71c73eb63a6b0d"
     );
 }

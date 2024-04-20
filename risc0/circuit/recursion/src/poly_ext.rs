@@ -309,35 +309,35 @@ PolyExtStep::Const(12), // loc(unknown)
 PolyExtStep::Const(48), // loc(unknown)
 PolyExtStep::Const(192), // loc(unknown)
 PolyExtStep::True, // zirgen/circuit/recursion/recursion.cpp:38
-PolyExtStep::Get(17), // top(recursion::Top)/code(recursion::Code)/select(OneHot)/micro_ops(Reg)(components/mux.h:49)
+PolyExtStep::Get(17), // top(recursion::Top)/code(recursion::Code)/select(OneHot)/micro_ops(Bit)/bit(Reg)(components/mux.h:49)
 PolyExtStep::Get(16), // top(recursion::Top)/code(recursion::Code)/write_addr(Reg)(zirgen/circuit/recursion/top.cpp:23)
 PolyExtStep::Get(24), // top(recursion::Top)/code(recursion::Code)/inst(Mux)/micro_ops(recursion::MicroInsts)/inst[0](recursion::MicroInst)/opcode(Reg)(compiler/edsl/component.h:154)
-PolyExtStep::Get(450), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/add(Reg)(compiler/edsl/edsl.h:117)
-PolyExtStep::Get(456), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/sub(Reg)(compiler/edsl/edsl.h:117)
+PolyExtStep::Get(450), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/add(Bit)/bit(Reg)(compiler/edsl/component.h:154)
+PolyExtStep::Get(456), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/sub(Bit)/bit(Reg)(compiler/edsl/component.h:154)
 PolyExtStep::Mul(288, 2), // components/onehot.h:46
 PolyExtStep::Add(287, 289), // components/onehot.h:46
-PolyExtStep::Get(458), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/mul(Reg)(compiler/edsl/edsl.h:117)
+PolyExtStep::Get(458), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/mul(Bit)/bit(Reg)(compiler/edsl/component.h:154)
 PolyExtStep::Mul(291, 3), // components/onehot.h:46
 PolyExtStep::Add(290, 292), // components/onehot.h:46
-PolyExtStep::Get(460), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/inv(Reg)(compiler/edsl/edsl.h:117)
+PolyExtStep::Get(460), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/inv(Bit)/bit(Reg)(compiler/edsl/component.h:154)
 PolyExtStep::Mul(294, 4), // components/onehot.h:46
 PolyExtStep::Add(293, 295), // components/onehot.h:46
-PolyExtStep::Get(466), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/eq(Reg)(compiler/edsl/edsl.h:117)
+PolyExtStep::Get(466), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/eq(Bit)/bit(Reg)(compiler/edsl/component.h:154)
 PolyExtStep::Mul(297, 5), // components/onehot.h:46
 PolyExtStep::Add(296, 298), // components/onehot.h:46
-PolyExtStep::Get(472), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/read_iop_header(Reg)(compiler/edsl/edsl.h:117)
+PolyExtStep::Get(472), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/read_iop_header(Bit)/bit(Reg)(compiler/edsl/component.h:154)
 PolyExtStep::Mul(300, 6), // components/onehot.h:46
 PolyExtStep::Add(299, 301), // components/onehot.h:46
-PolyExtStep::Get(478), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/read_iop_body(Reg)(compiler/edsl/edsl.h:117)
+PolyExtStep::Get(478), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/read_iop_body(Bit)/bit(Reg)(compiler/edsl/component.h:154)
 PolyExtStep::Mul(303, 7), // components/onehot.h:46
 PolyExtStep::Add(302, 304), // components/onehot.h:46
-PolyExtStep::Get(484), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/mix_rng(Reg)(compiler/edsl/edsl.h:117)
+PolyExtStep::Get(484), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/mix_rng(Bit)/bit(Reg)(compiler/edsl/component.h:154)
 PolyExtStep::Mul(306, 8), // components/onehot.h:46
 PolyExtStep::Add(305, 307), // components/onehot.h:46
-PolyExtStep::Get(490), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/select(Reg)(compiler/edsl/edsl.h:117)
+PolyExtStep::Get(490), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/select(Bit)/bit(Reg)(compiler/edsl/component.h:154)
 PolyExtStep::Mul(309, 9), // components/onehot.h:46
 PolyExtStep::Add(308, 310), // components/onehot.h:46
-PolyExtStep::Get(496), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/extract(Reg)(compiler/edsl/edsl.h:117)
+PolyExtStep::Get(496), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/extract(Bit)/bit(Reg)(compiler/edsl/component.h:154)
 PolyExtStep::Mul(312, 10), // components/onehot.h:46
 PolyExtStep::Add(311, 313), // components/onehot.h:46
 PolyExtStep::Sub(314, 286), // components/onehot.h:40
@@ -345,7 +345,7 @@ PolyExtStep::AndEqz(0, 315), // components/onehot.h:40
 PolyExtStep::Get(25), // top(recursion::Top)/code(recursion::Code)/inst(Mux)/micro_ops(recursion::MicroInsts)/inst[0](recursion::MicroInst)/operand[0](Reg)(zirgen/circuit/recursion/micro.cpp:14)
 PolyExtStep::Get(26), // top(recursion::Top)/code(recursion::Code)/inst(Mux)/micro_ops(recursion::MicroInsts)/inst[0](recursion::MicroInst)/operand[1](Reg)(zirgen/circuit/recursion/micro.cpp:15)
 PolyExtStep::Get(27), // top(recursion::Top)/code(recursion::Code)/inst(Mux)/micro_ops(recursion::MicroInsts)/inst[0](recursion::MicroInst)/operand[2](Reg)(zirgen/circuit/recursion/micro.cpp:16)
-PolyExtStep::Get(444), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/constop(Reg)(zirgen/circuit/recursion/micro.cpp:19)
+PolyExtStep::Get(444), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/constop(Bit)/bit(Reg)(zirgen/circuit/recursion/micro.cpp:19)
 PolyExtStep::Get(49), // zirgen/circuit/recursion/wom.cpp:12
 PolyExtStep::AndEqz(0, 320), // zirgen/circuit/recursion/wom.cpp:12
 PolyExtStep::Get(50), // zirgen/circuit/recursion/wom.cpp:51
@@ -584,32 +584,32 @@ PolyExtStep::AndEqz(81, 338), // zirgen/circuit/recursion/wom.cpp:51
 PolyExtStep::AndCond(77, 312, 82), // zirgen/circuit/recursion/micro.cpp:130
 PolyExtStep::Add(285, 1), // zirgen/circuit/recursion/micro.cpp:153
 PolyExtStep::Get(28), // top(recursion::Top)/code(recursion::Code)/inst(Mux)/micro_ops(recursion::MicroInsts)/inst[1](recursion::MicroInst)/opcode(Reg)(compiler/edsl/component.h:154)
-PolyExtStep::Get(514), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/add(Reg)(compiler/edsl/edsl.h:117)
-PolyExtStep::Get(520), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/sub(Reg)(compiler/edsl/edsl.h:117)
+PolyExtStep::Get(514), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/add(Bit)/bit(Reg)(compiler/edsl/component.h:154)
+PolyExtStep::Get(520), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/sub(Bit)/bit(Reg)(compiler/edsl/component.h:154)
 PolyExtStep::Mul(477, 2), // components/onehot.h:46
 PolyExtStep::Add(476, 478), // components/onehot.h:46
-PolyExtStep::Get(526), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/mul(Reg)(compiler/edsl/edsl.h:117)
+PolyExtStep::Get(526), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/mul(Bit)/bit(Reg)(compiler/edsl/component.h:154)
 PolyExtStep::Mul(480, 3), // components/onehot.h:46
 PolyExtStep::Add(479, 481), // components/onehot.h:46
-PolyExtStep::Get(532), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/inv(Reg)(compiler/edsl/edsl.h:117)
+PolyExtStep::Get(532), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/inv(Bit)/bit(Reg)(compiler/edsl/component.h:154)
 PolyExtStep::Mul(483, 4), // components/onehot.h:46
 PolyExtStep::Add(482, 484), // components/onehot.h:46
-PolyExtStep::Get(538), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/eq(Reg)(compiler/edsl/edsl.h:117)
+PolyExtStep::Get(538), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/eq(Bit)/bit(Reg)(compiler/edsl/component.h:154)
 PolyExtStep::Mul(486, 5), // components/onehot.h:46
 PolyExtStep::Add(485, 487), // components/onehot.h:46
-PolyExtStep::Get(544), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/read_iop_header(Reg)(compiler/edsl/edsl.h:117)
+PolyExtStep::Get(544), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/read_iop_header(Bit)/bit(Reg)(compiler/edsl/component.h:154)
 PolyExtStep::Mul(489, 6), // components/onehot.h:46
 PolyExtStep::Add(488, 490), // components/onehot.h:46
-PolyExtStep::Get(550), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/read_iop_body(Reg)(compiler/edsl/edsl.h:117)
+PolyExtStep::Get(550), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/read_iop_body(Bit)/bit(Reg)(compiler/edsl/component.h:154)
 PolyExtStep::Mul(492, 7), // components/onehot.h:46
 PolyExtStep::Add(491, 493), // components/onehot.h:46
-PolyExtStep::Get(556), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/mix_rng(Reg)(compiler/edsl/edsl.h:117)
+PolyExtStep::Get(556), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/mix_rng(Bit)/bit(Reg)(compiler/edsl/component.h:154)
 PolyExtStep::Mul(495, 8), // components/onehot.h:46
 PolyExtStep::Add(494, 496), // components/onehot.h:46
-PolyExtStep::Get(562), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/select(Reg)(compiler/edsl/edsl.h:117)
+PolyExtStep::Get(562), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/select(Bit)/bit(Reg)(compiler/edsl/component.h:154)
 PolyExtStep::Mul(498, 9), // components/onehot.h:46
 PolyExtStep::Add(497, 499), // components/onehot.h:46
-PolyExtStep::Get(568), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/extract(Reg)(compiler/edsl/edsl.h:117)
+PolyExtStep::Get(568), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/extract(Bit)/bit(Reg)(compiler/edsl/component.h:154)
 PolyExtStep::Mul(501, 10), // components/onehot.h:46
 PolyExtStep::Add(500, 502), // components/onehot.h:46
 PolyExtStep::Sub(503, 475), // components/onehot.h:40
@@ -617,7 +617,7 @@ PolyExtStep::AndEqz(83, 504), // components/onehot.h:40
 PolyExtStep::Get(29), // top(recursion::Top)/code(recursion::Code)/inst(Mux)/micro_ops(recursion::MicroInsts)/inst[1](recursion::MicroInst)/operand[0](Reg)(zirgen/circuit/recursion/micro.cpp:14)
 PolyExtStep::Get(30), // top(recursion::Top)/code(recursion::Code)/inst(Mux)/micro_ops(recursion::MicroInsts)/inst[1](recursion::MicroInst)/operand[1](Reg)(zirgen/circuit/recursion/micro.cpp:15)
 PolyExtStep::Get(31), // top(recursion::Top)/code(recursion::Code)/inst(Mux)/micro_ops(recursion::MicroInsts)/inst[1](recursion::MicroInst)/operand[2](Reg)(zirgen/circuit/recursion/micro.cpp:16)
-PolyExtStep::Get(508), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/constop(Reg)(zirgen/circuit/recursion/micro.cpp:19)
+PolyExtStep::Get(508), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/constop(Bit)/bit(Reg)(zirgen/circuit/recursion/micro.cpp:19)
 PolyExtStep::Get(64), // zirgen/circuit/recursion/wom.cpp:12
 PolyExtStep::AndEqz(0, 509), // zirgen/circuit/recursion/wom.cpp:12
 PolyExtStep::Get(65), // zirgen/circuit/recursion/wom.cpp:51
@@ -856,32 +856,32 @@ PolyExtStep::AndEqz(164, 527), // zirgen/circuit/recursion/wom.cpp:51
 PolyExtStep::AndCond(160, 501, 165), // zirgen/circuit/recursion/micro.cpp:130
 PolyExtStep::Add(285, 2), // zirgen/circuit/recursion/micro.cpp:153
 PolyExtStep::Get(32), // top(recursion::Top)/code(recursion::Code)/inst(Mux)/micro_ops(recursion::MicroInsts)/inst[2](recursion::MicroInst)/opcode(Reg)(compiler/edsl/component.h:154)
-PolyExtStep::Get(585), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/add(Reg)(compiler/edsl/edsl.h:117)
-PolyExtStep::Get(590), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/sub(Reg)(compiler/edsl/edsl.h:117)
+PolyExtStep::Get(585), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/add(Bit)/bit(Reg)(compiler/edsl/component.h:154)
+PolyExtStep::Get(590), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/sub(Bit)/bit(Reg)(compiler/edsl/component.h:154)
 PolyExtStep::Mul(666, 2), // components/onehot.h:46
 PolyExtStep::Add(665, 667), // components/onehot.h:46
-PolyExtStep::Get(595), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/mul(Reg)(compiler/edsl/edsl.h:117)
+PolyExtStep::Get(595), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/mul(Bit)/bit(Reg)(compiler/edsl/component.h:154)
 PolyExtStep::Mul(669, 3), // components/onehot.h:46
 PolyExtStep::Add(668, 670), // components/onehot.h:46
-PolyExtStep::Get(600), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/inv(Reg)(compiler/edsl/edsl.h:117)
+PolyExtStep::Get(600), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/inv(Bit)/bit(Reg)(compiler/edsl/component.h:154)
 PolyExtStep::Mul(672, 4), // components/onehot.h:46
 PolyExtStep::Add(671, 673), // components/onehot.h:46
-PolyExtStep::Get(605), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/eq(Reg)(compiler/edsl/edsl.h:117)
+PolyExtStep::Get(605), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/eq(Bit)/bit(Reg)(compiler/edsl/component.h:154)
 PolyExtStep::Mul(675, 5), // components/onehot.h:46
 PolyExtStep::Add(674, 676), // components/onehot.h:46
-PolyExtStep::Get(610), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/read_iop_header(Reg)(compiler/edsl/edsl.h:117)
+PolyExtStep::Get(610), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/read_iop_header(Bit)/bit(Reg)(compiler/edsl/component.h:154)
 PolyExtStep::Mul(678, 6), // components/onehot.h:46
 PolyExtStep::Add(677, 679), // components/onehot.h:46
-PolyExtStep::Get(615), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/read_iop_body(Reg)(compiler/edsl/edsl.h:117)
+PolyExtStep::Get(615), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/read_iop_body(Bit)/bit(Reg)(compiler/edsl/component.h:154)
 PolyExtStep::Mul(681, 7), // components/onehot.h:46
 PolyExtStep::Add(680, 682), // components/onehot.h:46
-PolyExtStep::Get(620), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/mix_rng(Reg)(compiler/edsl/edsl.h:117)
+PolyExtStep::Get(620), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/mix_rng(Bit)/bit(Reg)(compiler/edsl/component.h:154)
 PolyExtStep::Mul(684, 8), // components/onehot.h:46
 PolyExtStep::Add(683, 685), // components/onehot.h:46
-PolyExtStep::Get(625), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/select(Reg)(compiler/edsl/edsl.h:117)
+PolyExtStep::Get(625), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/select(Bit)/bit(Reg)(compiler/edsl/component.h:154)
 PolyExtStep::Mul(687, 9), // components/onehot.h:46
 PolyExtStep::Add(686, 688), // components/onehot.h:46
-PolyExtStep::Get(630), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/extract(Reg)(compiler/edsl/edsl.h:117)
+PolyExtStep::Get(630), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/extract(Bit)/bit(Reg)(compiler/edsl/component.h:154)
 PolyExtStep::Mul(690, 10), // components/onehot.h:46
 PolyExtStep::Add(689, 691), // components/onehot.h:46
 PolyExtStep::Sub(692, 664), // components/onehot.h:40
@@ -889,7 +889,7 @@ PolyExtStep::AndEqz(166, 693), // components/onehot.h:40
 PolyExtStep::Get(33), // top(recursion::Top)/code(recursion::Code)/inst(Mux)/micro_ops(recursion::MicroInsts)/inst[2](recursion::MicroInst)/operand[0](Reg)(zirgen/circuit/recursion/micro.cpp:14)
 PolyExtStep::Get(34), // top(recursion::Top)/code(recursion::Code)/inst(Mux)/micro_ops(recursion::MicroInsts)/inst[2](recursion::MicroInst)/operand[1](Reg)(zirgen/circuit/recursion/micro.cpp:15)
 PolyExtStep::Get(35), // top(recursion::Top)/code(recursion::Code)/inst(Mux)/micro_ops(recursion::MicroInsts)/inst[2](recursion::MicroInst)/operand[2](Reg)(zirgen/circuit/recursion/micro.cpp:16)
-PolyExtStep::Get(580), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/constop(Reg)(zirgen/circuit/recursion/micro.cpp:19)
+PolyExtStep::Get(580), // top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/constop(Bit)/bit(Reg)(zirgen/circuit/recursion/micro.cpp:19)
 PolyExtStep::Get(124), // zirgen/circuit/recursion/wom.cpp:12
 PolyExtStep::AndEqz(0, 698), // zirgen/circuit/recursion/wom.cpp:12
 PolyExtStep::Get(130), // zirgen/circuit/recursion/wom.cpp:51
@@ -1127,7 +1127,7 @@ PolyExtStep::AndEqz(246, 714), // zirgen/circuit/recursion/wom.cpp:51
 PolyExtStep::AndEqz(247, 716), // zirgen/circuit/recursion/wom.cpp:51
 PolyExtStep::AndCond(243, 690, 248), // zirgen/circuit/recursion/micro.cpp:130
 PolyExtStep::AndCond(0, 284, 249), // components/mux.h:49
-PolyExtStep::Get(18), // top(recursion::Top)/code(recursion::Code)/select(OneHot)/macro_ops(Reg)(components/mux.h:49)
+PolyExtStep::Get(18), // top(recursion::Top)/code(recursion::Code)/select(OneHot)/macro_ops(Bit)/bit(Reg)(components/mux.h:49)
 PolyExtStep::AndCond(0, 316, 0), // components/mux.h:49
 PolyExtStep::Sub(326, 285), // zirgen/circuit/recursion/wom.cpp:17
 PolyExtStep::AndEqz(0, 853), // zirgen/circuit/recursion/wom.cpp:17
@@ -4836,7 +4836,7 @@ PolyExtStep::AndEqz(392, 4414), // zirgen/circuit/recursion/macro.cpp:40
 PolyExtStep::AndCond(382, 329, 393), // zirgen/circuit/recursion/macro.cpp:35
 PolyExtStep::AndCond(344, 694, 394), // components/mux.h:49
 PolyExtStep::AndCond(250, 852, 395), // components/mux.h:49
-PolyExtStep::Get(19), // top(recursion::Top)/code(recursion::Code)/select(OneHot)/poseidon2_load(Reg)(components/mux.h:49)
+PolyExtStep::Get(19), // top(recursion::Top)/code(recursion::Code)/select(OneHot)/poseidon2_load(Bit)/bit(Reg)(components/mux.h:49)
 PolyExtStep::Sub(1, 286), // zirgen/circuit/recursion/poseidon2.cpp:55
 PolyExtStep::Mul(286, 43), // zirgen/circuit/recursion/poseidon2.cpp:55
 PolyExtStep::Add(4417, 4416), // zirgen/circuit/recursion/poseidon2.cpp:55
@@ -5250,7 +5250,7 @@ PolyExtStep::Add(4792, 4793), // zirgen/circuit/recursion/poseidon2.cpp:77
 PolyExtStep::Sub(619, 4794), // zirgen/circuit/recursion/poseidon2.cpp:78
 PolyExtStep::AndEqz(427, 4795), // zirgen/circuit/recursion/poseidon2.cpp:78
 PolyExtStep::AndCond(396, 4415, 428), // components/mux.h:49
-PolyExtStep::Get(20), // top(recursion::Top)/code(recursion::Code)/select(OneHot)/poseidon2_full(Reg)(components/mux.h:49)
+PolyExtStep::Get(20), // top(recursion::Top)/code(recursion::Code)/select(OneHot)/poseidon2_full(Bit)/bit(Reg)(components/mux.h:49)
 PolyExtStep::Get(457), // top(recursion::Top)/mux(Mux)/poseidon2_full(recursion::Poseidon2Full)/Reg(zirgen/circuit/recursion/poseidon2.cpp:201)
 PolyExtStep::Get(459), // top(recursion::Top)/mux(Mux)/poseidon2_full(recursion::Poseidon2Full)/Reg(zirgen/circuit/recursion/poseidon2.cpp:201)
 PolyExtStep::Get(461), // top(recursion::Top)/mux(Mux)/poseidon2_full(recursion::Poseidon2Full)/Reg(zirgen/circuit/recursion/poseidon2.cpp:201)
@@ -6178,7 +6178,7 @@ PolyExtStep::Add(5506, 5578), // zirgen/circuit/recursion/poseidon2.cpp:273
 PolyExtStep::Sub(619, 5625), // zirgen/circuit/recursion/poseidon2.cpp:273
 PolyExtStep::AndEqz(524, 5626), // zirgen/circuit/recursion/poseidon2.cpp:273
 PolyExtStep::AndCond(429, 4796, 525), // components/mux.h:49
-PolyExtStep::Get(21), // top(recursion::Top)/code(recursion::Code)/select(OneHot)/poseidon2_partial(Reg)(components/mux.h:49)
+PolyExtStep::Get(21), // top(recursion::Top)/code(recursion::Code)/select(OneHot)/poseidon2_partial(Bit)/bit(Reg)(components/mux.h:49)
 PolyExtStep::Sub(320, 2197), // zirgen/circuit/recursion/poseidon2.cpp:291
 PolyExtStep::AndEqz(0, 5628), // zirgen/circuit/recursion/poseidon2.cpp:291
 PolyExtStep::Add(320, 212), // zirgen/circuit/recursion/poseidon2.cpp:296
@@ -7934,7 +7934,7 @@ PolyExtStep::Add(7265, 280), // zirgen/circuit/recursion/poseidon2.cpp:333
 PolyExtStep::Sub(619, 7313), // zirgen/circuit/recursion/poseidon2.cpp:334
 PolyExtStep::AndEqz(592, 7314), // zirgen/circuit/recursion/poseidon2.cpp:334
 PolyExtStep::AndCond(526, 5627, 593), // components/mux.h:49
-PolyExtStep::Get(22), // top(recursion::Top)/code(recursion::Code)/select(OneHot)/poseidon2_store(Reg)(components/mux.h:49)
+PolyExtStep::Get(22), // top(recursion::Top)/code(recursion::Code)/select(OneHot)/poseidon2_store(Bit)/bit(Reg)(components/mux.h:49)
 PolyExtStep::Mul(475, 2197), // zirgen/circuit/recursion/poseidon2.cpp:354
 PolyExtStep::Mul(475, 2198), // zirgen/circuit/recursion/poseidon2.cpp:354
 PolyExtStep::Mul(475, 4797), // zirgen/circuit/recursion/poseidon2.cpp:354
@@ -8095,7 +8095,7 @@ PolyExtStep::AndEqz(656, 7409), // zirgen/circuit/recursion/poseidon2.cpp:361
 PolyExtStep::Sub(619, 4818), // zirgen/circuit/recursion/poseidon2.cpp:361
 PolyExtStep::AndEqz(657, 7410), // zirgen/circuit/recursion/poseidon2.cpp:361
 PolyExtStep::AndCond(594, 7315, 658), // components/mux.h:49
-PolyExtStep::Get(23), // top(recursion::Top)/code(recursion::Code)/select(OneHot)/checked_bytes(Reg)(components/mux.h:49)
+PolyExtStep::Get(23), // top(recursion::Top)/code(recursion::Code)/select(OneHot)/checked_bytes(Bit)/bit(Reg)(components/mux.h:49)
 PolyExtStep::Sub(320, 286), // zirgen/circuit/recursion/wom.cpp:82
 PolyExtStep::AndEqz(0, 7412), // zirgen/circuit/recursion/wom.cpp:82
 PolyExtStep::Mul(324, 322), // zirgen/circuit/recursion/checked_bytes.cpp:20
@@ -11901,515 +11901,598 @@ PolyExtStep::AndEqz(1003, 10868), // components/plonk.h:287
 PolyExtStep::Sub(10865, 10834), // components/plonk.h:287
 PolyExtStep::AndEqz(1004, 10869), // components/plonk.h:287
 PolyExtStep::AndCond(1001, 7411, 1005), // zirgen/compiler/edsl/component.cpp:39
-PolyExtStep::Sub(1, 475), // components/onehot.h:28
-PolyExtStep::Mul(475, 10870), // components/onehot.h:28
-PolyExtStep::AndEqz(0, 10871), // components/onehot.h:28
-PolyExtStep::Sub(1, 505), // components/onehot.h:28
-PolyExtStep::Mul(505, 10872), // components/onehot.h:28
-PolyExtStep::AndEqz(1007, 10873), // components/onehot.h:28
+PolyExtStep::Sub(1, 284), // components/bits.h:24
+PolyExtStep::Mul(284, 10870), // components/bits.h:24
+PolyExtStep::AndEqz(1006, 10871), // components/bits.h:24
+PolyExtStep::Sub(1, 852), // components/bits.h:24
+PolyExtStep::Mul(852, 10872), // components/bits.h:24
+PolyExtStep::AndEqz(1007, 10873), // components/bits.h:24
+PolyExtStep::Sub(1, 4415), // components/bits.h:24
+PolyExtStep::Mul(4415, 10874), // components/bits.h:24
+PolyExtStep::AndEqz(1008, 10875), // components/bits.h:24
+PolyExtStep::Sub(1, 4796), // components/bits.h:24
+PolyExtStep::Mul(4796, 10876), // components/bits.h:24
+PolyExtStep::AndEqz(1009, 10877), // components/bits.h:24
+PolyExtStep::Sub(1, 5627), // components/bits.h:24
+PolyExtStep::Mul(5627, 10878), // components/bits.h:24
+PolyExtStep::AndEqz(1010, 10879), // components/bits.h:24
+PolyExtStep::Sub(1, 7315), // components/bits.h:24
+PolyExtStep::Mul(7315, 10880), // components/bits.h:24
+PolyExtStep::AndEqz(1011, 10881), // components/bits.h:24
+PolyExtStep::Sub(1, 7411), // components/bits.h:24
+PolyExtStep::Mul(7411, 10882), // components/bits.h:24
+PolyExtStep::AndEqz(1012, 10883), // components/bits.h:24
+PolyExtStep::Mul(286, 4416), // components/bits.h:24
+PolyExtStep::AndEqz(0, 10884), // components/bits.h:24
+PolyExtStep::Sub(1, 316), // components/bits.h:24
+PolyExtStep::Mul(316, 10885), // components/bits.h:24
+PolyExtStep::AndEqz(1014, 10886), // components/bits.h:24
+PolyExtStep::Mul(317, 428), // components/bits.h:24
+PolyExtStep::AndEqz(1015, 10887), // components/bits.h:24
+PolyExtStep::Mul(318, 461), // components/bits.h:24
+PolyExtStep::AndEqz(1016, 10888), // components/bits.h:24
+PolyExtStep::Sub(1, 475), // components/bits.h:24
+PolyExtStep::Mul(475, 10889), // components/bits.h:24
+PolyExtStep::AndEqz(1017, 10890), // components/bits.h:24
+PolyExtStep::Sub(1, 505), // components/bits.h:24
+PolyExtStep::Mul(505, 10891), // components/bits.h:24
+PolyExtStep::AndEqz(1018, 10892), // components/bits.h:24
+PolyExtStep::Mul(506, 617), // components/bits.h:24
+PolyExtStep::AndEqz(1019, 10893), // components/bits.h:24
+PolyExtStep::Mul(507, 650), // components/bits.h:24
+PolyExtStep::AndEqz(1020, 10894), // components/bits.h:24
+PolyExtStep::Sub(1, 664), // components/bits.h:24
+PolyExtStep::Mul(664, 10895), // components/bits.h:24
+PolyExtStep::AndEqz(1021, 10896), // components/bits.h:24
+PolyExtStep::Sub(1, 694), // components/bits.h:24
+PolyExtStep::Mul(694, 10897), // components/bits.h:24
+PolyExtStep::AndEqz(1022, 10898), // components/bits.h:24
+PolyExtStep::AndCond(1013, 852, 1023), // zirgen/compiler/edsl/component.cpp:39
+PolyExtStep::AndEqz(0, 10890), // components/bits.h:24
+PolyExtStep::AndEqz(1025, 10892), // components/bits.h:24
+PolyExtStep::AndEqz(1026, 10893), // components/bits.h:24
+PolyExtStep::AndEqz(1027, 10890), // components/onehot.h:28
+PolyExtStep::AndEqz(1028, 10892), // components/onehot.h:28
 PolyExtStep::Add(475, 505), // components/onehot.h:29
-PolyExtStep::Mul(506, 617), // components/onehot.h:28
-PolyExtStep::AndEqz(1008, 10875), // components/onehot.h:28
-PolyExtStep::Add(10874, 506), // components/onehot.h:29
-PolyExtStep::Sub(10876, 1), // components/onehot.h:31
-PolyExtStep::AndEqz(1009, 10877), // components/onehot.h:31
-PolyExtStep::AndCond(1006, 4415, 1010), // zirgen/compiler/edsl/component.cpp:39
-PolyExtStep::AndCond(1011, 7315, 1010), // zirgen/compiler/edsl/component.cpp:39
-PolyExtStep::Sub(1, 319), // components/onehot.h:28
-PolyExtStep::Mul(319, 10878), // components/onehot.h:28
-PolyExtStep::AndEqz(0, 10879), // components/onehot.h:28
-PolyExtStep::Sub(1, 287), // components/onehot.h:28
-PolyExtStep::Mul(287, 10880), // components/onehot.h:28
-PolyExtStep::AndEqz(1013, 10881), // components/onehot.h:28
+PolyExtStep::AndEqz(1029, 10893), // components/onehot.h:28
+PolyExtStep::Add(10899, 506), // components/onehot.h:29
+PolyExtStep::Sub(10900, 1), // components/onehot.h:31
+PolyExtStep::AndEqz(1030, 10901), // components/onehot.h:31
+PolyExtStep::AndCond(1024, 4415, 1031), // zirgen/compiler/edsl/component.cpp:39
+PolyExtStep::AndCond(1032, 4796, 1017), // zirgen/compiler/edsl/component.cpp:39
+PolyExtStep::AndCond(1033, 7315, 1031), // zirgen/compiler/edsl/component.cpp:39
+PolyExtStep::Sub(1, 319), // components/bits.h:24
+PolyExtStep::Mul(319, 10902), // components/bits.h:24
+PolyExtStep::AndEqz(0, 10903), // components/bits.h:24
+PolyExtStep::Sub(1, 287), // components/bits.h:24
+PolyExtStep::Mul(287, 10904), // components/bits.h:24
+PolyExtStep::AndEqz(1035, 10905), // components/bits.h:24
+PolyExtStep::Sub(1, 288), // components/bits.h:24
+PolyExtStep::Mul(288, 10906), // components/bits.h:24
+PolyExtStep::AndEqz(1036, 10907), // components/bits.h:24
+PolyExtStep::Sub(1, 291), // components/bits.h:24
+PolyExtStep::Mul(291, 10908), // components/bits.h:24
+PolyExtStep::AndEqz(1037, 10909), // components/bits.h:24
+PolyExtStep::Sub(1, 294), // components/bits.h:24
+PolyExtStep::Mul(294, 10910), // components/bits.h:24
+PolyExtStep::AndEqz(1038, 10911), // components/bits.h:24
+PolyExtStep::Sub(1, 297), // components/bits.h:24
+PolyExtStep::Mul(297, 10912), // components/bits.h:24
+PolyExtStep::AndEqz(1039, 10913), // components/bits.h:24
+PolyExtStep::Sub(1, 300), // components/bits.h:24
+PolyExtStep::Mul(300, 10914), // components/bits.h:24
+PolyExtStep::AndEqz(1040, 10915), // components/bits.h:24
+PolyExtStep::Sub(1, 303), // components/bits.h:24
+PolyExtStep::Mul(303, 10916), // components/bits.h:24
+PolyExtStep::AndEqz(1041, 10917), // components/bits.h:24
+PolyExtStep::Sub(1, 306), // components/bits.h:24
+PolyExtStep::Mul(306, 10918), // components/bits.h:24
+PolyExtStep::AndEqz(1042, 10919), // components/bits.h:24
+PolyExtStep::Sub(1, 309), // components/bits.h:24
+PolyExtStep::Mul(309, 10920), // components/bits.h:24
+PolyExtStep::AndEqz(1043, 10921), // components/bits.h:24
+PolyExtStep::Sub(1, 312), // components/bits.h:24
+PolyExtStep::Mul(312, 10922), // components/bits.h:24
+PolyExtStep::AndEqz(1044, 10923), // components/bits.h:24
+PolyExtStep::AndEqz(1045, 10903), // components/onehot.h:28
+PolyExtStep::AndEqz(1046, 10905), // components/onehot.h:28
 PolyExtStep::Add(319, 287), // components/onehot.h:29
-PolyExtStep::Sub(1, 288), // components/onehot.h:28
-PolyExtStep::Mul(288, 10883), // components/onehot.h:28
-PolyExtStep::AndEqz(1014, 10884), // components/onehot.h:28
-PolyExtStep::Add(10882, 288), // components/onehot.h:29
-PolyExtStep::Sub(1, 291), // components/onehot.h:28
-PolyExtStep::Mul(291, 10886), // components/onehot.h:28
-PolyExtStep::AndEqz(1015, 10887), // components/onehot.h:28
-PolyExtStep::Add(10885, 291), // components/onehot.h:29
-PolyExtStep::Sub(1, 294), // components/onehot.h:28
-PolyExtStep::Mul(294, 10889), // components/onehot.h:28
-PolyExtStep::AndEqz(1016, 10890), // components/onehot.h:28
-PolyExtStep::Add(10888, 294), // components/onehot.h:29
-PolyExtStep::Sub(1, 297), // components/onehot.h:28
-PolyExtStep::Mul(297, 10892), // components/onehot.h:28
-PolyExtStep::AndEqz(1017, 10893), // components/onehot.h:28
-PolyExtStep::Add(10891, 297), // components/onehot.h:29
-PolyExtStep::Sub(1, 300), // components/onehot.h:28
-PolyExtStep::Mul(300, 10895), // components/onehot.h:28
-PolyExtStep::AndEqz(1018, 10896), // components/onehot.h:28
-PolyExtStep::Add(10894, 300), // components/onehot.h:29
-PolyExtStep::Sub(1, 303), // components/onehot.h:28
-PolyExtStep::Mul(303, 10898), // components/onehot.h:28
-PolyExtStep::AndEqz(1019, 10899), // components/onehot.h:28
-PolyExtStep::Add(10897, 303), // components/onehot.h:29
-PolyExtStep::Sub(1, 306), // components/onehot.h:28
-PolyExtStep::Mul(306, 10901), // components/onehot.h:28
-PolyExtStep::AndEqz(1020, 10902), // components/onehot.h:28
-PolyExtStep::Add(10900, 306), // components/onehot.h:29
-PolyExtStep::Sub(1, 309), // components/onehot.h:28
-PolyExtStep::Mul(309, 10904), // components/onehot.h:28
-PolyExtStep::AndEqz(1021, 10905), // components/onehot.h:28
-PolyExtStep::Add(10903, 309), // components/onehot.h:29
-PolyExtStep::Sub(1, 312), // components/onehot.h:28
-PolyExtStep::Mul(312, 10907), // components/onehot.h:28
-PolyExtStep::AndEqz(1022, 10908), // components/onehot.h:28
-PolyExtStep::Add(10906, 312), // components/onehot.h:29
-PolyExtStep::Sub(10909, 1), // components/onehot.h:31
-PolyExtStep::AndEqz(1023, 10910), // components/onehot.h:31
-PolyExtStep::Sub(1, 508), // components/onehot.h:28
-PolyExtStep::Mul(508, 10911), // components/onehot.h:28
-PolyExtStep::AndEqz(1024, 10912), // components/onehot.h:28
-PolyExtStep::Sub(1, 476), // components/onehot.h:28
-PolyExtStep::Mul(476, 10913), // components/onehot.h:28
-PolyExtStep::AndEqz(1025, 10914), // components/onehot.h:28
+PolyExtStep::AndEqz(1047, 10907), // components/onehot.h:28
+PolyExtStep::Add(10924, 288), // components/onehot.h:29
+PolyExtStep::AndEqz(1048, 10909), // components/onehot.h:28
+PolyExtStep::Add(10925, 291), // components/onehot.h:29
+PolyExtStep::AndEqz(1049, 10911), // components/onehot.h:28
+PolyExtStep::Add(10926, 294), // components/onehot.h:29
+PolyExtStep::AndEqz(1050, 10913), // components/onehot.h:28
+PolyExtStep::Add(10927, 297), // components/onehot.h:29
+PolyExtStep::AndEqz(1051, 10915), // components/onehot.h:28
+PolyExtStep::Add(10928, 300), // components/onehot.h:29
+PolyExtStep::AndEqz(1052, 10917), // components/onehot.h:28
+PolyExtStep::Add(10929, 303), // components/onehot.h:29
+PolyExtStep::AndEqz(1053, 10919), // components/onehot.h:28
+PolyExtStep::Add(10930, 306), // components/onehot.h:29
+PolyExtStep::AndEqz(1054, 10921), // components/onehot.h:28
+PolyExtStep::Add(10931, 309), // components/onehot.h:29
+PolyExtStep::AndEqz(1055, 10923), // components/onehot.h:28
+PolyExtStep::Add(10932, 312), // components/onehot.h:29
+PolyExtStep::Sub(10933, 1), // components/onehot.h:31
+PolyExtStep::AndEqz(1056, 10934), // components/onehot.h:31
+PolyExtStep::Sub(1, 508), // components/bits.h:24
+PolyExtStep::Mul(508, 10935), // components/bits.h:24
+PolyExtStep::AndEqz(1057, 10936), // components/bits.h:24
+PolyExtStep::Sub(1, 476), // components/bits.h:24
+PolyExtStep::Mul(476, 10937), // components/bits.h:24
+PolyExtStep::AndEqz(1058, 10938), // components/bits.h:24
+PolyExtStep::Sub(1, 477), // components/bits.h:24
+PolyExtStep::Mul(477, 10939), // components/bits.h:24
+PolyExtStep::AndEqz(1059, 10940), // components/bits.h:24
+PolyExtStep::Sub(1, 480), // components/bits.h:24
+PolyExtStep::Mul(480, 10941), // components/bits.h:24
+PolyExtStep::AndEqz(1060, 10942), // components/bits.h:24
+PolyExtStep::Sub(1, 483), // components/bits.h:24
+PolyExtStep::Mul(483, 10943), // components/bits.h:24
+PolyExtStep::AndEqz(1061, 10944), // components/bits.h:24
+PolyExtStep::Sub(1, 486), // components/bits.h:24
+PolyExtStep::Mul(486, 10945), // components/bits.h:24
+PolyExtStep::AndEqz(1062, 10946), // components/bits.h:24
+PolyExtStep::Sub(1, 489), // components/bits.h:24
+PolyExtStep::Mul(489, 10947), // components/bits.h:24
+PolyExtStep::AndEqz(1063, 10948), // components/bits.h:24
+PolyExtStep::Sub(1, 492), // components/bits.h:24
+PolyExtStep::Mul(492, 10949), // components/bits.h:24
+PolyExtStep::AndEqz(1064, 10950), // components/bits.h:24
+PolyExtStep::Sub(1, 495), // components/bits.h:24
+PolyExtStep::Mul(495, 10951), // components/bits.h:24
+PolyExtStep::AndEqz(1065, 10952), // components/bits.h:24
+PolyExtStep::Sub(1, 498), // components/bits.h:24
+PolyExtStep::Mul(498, 10953), // components/bits.h:24
+PolyExtStep::AndEqz(1066, 10954), // components/bits.h:24
+PolyExtStep::Sub(1, 501), // components/bits.h:24
+PolyExtStep::Mul(501, 10955), // components/bits.h:24
+PolyExtStep::AndEqz(1067, 10956), // components/bits.h:24
+PolyExtStep::AndEqz(1068, 10936), // components/onehot.h:28
+PolyExtStep::AndEqz(1069, 10938), // components/onehot.h:28
 PolyExtStep::Add(508, 476), // components/onehot.h:29
-PolyExtStep::Sub(1, 477), // components/onehot.h:28
-PolyExtStep::Mul(477, 10916), // components/onehot.h:28
-PolyExtStep::AndEqz(1026, 10917), // components/onehot.h:28
-PolyExtStep::Add(10915, 477), // components/onehot.h:29
-PolyExtStep::Sub(1, 480), // components/onehot.h:28
-PolyExtStep::Mul(480, 10919), // components/onehot.h:28
-PolyExtStep::AndEqz(1027, 10920), // components/onehot.h:28
-PolyExtStep::Add(10918, 480), // components/onehot.h:29
-PolyExtStep::Sub(1, 483), // components/onehot.h:28
-PolyExtStep::Mul(483, 10922), // components/onehot.h:28
-PolyExtStep::AndEqz(1028, 10923), // components/onehot.h:28
-PolyExtStep::Add(10921, 483), // components/onehot.h:29
-PolyExtStep::Sub(1, 486), // components/onehot.h:28
-PolyExtStep::Mul(486, 10925), // components/onehot.h:28
-PolyExtStep::AndEqz(1029, 10926), // components/onehot.h:28
-PolyExtStep::Add(10924, 486), // components/onehot.h:29
-PolyExtStep::Sub(1, 489), // components/onehot.h:28
-PolyExtStep::Mul(489, 10928), // components/onehot.h:28
-PolyExtStep::AndEqz(1030, 10929), // components/onehot.h:28
-PolyExtStep::Add(10927, 489), // components/onehot.h:29
-PolyExtStep::Sub(1, 492), // components/onehot.h:28
-PolyExtStep::Mul(492, 10931), // components/onehot.h:28
-PolyExtStep::AndEqz(1031, 10932), // components/onehot.h:28
-PolyExtStep::Add(10930, 492), // components/onehot.h:29
-PolyExtStep::Sub(1, 495), // components/onehot.h:28
-PolyExtStep::Mul(495, 10934), // components/onehot.h:28
-PolyExtStep::AndEqz(1032, 10935), // components/onehot.h:28
-PolyExtStep::Add(10933, 495), // components/onehot.h:29
-PolyExtStep::Sub(1, 498), // components/onehot.h:28
-PolyExtStep::Mul(498, 10937), // components/onehot.h:28
-PolyExtStep::AndEqz(1033, 10938), // components/onehot.h:28
-PolyExtStep::Add(10936, 498), // components/onehot.h:29
-PolyExtStep::Sub(1, 501), // components/onehot.h:28
-PolyExtStep::Mul(501, 10940), // components/onehot.h:28
-PolyExtStep::AndEqz(1034, 10941), // components/onehot.h:28
-PolyExtStep::Add(10939, 501), // components/onehot.h:29
-PolyExtStep::Sub(10942, 1), // components/onehot.h:31
-PolyExtStep::AndEqz(1035, 10943), // components/onehot.h:31
-PolyExtStep::Sub(1, 697), // components/onehot.h:28
-PolyExtStep::Mul(697, 10944), // components/onehot.h:28
-PolyExtStep::AndEqz(1036, 10945), // components/onehot.h:28
-PolyExtStep::Sub(1, 665), // components/onehot.h:28
-PolyExtStep::Mul(665, 10946), // components/onehot.h:28
-PolyExtStep::AndEqz(1037, 10947), // components/onehot.h:28
+PolyExtStep::AndEqz(1070, 10940), // components/onehot.h:28
+PolyExtStep::Add(10957, 477), // components/onehot.h:29
+PolyExtStep::AndEqz(1071, 10942), // components/onehot.h:28
+PolyExtStep::Add(10958, 480), // components/onehot.h:29
+PolyExtStep::AndEqz(1072, 10944), // components/onehot.h:28
+PolyExtStep::Add(10959, 483), // components/onehot.h:29
+PolyExtStep::AndEqz(1073, 10946), // components/onehot.h:28
+PolyExtStep::Add(10960, 486), // components/onehot.h:29
+PolyExtStep::AndEqz(1074, 10948), // components/onehot.h:28
+PolyExtStep::Add(10961, 489), // components/onehot.h:29
+PolyExtStep::AndEqz(1075, 10950), // components/onehot.h:28
+PolyExtStep::Add(10962, 492), // components/onehot.h:29
+PolyExtStep::AndEqz(1076, 10952), // components/onehot.h:28
+PolyExtStep::Add(10963, 495), // components/onehot.h:29
+PolyExtStep::AndEqz(1077, 10954), // components/onehot.h:28
+PolyExtStep::Add(10964, 498), // components/onehot.h:29
+PolyExtStep::AndEqz(1078, 10956), // components/onehot.h:28
+PolyExtStep::Add(10965, 501), // components/onehot.h:29
+PolyExtStep::Sub(10966, 1), // components/onehot.h:31
+PolyExtStep::AndEqz(1079, 10967), // components/onehot.h:31
+PolyExtStep::Sub(1, 697), // components/bits.h:24
+PolyExtStep::Mul(697, 10968), // components/bits.h:24
+PolyExtStep::AndEqz(1080, 10969), // components/bits.h:24
+PolyExtStep::Sub(1, 665), // components/bits.h:24
+PolyExtStep::Mul(665, 10970), // components/bits.h:24
+PolyExtStep::AndEqz(1081, 10971), // components/bits.h:24
+PolyExtStep::Sub(1, 666), // components/bits.h:24
+PolyExtStep::Mul(666, 10972), // components/bits.h:24
+PolyExtStep::AndEqz(1082, 10973), // components/bits.h:24
+PolyExtStep::Sub(1, 669), // components/bits.h:24
+PolyExtStep::Mul(669, 10974), // components/bits.h:24
+PolyExtStep::AndEqz(1083, 10975), // components/bits.h:24
+PolyExtStep::Sub(1, 672), // components/bits.h:24
+PolyExtStep::Mul(672, 10976), // components/bits.h:24
+PolyExtStep::AndEqz(1084, 10977), // components/bits.h:24
+PolyExtStep::Sub(1, 675), // components/bits.h:24
+PolyExtStep::Mul(675, 10978), // components/bits.h:24
+PolyExtStep::AndEqz(1085, 10979), // components/bits.h:24
+PolyExtStep::Sub(1, 678), // components/bits.h:24
+PolyExtStep::Mul(678, 10980), // components/bits.h:24
+PolyExtStep::AndEqz(1086, 10981), // components/bits.h:24
+PolyExtStep::Sub(1, 681), // components/bits.h:24
+PolyExtStep::Mul(681, 10982), // components/bits.h:24
+PolyExtStep::AndEqz(1087, 10983), // components/bits.h:24
+PolyExtStep::Sub(1, 684), // components/bits.h:24
+PolyExtStep::Mul(684, 10984), // components/bits.h:24
+PolyExtStep::AndEqz(1088, 10985), // components/bits.h:24
+PolyExtStep::Sub(1, 687), // components/bits.h:24
+PolyExtStep::Mul(687, 10986), // components/bits.h:24
+PolyExtStep::AndEqz(1089, 10987), // components/bits.h:24
+PolyExtStep::Sub(1, 690), // components/bits.h:24
+PolyExtStep::Mul(690, 10988), // components/bits.h:24
+PolyExtStep::AndEqz(1090, 10989), // components/bits.h:24
+PolyExtStep::AndEqz(1091, 10969), // components/onehot.h:28
+PolyExtStep::AndEqz(1092, 10971), // components/onehot.h:28
 PolyExtStep::Add(697, 665), // components/onehot.h:29
-PolyExtStep::Sub(1, 666), // components/onehot.h:28
-PolyExtStep::Mul(666, 10949), // components/onehot.h:28
-PolyExtStep::AndEqz(1038, 10950), // components/onehot.h:28
-PolyExtStep::Add(10948, 666), // components/onehot.h:29
-PolyExtStep::Sub(1, 669), // components/onehot.h:28
-PolyExtStep::Mul(669, 10952), // components/onehot.h:28
-PolyExtStep::AndEqz(1039, 10953), // components/onehot.h:28
-PolyExtStep::Add(10951, 669), // components/onehot.h:29
-PolyExtStep::Sub(1, 672), // components/onehot.h:28
-PolyExtStep::Mul(672, 10955), // components/onehot.h:28
-PolyExtStep::AndEqz(1040, 10956), // components/onehot.h:28
-PolyExtStep::Add(10954, 672), // components/onehot.h:29
-PolyExtStep::Sub(1, 675), // components/onehot.h:28
-PolyExtStep::Mul(675, 10958), // components/onehot.h:28
-PolyExtStep::AndEqz(1041, 10959), // components/onehot.h:28
-PolyExtStep::Add(10957, 675), // components/onehot.h:29
-PolyExtStep::Sub(1, 678), // components/onehot.h:28
-PolyExtStep::Mul(678, 10961), // components/onehot.h:28
-PolyExtStep::AndEqz(1042, 10962), // components/onehot.h:28
-PolyExtStep::Add(10960, 678), // components/onehot.h:29
-PolyExtStep::Sub(1, 681), // components/onehot.h:28
-PolyExtStep::Mul(681, 10964), // components/onehot.h:28
-PolyExtStep::AndEqz(1043, 10965), // components/onehot.h:28
-PolyExtStep::Add(10963, 681), // components/onehot.h:29
-PolyExtStep::Sub(1, 684), // components/onehot.h:28
-PolyExtStep::Mul(684, 10967), // components/onehot.h:28
-PolyExtStep::AndEqz(1044, 10968), // components/onehot.h:28
-PolyExtStep::Add(10966, 684), // components/onehot.h:29
-PolyExtStep::Sub(1, 687), // components/onehot.h:28
-PolyExtStep::Mul(687, 10970), // components/onehot.h:28
-PolyExtStep::AndEqz(1045, 10971), // components/onehot.h:28
-PolyExtStep::Add(10969, 687), // components/onehot.h:29
-PolyExtStep::Sub(1, 690), // components/onehot.h:28
-PolyExtStep::Mul(690, 10973), // components/onehot.h:28
-PolyExtStep::AndEqz(1046, 10974), // components/onehot.h:28
-PolyExtStep::Add(10972, 690), // components/onehot.h:29
-PolyExtStep::Sub(10975, 1), // components/onehot.h:31
-PolyExtStep::AndEqz(1047, 10976), // components/onehot.h:31
-PolyExtStep::AndCond(1012, 284, 1048), // zirgen/compiler/edsl/component.cpp:39
+PolyExtStep::AndEqz(1093, 10973), // components/onehot.h:28
+PolyExtStep::Add(10990, 666), // components/onehot.h:29
+PolyExtStep::AndEqz(1094, 10975), // components/onehot.h:28
+PolyExtStep::Add(10991, 669), // components/onehot.h:29
+PolyExtStep::AndEqz(1095, 10977), // components/onehot.h:28
+PolyExtStep::Add(10992, 672), // components/onehot.h:29
+PolyExtStep::AndEqz(1096, 10979), // components/onehot.h:28
+PolyExtStep::Add(10993, 675), // components/onehot.h:29
+PolyExtStep::AndEqz(1097, 10981), // components/onehot.h:28
+PolyExtStep::Add(10994, 678), // components/onehot.h:29
+PolyExtStep::AndEqz(1098, 10983), // components/onehot.h:28
+PolyExtStep::Add(10995, 681), // components/onehot.h:29
+PolyExtStep::AndEqz(1099, 10985), // components/onehot.h:28
+PolyExtStep::Add(10996, 684), // components/onehot.h:29
+PolyExtStep::AndEqz(1100, 10987), // components/onehot.h:28
+PolyExtStep::Add(10997, 687), // components/onehot.h:29
+PolyExtStep::AndEqz(1101, 10989), // components/onehot.h:28
+PolyExtStep::Add(10998, 690), // components/onehot.h:29
+PolyExtStep::Sub(10999, 1), // components/onehot.h:31
+PolyExtStep::AndEqz(1102, 11000), // components/onehot.h:31
+PolyExtStep::AndCond(1034, 284, 1103), // zirgen/compiler/edsl/component.cpp:39
 PolyExtStep::Sub(3, 320), // components/bits.h:55
 PolyExtStep::Sub(2, 320), // components/bits.h:55
 PolyExtStep::Sub(1, 320), // components/bits.h:55
-PolyExtStep::Mul(320, 10979), // components/bits.h:55
-PolyExtStep::Mul(10980, 10978), // components/bits.h:55
-PolyExtStep::Mul(10981, 10977), // components/bits.h:55
-PolyExtStep::AndEqz(0, 10982), // components/bits.h:55
+PolyExtStep::Mul(320, 11003), // components/bits.h:55
+PolyExtStep::Mul(11004, 11002), // components/bits.h:55
+PolyExtStep::Mul(11005, 11001), // components/bits.h:55
+PolyExtStep::AndEqz(0, 11006), // components/bits.h:55
 PolyExtStep::Sub(3, 321), // components/bits.h:55
 PolyExtStep::Sub(2, 321), // components/bits.h:55
 PolyExtStep::Sub(1, 321), // components/bits.h:55
-PolyExtStep::Mul(321, 10985), // components/bits.h:55
-PolyExtStep::Mul(10986, 10984), // components/bits.h:55
-PolyExtStep::Mul(10987, 10983), // components/bits.h:55
-PolyExtStep::AndEqz(1050, 10988), // components/bits.h:55
+PolyExtStep::Mul(321, 11009), // components/bits.h:55
+PolyExtStep::Mul(11010, 11008), // components/bits.h:55
+PolyExtStep::Mul(11011, 11007), // components/bits.h:55
+PolyExtStep::AndEqz(1105, 11012), // components/bits.h:55
 PolyExtStep::Sub(3, 322), // components/bits.h:55
 PolyExtStep::Sub(2, 322), // components/bits.h:55
 PolyExtStep::Sub(1, 322), // components/bits.h:55
-PolyExtStep::Mul(322, 10991), // components/bits.h:55
-PolyExtStep::Mul(10992, 10990), // components/bits.h:55
-PolyExtStep::Mul(10993, 10989), // components/bits.h:55
-PolyExtStep::AndEqz(1051, 10994), // components/bits.h:55
+PolyExtStep::Mul(322, 11015), // components/bits.h:55
+PolyExtStep::Mul(11016, 11014), // components/bits.h:55
+PolyExtStep::Mul(11017, 11013), // components/bits.h:55
+PolyExtStep::AndEqz(1106, 11018), // components/bits.h:55
 PolyExtStep::Sub(3, 323), // components/bits.h:55
 PolyExtStep::Sub(2, 323), // components/bits.h:55
 PolyExtStep::Sub(1, 323), // components/bits.h:55
-PolyExtStep::Mul(323, 10997), // components/bits.h:55
-PolyExtStep::Mul(10998, 10996), // components/bits.h:55
-PolyExtStep::Mul(10999, 10995), // components/bits.h:55
-PolyExtStep::AndEqz(1052, 11000), // components/bits.h:55
+PolyExtStep::Mul(323, 11021), // components/bits.h:55
+PolyExtStep::Mul(11022, 11020), // components/bits.h:55
+PolyExtStep::Mul(11023, 11019), // components/bits.h:55
+PolyExtStep::AndEqz(1107, 11024), // components/bits.h:55
 PolyExtStep::Sub(3, 324), // components/bits.h:55
 PolyExtStep::Sub(2, 324), // components/bits.h:55
 PolyExtStep::Sub(1, 324), // components/bits.h:55
-PolyExtStep::Mul(324, 11003), // components/bits.h:55
-PolyExtStep::Mul(11004, 11002), // components/bits.h:55
-PolyExtStep::Mul(11005, 11001), // components/bits.h:55
-PolyExtStep::AndEqz(1053, 11006), // components/bits.h:55
+PolyExtStep::Mul(324, 11027), // components/bits.h:55
+PolyExtStep::Mul(11028, 11026), // components/bits.h:55
+PolyExtStep::Mul(11029, 11025), // components/bits.h:55
+PolyExtStep::AndEqz(1108, 11030), // components/bits.h:55
 PolyExtStep::Sub(3, 325), // components/bits.h:55
 PolyExtStep::Sub(2, 325), // components/bits.h:55
 PolyExtStep::Sub(1, 325), // components/bits.h:55
-PolyExtStep::Mul(325, 11009), // components/bits.h:55
-PolyExtStep::Mul(11010, 11008), // components/bits.h:55
-PolyExtStep::Mul(11011, 11007), // components/bits.h:55
-PolyExtStep::AndEqz(1054, 11012), // components/bits.h:55
+PolyExtStep::Mul(325, 11033), // components/bits.h:55
+PolyExtStep::Mul(11034, 11032), // components/bits.h:55
+PolyExtStep::Mul(11035, 11031), // components/bits.h:55
+PolyExtStep::AndEqz(1109, 11036), // components/bits.h:55
 PolyExtStep::Sub(1, 699), // components/bits.h:24
-PolyExtStep::Mul(699, 11013), // components/bits.h:24
-PolyExtStep::AndEqz(0, 11014), // components/bits.h:24
+PolyExtStep::Mul(699, 11037), // components/bits.h:24
+PolyExtStep::AndEqz(0, 11038), // components/bits.h:24
 PolyExtStep::Sub(1, 700), // components/bits.h:24
-PolyExtStep::Mul(700, 11015), // components/bits.h:24
-PolyExtStep::AndEqz(1056, 11016), // components/bits.h:24
+PolyExtStep::Mul(700, 11039), // components/bits.h:24
+PolyExtStep::AndEqz(1111, 11040), // components/bits.h:24
 PolyExtStep::Sub(1, 701), // components/bits.h:24
-PolyExtStep::Mul(701, 11017), // components/bits.h:24
-PolyExtStep::AndEqz(1057, 11018), // components/bits.h:24
+PolyExtStep::Mul(701, 11041), // components/bits.h:24
+PolyExtStep::AndEqz(1112, 11042), // components/bits.h:24
 PolyExtStep::Sub(1, 702), // components/bits.h:24
-PolyExtStep::Mul(702, 11019), // components/bits.h:24
-PolyExtStep::AndEqz(1058, 11020), // components/bits.h:24
+PolyExtStep::Mul(702, 11043), // components/bits.h:24
+PolyExtStep::AndEqz(1113, 11044), // components/bits.h:24
 PolyExtStep::Sub(1, 703), // components/bits.h:24
-PolyExtStep::Mul(703, 11021), // components/bits.h:24
-PolyExtStep::AndEqz(1059, 11022), // components/bits.h:24
+PolyExtStep::Mul(703, 11045), // components/bits.h:24
+PolyExtStep::AndEqz(1114, 11046), // components/bits.h:24
 PolyExtStep::Sub(1, 704), // components/bits.h:24
-PolyExtStep::Mul(704, 11023), // components/bits.h:24
-PolyExtStep::AndEqz(1060, 11024), // components/bits.h:24
+PolyExtStep::Mul(704, 11047), // components/bits.h:24
+PolyExtStep::AndEqz(1115, 11048), // components/bits.h:24
 PolyExtStep::Sub(1, 705), // components/bits.h:24
-PolyExtStep::Mul(705, 11025), // components/bits.h:24
-PolyExtStep::AndEqz(1061, 11026), // components/bits.h:24
+PolyExtStep::Mul(705, 11049), // components/bits.h:24
+PolyExtStep::AndEqz(1116, 11050), // components/bits.h:24
 PolyExtStep::Sub(1, 706), // components/bits.h:24
-PolyExtStep::Mul(706, 11027), // components/bits.h:24
-PolyExtStep::AndEqz(1062, 11028), // components/bits.h:24
+PolyExtStep::Mul(706, 11051), // components/bits.h:24
+PolyExtStep::AndEqz(1117, 11052), // components/bits.h:24
 PolyExtStep::Sub(1, 707), // components/bits.h:24
-PolyExtStep::Mul(707, 11029), // components/bits.h:24
-PolyExtStep::AndEqz(1063, 11030), // components/bits.h:24
+PolyExtStep::Mul(707, 11053), // components/bits.h:24
+PolyExtStep::AndEqz(1118, 11054), // components/bits.h:24
 PolyExtStep::Sub(1, 708), // components/bits.h:24
-PolyExtStep::Mul(708, 11031), // components/bits.h:24
-PolyExtStep::AndEqz(1064, 11032), // components/bits.h:24
-PolyExtStep::AndEqz(1065, 810), // components/bits.h:24
+PolyExtStep::Mul(708, 11055), // components/bits.h:24
+PolyExtStep::AndEqz(1119, 11056), // components/bits.h:24
+PolyExtStep::AndEqz(1120, 810), // components/bits.h:24
 PolyExtStep::Sub(1, 712), // components/bits.h:24
-PolyExtStep::Mul(712, 11033), // components/bits.h:24
-PolyExtStep::AndEqz(1066, 11034), // components/bits.h:24
+PolyExtStep::Mul(712, 11057), // components/bits.h:24
+PolyExtStep::AndEqz(1121, 11058), // components/bits.h:24
 PolyExtStep::Sub(1, 714), // components/bits.h:24
-PolyExtStep::Mul(714, 11035), // components/bits.h:24
-PolyExtStep::AndEqz(1067, 11036), // components/bits.h:24
+PolyExtStep::Mul(714, 11059), // components/bits.h:24
+PolyExtStep::AndEqz(1122, 11060), // components/bits.h:24
 PolyExtStep::Sub(1, 716), // components/bits.h:24
-PolyExtStep::Mul(716, 11037), // components/bits.h:24
-PolyExtStep::AndEqz(1068, 11038), // components/bits.h:24
+PolyExtStep::Mul(716, 11061), // components/bits.h:24
+PolyExtStep::AndEqz(1123, 11062), // components/bits.h:24
 PolyExtStep::Sub(1, 899), // components/bits.h:24
-PolyExtStep::Mul(899, 11039), // components/bits.h:24
-PolyExtStep::AndEqz(1069, 11040), // components/bits.h:24
+PolyExtStep::Mul(899, 11063), // components/bits.h:24
+PolyExtStep::AndEqz(1124, 11064), // components/bits.h:24
 PolyExtStep::Sub(1, 902), // components/bits.h:24
-PolyExtStep::Mul(902, 11041), // components/bits.h:24
-PolyExtStep::AndEqz(1070, 11042), // components/bits.h:24
+PolyExtStep::Mul(902, 11065), // components/bits.h:24
+PolyExtStep::AndEqz(1125, 11066), // components/bits.h:24
 PolyExtStep::Sub(1, 908), // components/bits.h:24
-PolyExtStep::Mul(908, 11043), // components/bits.h:24
-PolyExtStep::AndEqz(1071, 11044), // components/bits.h:24
+PolyExtStep::Mul(908, 11067), // components/bits.h:24
+PolyExtStep::AndEqz(1126, 11068), // components/bits.h:24
 PolyExtStep::Sub(1, 911), // components/bits.h:24
-PolyExtStep::Mul(911, 11045), // components/bits.h:24
-PolyExtStep::AndEqz(1072, 11046), // components/bits.h:24
+PolyExtStep::Mul(911, 11069), // components/bits.h:24
+PolyExtStep::AndEqz(1127, 11070), // components/bits.h:24
 PolyExtStep::Sub(1, 917), // components/bits.h:24
-PolyExtStep::Mul(917, 11047), // components/bits.h:24
-PolyExtStep::AndEqz(1073, 11048), // components/bits.h:24
+PolyExtStep::Mul(917, 11071), // components/bits.h:24
+PolyExtStep::AndEqz(1128, 11072), // components/bits.h:24
 PolyExtStep::Sub(1, 920), // components/bits.h:24
-PolyExtStep::Mul(920, 11049), // components/bits.h:24
-PolyExtStep::AndEqz(1074, 11050), // components/bits.h:24
+PolyExtStep::Mul(920, 11073), // components/bits.h:24
+PolyExtStep::AndEqz(1129, 11074), // components/bits.h:24
 PolyExtStep::Sub(1, 926), // components/bits.h:24
-PolyExtStep::Mul(926, 11051), // components/bits.h:24
-PolyExtStep::AndEqz(1075, 11052), // components/bits.h:24
+PolyExtStep::Mul(926, 11075), // components/bits.h:24
+PolyExtStep::AndEqz(1130, 11076), // components/bits.h:24
 PolyExtStep::Sub(1, 929), // components/bits.h:24
-PolyExtStep::Mul(929, 11053), // components/bits.h:24
-PolyExtStep::AndEqz(1076, 11054), // components/bits.h:24
+PolyExtStep::Mul(929, 11077), // components/bits.h:24
+PolyExtStep::AndEqz(1131, 11078), // components/bits.h:24
 PolyExtStep::Sub(1, 935), // components/bits.h:24
-PolyExtStep::Mul(935, 11055), // components/bits.h:24
-PolyExtStep::AndEqz(1077, 11056), // components/bits.h:24
+PolyExtStep::Mul(935, 11079), // components/bits.h:24
+PolyExtStep::AndEqz(1132, 11080), // components/bits.h:24
 PolyExtStep::Sub(1, 938), // components/bits.h:24
-PolyExtStep::Mul(938, 11057), // components/bits.h:24
-PolyExtStep::AndEqz(1078, 11058), // components/bits.h:24
+PolyExtStep::Mul(938, 11081), // components/bits.h:24
+PolyExtStep::AndEqz(1133, 11082), // components/bits.h:24
 PolyExtStep::Sub(1, 944), // components/bits.h:24
-PolyExtStep::Mul(944, 11059), // components/bits.h:24
-PolyExtStep::AndEqz(1079, 11060), // components/bits.h:24
+PolyExtStep::Mul(944, 11083), // components/bits.h:24
+PolyExtStep::AndEqz(1134, 11084), // components/bits.h:24
 PolyExtStep::Sub(1, 947), // components/bits.h:24
-PolyExtStep::Mul(947, 11061), // components/bits.h:24
-PolyExtStep::AndEqz(1080, 11062), // components/bits.h:24
+PolyExtStep::Mul(947, 11085), // components/bits.h:24
+PolyExtStep::AndEqz(1135, 11086), // components/bits.h:24
 PolyExtStep::Sub(1, 953), // components/bits.h:24
-PolyExtStep::Mul(953, 11063), // components/bits.h:24
-PolyExtStep::AndEqz(1081, 11064), // components/bits.h:24
+PolyExtStep::Mul(953, 11087), // components/bits.h:24
+PolyExtStep::AndEqz(1136, 11088), // components/bits.h:24
 PolyExtStep::Sub(1, 956), // components/bits.h:24
-PolyExtStep::Mul(956, 11065), // components/bits.h:24
-PolyExtStep::AndEqz(1082, 11066), // components/bits.h:24
+PolyExtStep::Mul(956, 11089), // components/bits.h:24
+PolyExtStep::AndEqz(1137, 11090), // components/bits.h:24
 PolyExtStep::Sub(1, 962), // components/bits.h:24
-PolyExtStep::Mul(962, 11067), // components/bits.h:24
-PolyExtStep::AndEqz(1083, 11068), // components/bits.h:24
+PolyExtStep::Mul(962, 11091), // components/bits.h:24
+PolyExtStep::AndEqz(1138, 11092), // components/bits.h:24
 PolyExtStep::Sub(1, 965), // components/bits.h:24
-PolyExtStep::Mul(965, 11069), // components/bits.h:24
-PolyExtStep::AndEqz(1084, 11070), // components/bits.h:24
+PolyExtStep::Mul(965, 11093), // components/bits.h:24
+PolyExtStep::AndEqz(1139, 11094), // components/bits.h:24
 PolyExtStep::Sub(1, 971), // components/bits.h:24
-PolyExtStep::Mul(971, 11071), // components/bits.h:24
-PolyExtStep::AndEqz(1085, 11072), // components/bits.h:24
+PolyExtStep::Mul(971, 11095), // components/bits.h:24
+PolyExtStep::AndEqz(1140, 11096), // components/bits.h:24
 PolyExtStep::Sub(1, 974), // components/bits.h:24
-PolyExtStep::Mul(974, 11073), // components/bits.h:24
-PolyExtStep::AndEqz(1086, 11074), // components/bits.h:24
+PolyExtStep::Mul(974, 11097), // components/bits.h:24
+PolyExtStep::AndEqz(1141, 11098), // components/bits.h:24
 PolyExtStep::Sub(1, 980), // components/bits.h:24
-PolyExtStep::Mul(980, 11075), // components/bits.h:24
-PolyExtStep::AndEqz(1087, 11076), // components/bits.h:24
+PolyExtStep::Mul(980, 11099), // components/bits.h:24
+PolyExtStep::AndEqz(1142, 11100), // components/bits.h:24
 PolyExtStep::Sub(1, 983), // components/bits.h:24
-PolyExtStep::Mul(983, 11077), // components/bits.h:24
-PolyExtStep::AndEqz(1088, 11078), // components/bits.h:24
+PolyExtStep::Mul(983, 11101), // components/bits.h:24
+PolyExtStep::AndEqz(1143, 11102), // components/bits.h:24
 PolyExtStep::Sub(1, 989), // components/bits.h:24
-PolyExtStep::Mul(989, 11079), // components/bits.h:24
-PolyExtStep::AndEqz(1089, 11080), // components/bits.h:24
+PolyExtStep::Mul(989, 11103), // components/bits.h:24
+PolyExtStep::AndEqz(1144, 11104), // components/bits.h:24
 PolyExtStep::Sub(1, 992), // components/bits.h:24
-PolyExtStep::Mul(992, 11081), // components/bits.h:24
-PolyExtStep::AndEqz(1090, 11082), // components/bits.h:24
+PolyExtStep::Mul(992, 11105), // components/bits.h:24
+PolyExtStep::AndEqz(1145, 11106), // components/bits.h:24
 PolyExtStep::Sub(1, 998), // components/bits.h:24
-PolyExtStep::Mul(998, 11083), // components/bits.h:24
-PolyExtStep::AndEqz(1091, 11084), // components/bits.h:24
+PolyExtStep::Mul(998, 11107), // components/bits.h:24
+PolyExtStep::AndEqz(1146, 11108), // components/bits.h:24
 PolyExtStep::Sub(1, 1001), // components/bits.h:24
-PolyExtStep::Mul(1001, 11085), // components/bits.h:24
-PolyExtStep::AndEqz(1092, 11086), // components/bits.h:24
+PolyExtStep::Mul(1001, 11109), // components/bits.h:24
+PolyExtStep::AndEqz(1147, 11110), // components/bits.h:24
 PolyExtStep::Sub(1, 1007), // components/bits.h:24
-PolyExtStep::Mul(1007, 11087), // components/bits.h:24
-PolyExtStep::AndEqz(1093, 11088), // components/bits.h:24
+PolyExtStep::Mul(1007, 11111), // components/bits.h:24
+PolyExtStep::AndEqz(1148, 11112), // components/bits.h:24
 PolyExtStep::Sub(1, 1010), // components/bits.h:24
-PolyExtStep::Mul(1010, 11089), // components/bits.h:24
-PolyExtStep::AndEqz(1094, 11090), // components/bits.h:24
+PolyExtStep::Mul(1010, 11113), // components/bits.h:24
+PolyExtStep::AndEqz(1149, 11114), // components/bits.h:24
 PolyExtStep::Sub(1, 1016), // components/bits.h:24
-PolyExtStep::Mul(1016, 11091), // components/bits.h:24
-PolyExtStep::AndEqz(1095, 11092), // components/bits.h:24
+PolyExtStep::Mul(1016, 11115), // components/bits.h:24
+PolyExtStep::AndEqz(1150, 11116), // components/bits.h:24
 PolyExtStep::Sub(1, 1019), // components/bits.h:24
-PolyExtStep::Mul(1019, 11093), // components/bits.h:24
-PolyExtStep::AndEqz(1096, 11094), // components/bits.h:24
+PolyExtStep::Mul(1019, 11117), // components/bits.h:24
+PolyExtStep::AndEqz(1151, 11118), // components/bits.h:24
 PolyExtStep::Sub(1, 1025), // components/bits.h:24
-PolyExtStep::Mul(1025, 11095), // components/bits.h:24
-PolyExtStep::AndEqz(1097, 11096), // components/bits.h:24
+PolyExtStep::Mul(1025, 11119), // components/bits.h:24
+PolyExtStep::AndEqz(1152, 11120), // components/bits.h:24
 PolyExtStep::Sub(1, 1028), // components/bits.h:24
-PolyExtStep::Mul(1028, 11097), // components/bits.h:24
-PolyExtStep::AndEqz(1098, 11098), // components/bits.h:24
+PolyExtStep::Mul(1028, 11121), // components/bits.h:24
+PolyExtStep::AndEqz(1153, 11122), // components/bits.h:24
 PolyExtStep::Sub(1, 1034), // components/bits.h:24
-PolyExtStep::Mul(1034, 11099), // components/bits.h:24
-PolyExtStep::AndEqz(1099, 11100), // components/bits.h:24
+PolyExtStep::Mul(1034, 11123), // components/bits.h:24
+PolyExtStep::AndEqz(1154, 11124), // components/bits.h:24
 PolyExtStep::Sub(1, 1037), // components/bits.h:24
-PolyExtStep::Mul(1037, 11101), // components/bits.h:24
-PolyExtStep::AndEqz(1100, 11102), // components/bits.h:24
+PolyExtStep::Mul(1037, 11125), // components/bits.h:24
+PolyExtStep::AndEqz(1155, 11126), // components/bits.h:24
 PolyExtStep::Sub(1, 1043), // components/bits.h:24
-PolyExtStep::Mul(1043, 11103), // components/bits.h:24
-PolyExtStep::AndEqz(1101, 11104), // components/bits.h:24
+PolyExtStep::Mul(1043, 11127), // components/bits.h:24
+PolyExtStep::AndEqz(1156, 11128), // components/bits.h:24
 PolyExtStep::Sub(1, 1046), // components/bits.h:24
-PolyExtStep::Mul(1046, 11105), // components/bits.h:24
-PolyExtStep::AndEqz(1102, 11106), // components/bits.h:24
+PolyExtStep::Mul(1046, 11129), // components/bits.h:24
+PolyExtStep::AndEqz(1157, 11130), // components/bits.h:24
 PolyExtStep::Sub(1, 1052), // components/bits.h:24
-PolyExtStep::Mul(1052, 11107), // components/bits.h:24
-PolyExtStep::AndEqz(1103, 11108), // components/bits.h:24
+PolyExtStep::Mul(1052, 11131), // components/bits.h:24
+PolyExtStep::AndEqz(1158, 11132), // components/bits.h:24
 PolyExtStep::Sub(1, 1055), // components/bits.h:24
-PolyExtStep::Mul(1055, 11109), // components/bits.h:24
-PolyExtStep::AndEqz(1104, 11110), // components/bits.h:24
+PolyExtStep::Mul(1055, 11133), // components/bits.h:24
+PolyExtStep::AndEqz(1159, 11134), // components/bits.h:24
 PolyExtStep::Sub(1, 1061), // components/bits.h:24
-PolyExtStep::Mul(1061, 11111), // components/bits.h:24
-PolyExtStep::AndEqz(1105, 11112), // components/bits.h:24
+PolyExtStep::Mul(1061, 11135), // components/bits.h:24
+PolyExtStep::AndEqz(1160, 11136), // components/bits.h:24
 PolyExtStep::Sub(1, 1064), // components/bits.h:24
-PolyExtStep::Mul(1064, 11113), // components/bits.h:24
-PolyExtStep::AndEqz(1106, 11114), // components/bits.h:24
+PolyExtStep::Mul(1064, 11137), // components/bits.h:24
+PolyExtStep::AndEqz(1161, 11138), // components/bits.h:24
 PolyExtStep::Sub(1, 1070), // components/bits.h:24
-PolyExtStep::Mul(1070, 11115), // components/bits.h:24
-PolyExtStep::AndEqz(1107, 11116), // components/bits.h:24
+PolyExtStep::Mul(1070, 11139), // components/bits.h:24
+PolyExtStep::AndEqz(1162, 11140), // components/bits.h:24
 PolyExtStep::Sub(1, 1073), // components/bits.h:24
-PolyExtStep::Mul(1073, 11117), // components/bits.h:24
-PolyExtStep::AndEqz(1108, 11118), // components/bits.h:24
-PolyExtStep::AndEqz(1109, 10879), // components/bits.h:24
-PolyExtStep::AndEqz(1110, 10881), // components/bits.h:24
-PolyExtStep::AndEqz(1111, 10884), // components/bits.h:24
-PolyExtStep::AndEqz(1112, 10887), // components/bits.h:24
-PolyExtStep::AndEqz(1113, 10890), // components/bits.h:24
-PolyExtStep::AndEqz(1114, 10893), // components/bits.h:24
-PolyExtStep::AndEqz(1115, 10896), // components/bits.h:24
-PolyExtStep::AndEqz(1116, 10899), // components/bits.h:24
-PolyExtStep::AndCond(1055, 318, 1117), // zirgen/compiler/edsl/component.cpp:39
-PolyExtStep::AndEqz(1117, 10902), // components/bits.h:24
-PolyExtStep::AndEqz(1119, 10905), // components/bits.h:24
-PolyExtStep::AndCond(1118, 475, 1120), // zirgen/compiler/edsl/component.cpp:39
+PolyExtStep::Mul(1073, 11141), // components/bits.h:24
+PolyExtStep::AndEqz(1163, 11142), // components/bits.h:24
+PolyExtStep::AndEqz(1164, 10903), // components/bits.h:24
+PolyExtStep::AndEqz(1165, 10905), // components/bits.h:24
+PolyExtStep::AndEqz(1166, 10907), // components/bits.h:24
+PolyExtStep::AndEqz(1167, 10909), // components/bits.h:24
+PolyExtStep::AndEqz(1168, 10911), // components/bits.h:24
+PolyExtStep::AndEqz(1169, 10913), // components/bits.h:24
+PolyExtStep::AndEqz(1170, 10915), // components/bits.h:24
+PolyExtStep::AndEqz(1171, 10917), // components/bits.h:24
+PolyExtStep::AndCond(1110, 318, 1172), // zirgen/compiler/edsl/component.cpp:39
+PolyExtStep::AndEqz(1172, 10919), // components/bits.h:24
+PolyExtStep::AndEqz(1174, 10921), // components/bits.h:24
+PolyExtStep::AndCond(1173, 475, 1175), // zirgen/compiler/edsl/component.cpp:39
 PolyExtStep::Sub(1, 515), // components/bits.h:24
-PolyExtStep::Mul(515, 11119), // components/bits.h:24
-PolyExtStep::AndEqz(0, 11120), // components/bits.h:24
+PolyExtStep::Mul(515, 11143), // components/bits.h:24
+PolyExtStep::AndEqz(0, 11144), // components/bits.h:24
 PolyExtStep::Sub(1, 516), // components/bits.h:24
-PolyExtStep::Mul(516, 11121), // components/bits.h:24
-PolyExtStep::AndEqz(1122, 11122), // components/bits.h:24
+PolyExtStep::Mul(516, 11145), // components/bits.h:24
+PolyExtStep::AndEqz(1177, 11146), // components/bits.h:24
 PolyExtStep::Sub(1, 517), // components/bits.h:24
-PolyExtStep::Mul(517, 11123), // components/bits.h:24
-PolyExtStep::AndEqz(1123, 11124), // components/bits.h:24
+PolyExtStep::Mul(517, 11147), // components/bits.h:24
+PolyExtStep::AndEqz(1178, 11148), // components/bits.h:24
 PolyExtStep::Sub(1, 518), // components/bits.h:24
-PolyExtStep::Mul(518, 11125), // components/bits.h:24
-PolyExtStep::AndEqz(1124, 11126), // components/bits.h:24
+PolyExtStep::Mul(518, 11149), // components/bits.h:24
+PolyExtStep::AndEqz(1179, 11150), // components/bits.h:24
 PolyExtStep::Sub(1, 519), // components/bits.h:24
-PolyExtStep::Mul(519, 11127), // components/bits.h:24
-PolyExtStep::AndEqz(1125, 11128), // components/bits.h:24
-PolyExtStep::AndEqz(1126, 621), // components/bits.h:24
+PolyExtStep::Mul(519, 11151), // components/bits.h:24
+PolyExtStep::AndEqz(1180, 11152), // components/bits.h:24
+PolyExtStep::AndEqz(1181, 621), // components/bits.h:24
 PolyExtStep::Sub(1, 523), // components/bits.h:24
-PolyExtStep::Mul(523, 11129), // components/bits.h:24
-PolyExtStep::AndEqz(1127, 11130), // components/bits.h:24
+PolyExtStep::Mul(523, 11153), // components/bits.h:24
+PolyExtStep::AndEqz(1182, 11154), // components/bits.h:24
 PolyExtStep::Sub(1, 525), // components/bits.h:24
-PolyExtStep::Mul(525, 11131), // components/bits.h:24
-PolyExtStep::AndEqz(1128, 11132), // components/bits.h:24
+PolyExtStep::Mul(525, 11155), // components/bits.h:24
+PolyExtStep::AndEqz(1183, 11156), // components/bits.h:24
 PolyExtStep::Sub(1, 527), // components/bits.h:24
-PolyExtStep::Mul(527, 11133), // components/bits.h:24
-PolyExtStep::AndEqz(1129, 11134), // components/bits.h:24
+PolyExtStep::Mul(527, 11157), // components/bits.h:24
+PolyExtStep::AndEqz(1184, 11158), // components/bits.h:24
 PolyExtStep::Sub(1, 698), // components/bits.h:24
-PolyExtStep::Mul(698, 11135), // components/bits.h:24
-PolyExtStep::AndEqz(1130, 11136), // components/bits.h:24
-PolyExtStep::AndEqz(1131, 11014), // components/bits.h:24
-PolyExtStep::AndEqz(1132, 11016), // components/bits.h:24
-PolyExtStep::AndEqz(1133, 11018), // components/bits.h:24
-PolyExtStep::AndEqz(1134, 11020), // components/bits.h:24
-PolyExtStep::AndEqz(1135, 11022), // components/bits.h:24
-PolyExtStep::AndEqz(1136, 11024), // components/bits.h:24
-PolyExtStep::AndEqz(1137, 11026), // components/bits.h:24
-PolyExtStep::AndEqz(1138, 11028), // components/bits.h:24
-PolyExtStep::AndEqz(1139, 11030), // components/bits.h:24
-PolyExtStep::AndEqz(1140, 11032), // components/bits.h:24
-PolyExtStep::AndEqz(1141, 810), // components/bits.h:24
-PolyExtStep::AndEqz(1142, 11034), // components/bits.h:24
-PolyExtStep::AndEqz(1143, 11036), // components/bits.h:24
-PolyExtStep::AndEqz(1144, 11038), // components/bits.h:24
-PolyExtStep::AndEqz(1145, 11040), // components/bits.h:24
-PolyExtStep::AndEqz(1146, 11042), // components/bits.h:24
-PolyExtStep::AndEqz(1147, 11044), // components/bits.h:24
-PolyExtStep::AndEqz(1148, 11046), // components/bits.h:24
-PolyExtStep::AndEqz(1149, 11048), // components/bits.h:24
-PolyExtStep::AndEqz(1150, 11050), // components/bits.h:24
-PolyExtStep::AndEqz(1151, 11052), // components/bits.h:24
-PolyExtStep::AndEqz(1152, 11054), // components/bits.h:24
-PolyExtStep::AndEqz(1153, 11060), // components/bits.h:24
-PolyExtStep::AndEqz(1154, 11062), // components/bits.h:24
-PolyExtStep::AndEqz(1155, 11064), // components/bits.h:24
-PolyExtStep::AndEqz(1156, 11066), // components/bits.h:24
-PolyExtStep::AndEqz(1157, 11068), // components/bits.h:24
-PolyExtStep::AndEqz(1158, 11070), // components/bits.h:24
-PolyExtStep::AndEqz(1159, 11072), // components/bits.h:24
-PolyExtStep::AndEqz(1160, 11074), // components/bits.h:24
-PolyExtStep::AndEqz(1161, 11076), // components/bits.h:24
-PolyExtStep::AndEqz(1162, 11078), // components/bits.h:24
-PolyExtStep::AndEqz(1163, 11080), // components/bits.h:24
-PolyExtStep::AndEqz(1164, 11082), // components/bits.h:24
-PolyExtStep::AndEqz(1165, 11084), // components/bits.h:24
-PolyExtStep::AndEqz(1166, 11086), // components/bits.h:24
-PolyExtStep::AndEqz(1167, 11088), // components/bits.h:24
-PolyExtStep::AndEqz(1168, 11090), // components/bits.h:24
-PolyExtStep::AndEqz(1169, 11092), // components/bits.h:24
-PolyExtStep::AndEqz(1170, 11094), // components/bits.h:24
-PolyExtStep::AndEqz(1171, 11096), // components/bits.h:24
-PolyExtStep::AndEqz(1172, 11098), // components/bits.h:24
-PolyExtStep::AndEqz(1173, 11100), // components/bits.h:24
-PolyExtStep::AndEqz(1174, 11102), // components/bits.h:24
-PolyExtStep::AndEqz(1175, 11104), // components/bits.h:24
-PolyExtStep::AndEqz(1176, 11106), // components/bits.h:24
-PolyExtStep::AndEqz(1177, 11108), // components/bits.h:24
-PolyExtStep::AndEqz(1178, 11110), // components/bits.h:24
-PolyExtStep::AndEqz(1179, 11112), // components/bits.h:24
-PolyExtStep::AndEqz(1180, 11114), // components/bits.h:24
-PolyExtStep::AndEqz(1181, 11116), // components/bits.h:24
-PolyExtStep::AndEqz(1182, 11118), // components/bits.h:24
-PolyExtStep::AndEqz(1183, 10879), // components/bits.h:24
-PolyExtStep::AndEqz(1184, 10881), // components/bits.h:24
-PolyExtStep::AndEqz(1185, 10890), // components/bits.h:24
-PolyExtStep::AndEqz(1186, 10893), // components/bits.h:24
-PolyExtStep::AndEqz(1187, 10896), // components/bits.h:24
-PolyExtStep::AndEqz(1188, 10899), // components/bits.h:24
-PolyExtStep::AndEqz(1189, 10902), // components/bits.h:24
-PolyExtStep::AndEqz(1190, 10905), // components/bits.h:24
-PolyExtStep::AndEqz(1191, 10908), // components/bits.h:24
+PolyExtStep::Mul(698, 11159), // components/bits.h:24
+PolyExtStep::AndEqz(1185, 11160), // components/bits.h:24
+PolyExtStep::AndEqz(1186, 11038), // components/bits.h:24
+PolyExtStep::AndEqz(1187, 11040), // components/bits.h:24
+PolyExtStep::AndEqz(1188, 11042), // components/bits.h:24
+PolyExtStep::AndEqz(1189, 11044), // components/bits.h:24
+PolyExtStep::AndEqz(1190, 11046), // components/bits.h:24
+PolyExtStep::AndEqz(1191, 11048), // components/bits.h:24
+PolyExtStep::AndEqz(1192, 11050), // components/bits.h:24
+PolyExtStep::AndEqz(1193, 11052), // components/bits.h:24
+PolyExtStep::AndEqz(1194, 11054), // components/bits.h:24
+PolyExtStep::AndEqz(1195, 11056), // components/bits.h:24
+PolyExtStep::AndEqz(1196, 810), // components/bits.h:24
+PolyExtStep::AndEqz(1197, 11058), // components/bits.h:24
+PolyExtStep::AndEqz(1198, 11060), // components/bits.h:24
+PolyExtStep::AndEqz(1199, 11062), // components/bits.h:24
+PolyExtStep::AndEqz(1200, 11064), // components/bits.h:24
+PolyExtStep::AndEqz(1201, 11066), // components/bits.h:24
+PolyExtStep::AndEqz(1202, 11068), // components/bits.h:24
+PolyExtStep::AndEqz(1203, 11070), // components/bits.h:24
+PolyExtStep::AndEqz(1204, 11072), // components/bits.h:24
+PolyExtStep::AndEqz(1205, 11074), // components/bits.h:24
+PolyExtStep::AndEqz(1206, 11076), // components/bits.h:24
+PolyExtStep::AndEqz(1207, 11078), // components/bits.h:24
+PolyExtStep::AndEqz(1208, 11084), // components/bits.h:24
+PolyExtStep::AndEqz(1209, 11086), // components/bits.h:24
+PolyExtStep::AndEqz(1210, 11088), // components/bits.h:24
+PolyExtStep::AndEqz(1211, 11090), // components/bits.h:24
+PolyExtStep::AndEqz(1212, 11092), // components/bits.h:24
+PolyExtStep::AndEqz(1213, 11094), // components/bits.h:24
+PolyExtStep::AndEqz(1214, 11096), // components/bits.h:24
+PolyExtStep::AndEqz(1215, 11098), // components/bits.h:24
+PolyExtStep::AndEqz(1216, 11100), // components/bits.h:24
+PolyExtStep::AndEqz(1217, 11102), // components/bits.h:24
+PolyExtStep::AndEqz(1218, 11104), // components/bits.h:24
+PolyExtStep::AndEqz(1219, 11106), // components/bits.h:24
+PolyExtStep::AndEqz(1220, 11108), // components/bits.h:24
+PolyExtStep::AndEqz(1221, 11110), // components/bits.h:24
+PolyExtStep::AndEqz(1222, 11112), // components/bits.h:24
+PolyExtStep::AndEqz(1223, 11114), // components/bits.h:24
+PolyExtStep::AndEqz(1224, 11116), // components/bits.h:24
+PolyExtStep::AndEqz(1225, 11118), // components/bits.h:24
+PolyExtStep::AndEqz(1226, 11120), // components/bits.h:24
+PolyExtStep::AndEqz(1227, 11122), // components/bits.h:24
+PolyExtStep::AndEqz(1228, 11124), // components/bits.h:24
+PolyExtStep::AndEqz(1229, 11126), // components/bits.h:24
+PolyExtStep::AndEqz(1230, 11128), // components/bits.h:24
+PolyExtStep::AndEqz(1231, 11130), // components/bits.h:24
+PolyExtStep::AndEqz(1232, 11132), // components/bits.h:24
+PolyExtStep::AndEqz(1233, 11134), // components/bits.h:24
+PolyExtStep::AndEqz(1234, 11136), // components/bits.h:24
+PolyExtStep::AndEqz(1235, 11138), // components/bits.h:24
+PolyExtStep::AndEqz(1236, 11140), // components/bits.h:24
+PolyExtStep::AndEqz(1237, 11142), // components/bits.h:24
+PolyExtStep::AndEqz(1238, 10903), // components/bits.h:24
+PolyExtStep::AndEqz(1239, 10905), // components/bits.h:24
+PolyExtStep::AndEqz(1240, 10911), // components/bits.h:24
+PolyExtStep::AndEqz(1241, 10913), // components/bits.h:24
+PolyExtStep::AndEqz(1242, 10915), // components/bits.h:24
+PolyExtStep::AndEqz(1243, 10917), // components/bits.h:24
+PolyExtStep::AndEqz(1244, 10919), // components/bits.h:24
+PolyExtStep::AndEqz(1245, 10921), // components/bits.h:24
+PolyExtStep::AndEqz(1246, 10923), // components/bits.h:24
 PolyExtStep::Sub(1, 430), // components/bits.h:24
-PolyExtStep::Mul(430, 11137), // components/bits.h:24
-PolyExtStep::AndEqz(1192, 11138), // components/bits.h:24
-PolyExtStep::AndEqz(1193, 10912), // components/bits.h:24
-PolyExtStep::AndEqz(1194, 10914), // components/bits.h:24
-PolyExtStep::AndEqz(1195, 10917), // components/bits.h:24
-PolyExtStep::AndEqz(1196, 10920), // components/bits.h:24
-PolyExtStep::AndEqz(1197, 10923), // components/bits.h:24
-PolyExtStep::AndEqz(1198, 10926), // components/bits.h:24
-PolyExtStep::AndEqz(1199, 10929), // components/bits.h:24
-PolyExtStep::AndEqz(1200, 10932), // components/bits.h:24
-PolyExtStep::AndEqz(1201, 10935), // components/bits.h:24
-PolyExtStep::AndEqz(1202, 10938), // components/bits.h:24
-PolyExtStep::AndEqz(1203, 10941), // components/bits.h:24
+PolyExtStep::Mul(430, 11161), // components/bits.h:24
+PolyExtStep::AndEqz(1247, 11162), // components/bits.h:24
+PolyExtStep::AndEqz(1248, 10936), // components/bits.h:24
+PolyExtStep::AndEqz(1249, 10938), // components/bits.h:24
+PolyExtStep::AndEqz(1250, 10940), // components/bits.h:24
+PolyExtStep::AndEqz(1251, 10942), // components/bits.h:24
+PolyExtStep::AndEqz(1252, 10944), // components/bits.h:24
+PolyExtStep::AndEqz(1253, 10946), // components/bits.h:24
+PolyExtStep::AndEqz(1254, 10948), // components/bits.h:24
+PolyExtStep::AndEqz(1255, 10950), // components/bits.h:24
+PolyExtStep::AndEqz(1256, 10952), // components/bits.h:24
+PolyExtStep::AndEqz(1257, 10954), // components/bits.h:24
+PolyExtStep::AndEqz(1258, 10956), // components/bits.h:24
 PolyExtStep::Sub(1, 619), // components/bits.h:24
-PolyExtStep::Mul(619, 11139), // components/bits.h:24
-PolyExtStep::AndEqz(1204, 11140), // components/bits.h:24
-PolyExtStep::AndEqz(1205, 10945), // components/bits.h:24
-PolyExtStep::AndEqz(1206, 10947), // components/bits.h:24
-PolyExtStep::AndEqz(1207, 10950), // components/bits.h:24
-PolyExtStep::AndEqz(1208, 10953), // components/bits.h:24
-PolyExtStep::AndEqz(1209, 10956), // components/bits.h:24
-PolyExtStep::AndEqz(1210, 10959), // components/bits.h:24
-PolyExtStep::AndEqz(1211, 10962), // components/bits.h:24
-PolyExtStep::AndEqz(1212, 10965), // components/bits.h:24
-PolyExtStep::AndEqz(1213, 10968), // components/bits.h:24
-PolyExtStep::AndEqz(1214, 10971), // components/bits.h:24
-PolyExtStep::AndEqz(1215, 10974), // components/bits.h:24
+PolyExtStep::Mul(619, 11163), // components/bits.h:24
+PolyExtStep::AndEqz(1259, 11164), // components/bits.h:24
+PolyExtStep::AndEqz(1260, 10969), // components/bits.h:24
+PolyExtStep::AndEqz(1261, 10971), // components/bits.h:24
+PolyExtStep::AndEqz(1262, 10973), // components/bits.h:24
+PolyExtStep::AndEqz(1263, 10975), // components/bits.h:24
+PolyExtStep::AndEqz(1264, 10977), // components/bits.h:24
+PolyExtStep::AndEqz(1265, 10979), // components/bits.h:24
+PolyExtStep::AndEqz(1266, 10981), // components/bits.h:24
+PolyExtStep::AndEqz(1267, 10983), // components/bits.h:24
+PolyExtStep::AndEqz(1268, 10985), // components/bits.h:24
+PolyExtStep::AndEqz(1269, 10987), // components/bits.h:24
+PolyExtStep::AndEqz(1270, 10989), // components/bits.h:24
 PolyExtStep::Sub(1, 808), // components/bits.h:24
-PolyExtStep::Mul(808, 11141), // components/bits.h:24
-PolyExtStep::AndEqz(1216, 11142), // components/bits.h:24
-PolyExtStep::AndCond(1121, 505, 1217), // zirgen/compiler/edsl/component.cpp:39
-PolyExtStep::AndCond(1218, 506, 1217), // zirgen/compiler/edsl/component.cpp:39
-PolyExtStep::AndCond(1219, 507, 1217), // zirgen/compiler/edsl/component.cpp:39
-PolyExtStep::AndCond(1220, 664, 1217), // zirgen/compiler/edsl/component.cpp:39
-PolyExtStep::Sub(1, 326), // components/onehot.h:28
-PolyExtStep::Mul(326, 11143), // components/onehot.h:28
-PolyExtStep::AndEqz(0, 11144), // components/onehot.h:28
-PolyExtStep::Sub(1, 327), // components/onehot.h:28
-PolyExtStep::Mul(327, 11145), // components/onehot.h:28
-PolyExtStep::AndEqz(1222, 11146), // components/onehot.h:28
+PolyExtStep::Mul(808, 11165), // components/bits.h:24
+PolyExtStep::AndEqz(1271, 11166), // components/bits.h:24
+PolyExtStep::AndCond(1176, 505, 1272), // zirgen/compiler/edsl/component.cpp:39
+PolyExtStep::AndCond(1273, 506, 1272), // zirgen/compiler/edsl/component.cpp:39
+PolyExtStep::AndCond(1274, 507, 1272), // zirgen/compiler/edsl/component.cpp:39
+PolyExtStep::AndCond(1275, 664, 1272), // zirgen/compiler/edsl/component.cpp:39
+PolyExtStep::Sub(1, 326), // components/bits.h:24
+PolyExtStep::Mul(326, 11167), // components/bits.h:24
+PolyExtStep::AndEqz(0, 11168), // components/bits.h:24
+PolyExtStep::Sub(1, 327), // components/bits.h:24
+PolyExtStep::Mul(327, 11169), // components/bits.h:24
+PolyExtStep::AndEqz(1277, 11170), // components/bits.h:24
+PolyExtStep::Sub(1, 328), // components/bits.h:24
+PolyExtStep::Mul(328, 11171), // components/bits.h:24
+PolyExtStep::AndEqz(1278, 11172), // components/bits.h:24
+PolyExtStep::Sub(1, 329), // components/bits.h:24
+PolyExtStep::Mul(329, 11173), // components/bits.h:24
+PolyExtStep::AndEqz(1279, 11174), // components/bits.h:24
+PolyExtStep::AndEqz(1280, 11168), // components/onehot.h:28
+PolyExtStep::AndEqz(1281, 11170), // components/onehot.h:28
 PolyExtStep::Add(326, 327), // components/onehot.h:29
-PolyExtStep::Sub(1, 328), // components/onehot.h:28
-PolyExtStep::Mul(328, 11148), // components/onehot.h:28
-PolyExtStep::AndEqz(1223, 11149), // components/onehot.h:28
-PolyExtStep::Add(11147, 328), // components/onehot.h:29
-PolyExtStep::Sub(1, 329), // components/onehot.h:28
-PolyExtStep::Mul(329, 11151), // components/onehot.h:28
-PolyExtStep::AndEqz(1224, 11152), // components/onehot.h:28
-PolyExtStep::Add(11150, 329), // components/onehot.h:29
-PolyExtStep::Sub(11153, 1), // components/onehot.h:31
-PolyExtStep::AndEqz(1225, 11154), // components/onehot.h:31
-PolyExtStep::AndCond(1221, 694, 1226), // zirgen/compiler/edsl/component.cpp:39
-PolyExtStep::AndCond(1049, 852, 1227), // zirgen/compiler/edsl/component.cpp:39
+PolyExtStep::AndEqz(1282, 11172), // components/onehot.h:28
+PolyExtStep::Add(11175, 328), // components/onehot.h:29
+PolyExtStep::AndEqz(1283, 11174), // components/onehot.h:28
+PolyExtStep::Add(11176, 329), // components/onehot.h:29
+PolyExtStep::Sub(11177, 1), // components/onehot.h:31
+PolyExtStep::AndEqz(1284, 11178), // components/onehot.h:31
+PolyExtStep::AndCond(1276, 694, 1285), // zirgen/compiler/edsl/component.cpp:39
+PolyExtStep::AndCond(1104, 852, 1286), // zirgen/compiler/edsl/component.cpp:39
 ],
-    ret: 1228,
+    ret: 1287,
 };
 
 impl PolyExt<BabyBear> for CircuitImpl {

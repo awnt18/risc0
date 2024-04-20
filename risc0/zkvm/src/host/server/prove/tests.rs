@@ -382,7 +382,7 @@ mod riscv {
 #[test]
 fn pause_resume() {
     let env = ExecutorEnv::builder()
-        .write(&MultiTestSpec::PauseContinue(0))
+        .write(&MultiTestSpec::PauseResume(0))
         .unwrap()
         .build()
         .unwrap();
@@ -396,6 +396,28 @@ fn pause_resume() {
     let segments = &receipt.inner.composite().unwrap().segments;
     assert_eq!(segments.len(), 1);
     assert_eq!(segments[0].index, 0);
+
+    // Run until sys_halt
+    let session = exec.run().unwrap();
+    assert_eq!(session.exit_code, ExitCode::Halted(0));
+    prove_session_fast(&session);
+}
+
+#[test]
+fn pause_exit_nonzero() {
+    let user_exit_code = 1;
+    let env = ExecutorEnv::builder()
+        .write(&MultiTestSpec::PauseResume(user_exit_code))
+        .unwrap()
+        .build()
+        .unwrap();
+    let mut exec = ExecutorImpl::from_elf(env, MULTI_TEST_ELF).unwrap();
+
+    // Run until sys_pause
+    let session = exec.run().unwrap();
+    assert_eq!(session.segments.len(), 1);
+    assert_eq!(session.exit_code, ExitCode::Paused(user_exit_code as u32));
+    prove_session_fast(&session);
 
     // Run until sys_halt
     let session = exec.run().unwrap();

@@ -46,7 +46,7 @@ fn download_zkr() {
 
     const FILENAME: &str = "recursion_zkr.zip";
     const SRC_PATH: &str = "src/recursion_zkr.zip";
-    const SHA256_HASH: &str = "3ee890ae3b7c2cf167813fe653ca9b5b8a117bb0a61c1a904f8e6acf62c76251";
+    const SHA256_HASH: &str = "37d6035359959a259918509fb5080b20b564a0ef38d1689e6aa0bbe9be4c31e1";
 
     fn check_sha2(path: &Path) -> bool {
         let data = fs::read(path).unwrap();

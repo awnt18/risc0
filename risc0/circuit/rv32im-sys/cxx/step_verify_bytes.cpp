@@ -43,28 +43,28 @@ Fp step_verify_bytes(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp*
   Fp x3(0);
   // loc(unknown)
   Fp x4(1);
-  // loc("Top/Code/OneHot/hot[1](Reg)"("./zirgen/components/mux.h":49:0))
+  // loc("Top/Code/OneHot/hot[1](Bit)/bit(Reg)"("./zirgen/components/mux.h":49:0))
   auto x5 = args[0][2 * steps + ((cycle - 0) & mask)];
   assert(x5 != Fp::invalid());
-  // loc("Top/Code/OneHot/hot[3](Reg)"("./zirgen/components/mux.h":49:0))
+  // loc("Top/Code/OneHot/hot[3](Bit)/bit(Reg)"("./zirgen/components/mux.h":49:0))
   auto x6 = args[0][4 * steps + ((cycle - 0) & mask)];
   assert(x6 != Fp::invalid());
-  // loc("Top/Code/OneHot/hot[4](Reg)"("./zirgen/components/mux.h":49:0))
+  // loc("Top/Code/OneHot/hot[4](Bit)/bit(Reg)"("./zirgen/components/mux.h":49:0))
   auto x7 = args[0][5 * steps + ((cycle - 0) & mask)];
   assert(x7 != Fp::invalid());
-  // loc("Top/Code/OneHot/hot[5](Reg)"("./zirgen/components/mux.h":49:0))
+  // loc("Top/Code/OneHot/hot[5](Bit)/bit(Reg)"("./zirgen/components/mux.h":49:0))
   auto x8 = args[0][6 * steps + ((cycle - 0) & mask)];
   assert(x8 != Fp::invalid());
-  // loc("Top/Code/OneHot/hot[6](Reg)"("./zirgen/components/mux.h":49:0))
+  // loc("Top/Code/OneHot/hot[6](Bit)/bit(Reg)"("./zirgen/components/mux.h":49:0))
   auto x9 = args[0][7 * steps + ((cycle - 0) & mask)];
   assert(x9 != Fp::invalid());
-  // loc("Top/Code/OneHot/hot[7](Reg)"("./zirgen/components/mux.h":49:0))
+  // loc("Top/Code/OneHot/hot[7](Bit)/bit(Reg)"("./zirgen/components/mux.h":49:0))
   auto x10 = args[0][8 * steps + ((cycle - 0) & mask)];
   assert(x10 != Fp::invalid());
-  // loc("Top/Code/OneHot/hot[0](Reg)"("zirgen/circuit/rv32im/v1/edsl/top.cpp":78:0))
+  // loc("Top/Code/OneHot/hot[0](Bit)/bit(Reg)"("zirgen/circuit/rv32im/v1/edsl/top.cpp":78:0))
   auto x11 = args[0][1 * steps + ((cycle - 0) & mask)];
   assert(x11 != Fp::invalid());
-  // loc("Top/Code/OneHot/hot[2](Reg)"("zirgen/circuit/rv32im/v1/edsl/top.cpp":78:0))
+  // loc("Top/Code/OneHot/hot[2](Bit)/bit(Reg)"("zirgen/circuit/rv32im/v1/edsl/top.cpp":78:0))
   auto x12 = args[0][3 * steps + ((cycle - 0) & mask)];
   assert(x12 != Fp::invalid());
   if (x11 != 0) {

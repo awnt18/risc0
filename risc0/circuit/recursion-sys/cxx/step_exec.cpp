@@ -657,7 +657,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
   Fp x310(1);
   // loc(unknown)
   Fp x311(0);
-  // loc("top(recursion::Top)/code(recursion::Code)/select(OneHot)/micro_ops(Reg)"("./zirgen/components/mux.h":49:0))
+  // loc("top(recursion::Top)/code(recursion::Code)/select(OneHot)/micro_ops(Bit)/bit(Reg)"("./zirgen/components/mux.h":49:0))
   auto x312 = args[0][1 * steps + ((cycle - 0) & mask)];
   assert(x312 != Fp::invalid());
   if (x312 != 0) {
@@ -670,7 +670,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
     {
       // loc("./zirgen/components/onehot.h":37:0)
       auto x315 = (x314 == 0) ? Fp(1) : Fp(0);
-      // loc("./zirgen/components/onehot.h":37:0)
+      // loc("./zirgen/components/bits.h":27:0)
       {
         auto& reg = args[2][90 * steps + cycle];
         assert(reg == Fp::invalid() || reg == x315);
@@ -680,7 +680,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
       auto x316 = x314 - x310;
       // loc("./zirgen/components/onehot.h":37:0)
       auto x317 = (x316 == 0) ? Fp(1) : Fp(0);
-      // loc("./zirgen/components/onehot.h":37:0)
+      // loc("./zirgen/components/bits.h":27:0)
       {
         auto& reg = args[2][91 * steps + cycle];
         assert(reg == Fp::invalid() || reg == x317);
@@ -690,7 +690,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
       auto x318 = x314 - x309;
       // loc("./zirgen/components/onehot.h":37:0)
       auto x319 = (x318 == 0) ? Fp(1) : Fp(0);
-      // loc("./zirgen/components/onehot.h":37:0)
+      // loc("./zirgen/components/bits.h":27:0)
       {
         auto& reg = args[2][92 * steps + cycle];
         assert(reg == Fp::invalid() || reg == x319);
@@ -700,7 +700,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
       auto x320 = x314 - x308;
       // loc("./zirgen/components/onehot.h":37:0)
       auto x321 = (x320 == 0) ? Fp(1) : Fp(0);
-      // loc("./zirgen/components/onehot.h":37:0)
+      // loc("./zirgen/components/bits.h":27:0)
       {
         auto& reg = args[2][93 * steps + cycle];
         assert(reg == Fp::invalid() || reg == x321);
@@ -710,7 +710,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
       auto x322 = x314 - x307;
       // loc("./zirgen/components/onehot.h":37:0)
       auto x323 = (x322 == 0) ? Fp(1) : Fp(0);
-      // loc("./zirgen/components/onehot.h":37:0)
+      // loc("./zirgen/components/bits.h":27:0)
       {
         auto& reg = args[2][94 * steps + cycle];
         assert(reg == Fp::invalid() || reg == x323);
@@ -720,7 +720,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
       auto x324 = x314 - x306;
       // loc("./zirgen/components/onehot.h":37:0)
       auto x325 = (x324 == 0) ? Fp(1) : Fp(0);
-      // loc("./zirgen/components/onehot.h":37:0)
+      // loc("./zirgen/components/bits.h":27:0)
       {
         auto& reg = args[2][95 * steps + cycle];
         assert(reg == Fp::invalid() || reg == x325);
@@ -730,7 +730,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
       auto x326 = x314 - x305;
       // loc("./zirgen/components/onehot.h":37:0)
       auto x327 = (x326 == 0) ? Fp(1) : Fp(0);
-      // loc("./zirgen/components/onehot.h":37:0)
+      // loc("./zirgen/components/bits.h":27:0)
       {
         auto& reg = args[2][96 * steps + cycle];
         assert(reg == Fp::invalid() || reg == x327);
@@ -740,7 +740,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
       auto x328 = x314 - x304;
       // loc("./zirgen/components/onehot.h":37:0)
       auto x329 = (x328 == 0) ? Fp(1) : Fp(0);
-      // loc("./zirgen/components/onehot.h":37:0)
+      // loc("./zirgen/components/bits.h":27:0)
       {
         auto& reg = args[2][97 * steps + cycle];
         assert(reg == Fp::invalid() || reg == x329);
@@ -750,7 +750,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
       auto x330 = x314 - x303;
       // loc("./zirgen/components/onehot.h":37:0)
       auto x331 = (x330 == 0) ? Fp(1) : Fp(0);
-      // loc("./zirgen/components/onehot.h":37:0)
+      // loc("./zirgen/components/bits.h":27:0)
       {
         auto& reg = args[2][98 * steps + cycle];
         assert(reg == Fp::invalid() || reg == x331);
@@ -760,7 +760,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
       auto x332 = x314 - x302;
       // loc("./zirgen/components/onehot.h":37:0)
       auto x333 = (x332 == 0) ? Fp(1) : Fp(0);
-      // loc("./zirgen/components/onehot.h":37:0)
+      // loc("./zirgen/components/bits.h":27:0)
       {
         auto& reg = args[2][99 * steps + cycle];
         assert(reg == Fp::invalid() || reg == x333);
@@ -770,41 +770,41 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
       auto x334 = x314 - x301;
       // loc("./zirgen/components/onehot.h":37:0)
       auto x335 = (x334 == 0) ? Fp(1) : Fp(0);
-      // loc("./zirgen/components/onehot.h":37:0)
+      // loc("./zirgen/components/bits.h":27:0)
       {
         auto& reg = args[2][100 * steps + cycle];
         assert(reg == Fp::invalid() || reg == x335);
         reg = x335;
       }
     }
-    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/add(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/add(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
     auto x336 = args[2][91 * steps + ((cycle - 0) & mask)];
     assert(x336 != Fp::invalid());
-    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/sub(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/sub(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
     auto x337 = args[2][92 * steps + ((cycle - 0) & mask)];
     assert(x337 != Fp::invalid());
-    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/mul(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/mul(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
     auto x338 = args[2][93 * steps + ((cycle - 0) & mask)];
     assert(x338 != Fp::invalid());
-    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/inv(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/inv(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
     auto x339 = args[2][94 * steps + ((cycle - 0) & mask)];
     assert(x339 != Fp::invalid());
-    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/eq(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/eq(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
     auto x340 = args[2][95 * steps + ((cycle - 0) & mask)];
     assert(x340 != Fp::invalid());
-    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/read_iop_header(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/read_iop_header(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
     auto x341 = args[2][96 * steps + ((cycle - 0) & mask)];
     assert(x341 != Fp::invalid());
-    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/read_iop_body(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/read_iop_body(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
     auto x342 = args[2][97 * steps + ((cycle - 0) & mask)];
     assert(x342 != Fp::invalid());
-    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/mix_rng(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/mix_rng(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
     auto x343 = args[2][98 * steps + ((cycle - 0) & mask)];
     assert(x343 != Fp::invalid());
-    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/select(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/select(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
     auto x344 = args[2][99 * steps + ((cycle - 0) & mask)];
     assert(x344 != Fp::invalid());
-    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/extract(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/extract(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
     auto x345 = args[2][100 * steps + ((cycle - 0) & mask)];
     assert(x345 != Fp::invalid());
     // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/micro_ops(recursion::MicroInsts)/inst[0](recursion::MicroInst)/operand[0](Reg)"("zirgen/circuit/recursion/micro.cpp":14:0))
@@ -816,7 +816,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
     // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/micro_ops(recursion::MicroInsts)/inst[0](recursion::MicroInst)/operand[2](Reg)"("zirgen/circuit/recursion/micro.cpp":16:0))
     auto x348 = args[0][11 * steps + ((cycle - 0) & mask)];
     assert(x348 != Fp::invalid());
-    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/constop(Reg)"("zirgen/circuit/recursion/micro.cpp":19:0))
+    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/constop(Bit)/bit(Reg)"("zirgen/circuit/recursion/micro.cpp":19:0))
     auto x349 = args[2][90 * steps + ((cycle - 0) & mask)];
     assert(x349 != Fp::invalid());
     if (x349 != 0) {
@@ -2933,7 +2933,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
     {
       // loc("./zirgen/components/onehot.h":37:0)
       auto x664 = (x663 == 0) ? Fp(1) : Fp(0);
-      // loc("./zirgen/components/onehot.h":37:0)
+      // loc("./zirgen/components/bits.h":27:0)
       {
         auto& reg = args[2][102 * steps + cycle];
         assert(reg == Fp::invalid() || reg == x664);
@@ -2943,7 +2943,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
       auto x665 = x663 - x310;
       // loc("./zirgen/components/onehot.h":37:0)
       auto x666 = (x665 == 0) ? Fp(1) : Fp(0);
-      // loc("./zirgen/components/onehot.h":37:0)
+      // loc("./zirgen/components/bits.h":27:0)
       {
         auto& reg = args[2][103 * steps + cycle];
         assert(reg == Fp::invalid() || reg == x666);
@@ -2953,7 +2953,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
       auto x667 = x663 - x309;
       // loc("./zirgen/components/onehot.h":37:0)
       auto x668 = (x667 == 0) ? Fp(1) : Fp(0);
-      // loc("./zirgen/components/onehot.h":37:0)
+      // loc("./zirgen/components/bits.h":27:0)
       {
         auto& reg = args[2][104 * steps + cycle];
         assert(reg == Fp::invalid() || reg == x668);
@@ -2963,7 +2963,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
       auto x669 = x663 - x308;
       // loc("./zirgen/components/onehot.h":37:0)
       auto x670 = (x669 == 0) ? Fp(1) : Fp(0);
-      // loc("./zirgen/components/onehot.h":37:0)
+      // loc("./zirgen/components/bits.h":27:0)
       {
         auto& reg = args[2][105 * steps + cycle];
         assert(reg == Fp::invalid() || reg == x670);
@@ -2973,7 +2973,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
       auto x671 = x663 - x307;
       // loc("./zirgen/components/onehot.h":37:0)
       auto x672 = (x671 == 0) ? Fp(1) : Fp(0);
-      // loc("./zirgen/components/onehot.h":37:0)
+      // loc("./zirgen/components/bits.h":27:0)
       {
         auto& reg = args[2][106 * steps + cycle];
         assert(reg == Fp::invalid() || reg == x672);
@@ -2983,7 +2983,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
       auto x673 = x663 - x306;
       // loc("./zirgen/components/onehot.h":37:0)
       auto x674 = (x673 == 0) ? Fp(1) : Fp(0);
-      // loc("./zirgen/components/onehot.h":37:0)
+      // loc("./zirgen/components/bits.h":27:0)
       {
         auto& reg = args[2][107 * steps + cycle];
         assert(reg == Fp::invalid() || reg == x674);
@@ -2993,7 +2993,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
       auto x675 = x663 - x305;
       // loc("./zirgen/components/onehot.h":37:0)
       auto x676 = (x675 == 0) ? Fp(1) : Fp(0);
-      // loc("./zirgen/components/onehot.h":37:0)
+      // loc("./zirgen/components/bits.h":27:0)
       {
         auto& reg = args[2][108 * steps + cycle];
         assert(reg == Fp::invalid() || reg == x676);
@@ -3003,7 +3003,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
       auto x677 = x663 - x304;
       // loc("./zirgen/components/onehot.h":37:0)
       auto x678 = (x677 == 0) ? Fp(1) : Fp(0);
-      // loc("./zirgen/components/onehot.h":37:0)
+      // loc("./zirgen/components/bits.h":27:0)
       {
         auto& reg = args[2][109 * steps + cycle];
         assert(reg == Fp::invalid() || reg == x678);
@@ -3013,7 +3013,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
       auto x679 = x663 - x303;
       // loc("./zirgen/components/onehot.h":37:0)
       auto x680 = (x679 == 0) ? Fp(1) : Fp(0);
-      // loc("./zirgen/components/onehot.h":37:0)
+      // loc("./zirgen/components/bits.h":27:0)
       {
         auto& reg = args[2][110 * steps + cycle];
         assert(reg == Fp::invalid() || reg == x680);
@@ -3023,7 +3023,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
       auto x681 = x663 - x302;
       // loc("./zirgen/components/onehot.h":37:0)
       auto x682 = (x681 == 0) ? Fp(1) : Fp(0);
-      // loc("./zirgen/components/onehot.h":37:0)
+      // loc("./zirgen/components/bits.h":27:0)
       {
         auto& reg = args[2][111 * steps + cycle];
         assert(reg == Fp::invalid() || reg == x682);
@@ -3033,41 +3033,41 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
       auto x683 = x663 - x301;
       // loc("./zirgen/components/onehot.h":37:0)
       auto x684 = (x683 == 0) ? Fp(1) : Fp(0);
-      // loc("./zirgen/components/onehot.h":37:0)
+      // loc("./zirgen/components/bits.h":27:0)
       {
         auto& reg = args[2][112 * steps + cycle];
         assert(reg == Fp::invalid() || reg == x684);
         reg = x684;
       }
     }
-    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/add(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/add(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
     auto x685 = args[2][103 * steps + ((cycle - 0) & mask)];
     assert(x685 != Fp::invalid());
-    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/sub(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/sub(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
     auto x686 = args[2][104 * steps + ((cycle - 0) & mask)];
     assert(x686 != Fp::invalid());
-    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/mul(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/mul(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
     auto x687 = args[2][105 * steps + ((cycle - 0) & mask)];
     assert(x687 != Fp::invalid());
-    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/inv(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/inv(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
     auto x688 = args[2][106 * steps + ((cycle - 0) & mask)];
     assert(x688 != Fp::invalid());
-    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/eq(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/eq(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
     auto x689 = args[2][107 * steps + ((cycle - 0) & mask)];
     assert(x689 != Fp::invalid());
-    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/read_iop_header(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/read_iop_header(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
     auto x690 = args[2][108 * steps + ((cycle - 0) & mask)];
     assert(x690 != Fp::invalid());
-    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/read_iop_body(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/read_iop_body(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
     auto x691 = args[2][109 * steps + ((cycle - 0) & mask)];
     assert(x691 != Fp::invalid());
-    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/mix_rng(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/mix_rng(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
     auto x692 = args[2][110 * steps + ((cycle - 0) & mask)];
     assert(x692 != Fp::invalid());
-    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/select(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/select(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
     auto x693 = args[2][111 * steps + ((cycle - 0) & mask)];
     assert(x693 != Fp::invalid());
-    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/extract(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/extract(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
     auto x694 = args[2][112 * steps + ((cycle - 0) & mask)];
     assert(x694 != Fp::invalid());
     // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/micro_ops(recursion::MicroInsts)/inst[1](recursion::MicroInst)/operand[0](Reg)"("zirgen/circuit/recursion/micro.cpp":14:0))
@@ -3079,7 +3079,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
     // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/micro_ops(recursion::MicroInsts)/inst[1](recursion::MicroInst)/operand[2](Reg)"("zirgen/circuit/recursion/micro.cpp":16:0))
     auto x697 = args[0][15 * steps + ((cycle - 0) & mask)];
     assert(x697 != Fp::invalid());
-    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/constop(Reg)"("zirgen/circuit/recursion/micro.cpp":19:0))
+    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/constop(Bit)/bit(Reg)"("zirgen/circuit/recursion/micro.cpp":19:0))
     auto x698 = args[2][102 * steps + ((cycle - 0) & mask)];
     assert(x698 != Fp::invalid());
     if (x698 != 0) {
@@ -5196,7 +5196,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
     {
       // loc("./zirgen/components/onehot.h":37:0)
       auto x1013 = (x1012 == 0) ? Fp(1) : Fp(0);
-      // loc("./zirgen/components/onehot.h":37:0)
+      // loc("./zirgen/components/bits.h":27:0)
       {
         auto& reg = args[2][114 * steps + cycle];
         assert(reg == Fp::invalid() || reg == x1013);
@@ -5206,7 +5206,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
       auto x1014 = x1012 - x310;
       // loc("./zirgen/components/onehot.h":37:0)
       auto x1015 = (x1014 == 0) ? Fp(1) : Fp(0);
-      // loc("./zirgen/components/onehot.h":37:0)
+      // loc("./zirgen/components/bits.h":27:0)
       {
         auto& reg = args[2][115 * steps + cycle];
         assert(reg == Fp::invalid() || reg == x1015);
@@ -5216,7 +5216,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
       auto x1016 = x1012 - x309;
       // loc("./zirgen/components/onehot.h":37:0)
       auto x1017 = (x1016 == 0) ? Fp(1) : Fp(0);
-      // loc("./zirgen/components/onehot.h":37:0)
+      // loc("./zirgen/components/bits.h":27:0)
       {
         auto& reg = args[2][116 * steps + cycle];
         assert(reg == Fp::invalid() || reg == x1017);
@@ -5226,7 +5226,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
       auto x1018 = x1012 - x308;
       // loc("./zirgen/components/onehot.h":37:0)
       auto x1019 = (x1018 == 0) ? Fp(1) : Fp(0);
-      // loc("./zirgen/components/onehot.h":37:0)
+      // loc("./zirgen/components/bits.h":27:0)
       {
         auto& reg = args[2][117 * steps + cycle];
         assert(reg == Fp::invalid() || reg == x1019);
@@ -5236,7 +5236,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
       auto x1020 = x1012 - x307;
       // loc("./zirgen/components/onehot.h":37:0)
       auto x1021 = (x1020 == 0) ? Fp(1) : Fp(0);
-      // loc("./zirgen/components/onehot.h":37:0)
+      // loc("./zirgen/components/bits.h":27:0)
       {
         auto& reg = args[2][118 * steps + cycle];
         assert(reg == Fp::invalid() || reg == x1021);
@@ -5246,7 +5246,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
       auto x1022 = x1012 - x306;
       // loc("./zirgen/components/onehot.h":37:0)
       auto x1023 = (x1022 == 0) ? Fp(1) : Fp(0);
-      // loc("./zirgen/components/onehot.h":37:0)
+      // loc("./zirgen/components/bits.h":27:0)
       {
         auto& reg = args[2][119 * steps + cycle];
         assert(reg == Fp::invalid() || reg == x1023);
@@ -5256,7 +5256,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
       auto x1024 = x1012 - x305;
       // loc("./zirgen/components/onehot.h":37:0)
       auto x1025 = (x1024 == 0) ? Fp(1) : Fp(0);
-      // loc("./zirgen/components/onehot.h":37:0)
+      // loc("./zirgen/components/bits.h":27:0)
       {
         auto& reg = args[2][120 * steps + cycle];
         assert(reg == Fp::invalid() || reg == x1025);
@@ -5266,7 +5266,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
       auto x1026 = x1012 - x304;
       // loc("./zirgen/components/onehot.h":37:0)
       auto x1027 = (x1026 == 0) ? Fp(1) : Fp(0);
-      // loc("./zirgen/components/onehot.h":37:0)
+      // loc("./zirgen/components/bits.h":27:0)
       {
         auto& reg = args[2][121 * steps + cycle];
         assert(reg == Fp::invalid() || reg == x1027);
@@ -5276,7 +5276,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
       auto x1028 = x1012 - x303;
       // loc("./zirgen/components/onehot.h":37:0)
       auto x1029 = (x1028 == 0) ? Fp(1) : Fp(0);
-      // loc("./zirgen/components/onehot.h":37:0)
+      // loc("./zirgen/components/bits.h":27:0)
       {
         auto& reg = args[2][122 * steps + cycle];
         assert(reg == Fp::invalid() || reg == x1029);
@@ -5286,7 +5286,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
       auto x1030 = x1012 - x302;
       // loc("./zirgen/components/onehot.h":37:0)
       auto x1031 = (x1030 == 0) ? Fp(1) : Fp(0);
-      // loc("./zirgen/components/onehot.h":37:0)
+      // loc("./zirgen/components/bits.h":27:0)
       {
         auto& reg = args[2][123 * steps + cycle];
         assert(reg == Fp::invalid() || reg == x1031);
@@ -5296,41 +5296,41 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
       auto x1032 = x1012 - x301;
       // loc("./zirgen/components/onehot.h":37:0)
       auto x1033 = (x1032 == 0) ? Fp(1) : Fp(0);
-      // loc("./zirgen/components/onehot.h":37:0)
+      // loc("./zirgen/components/bits.h":27:0)
       {
         auto& reg = args[2][124 * steps + cycle];
         assert(reg == Fp::invalid() || reg == x1033);
         reg = x1033;
       }
     }
-    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/add(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/add(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
     auto x1034 = args[2][115 * steps + ((cycle - 0) & mask)];
     assert(x1034 != Fp::invalid());
-    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/sub(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/sub(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
     auto x1035 = args[2][116 * steps + ((cycle - 0) & mask)];
     assert(x1035 != Fp::invalid());
-    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/mul(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/mul(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
     auto x1036 = args[2][117 * steps + ((cycle - 0) & mask)];
     assert(x1036 != Fp::invalid());
-    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/inv(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/inv(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
     auto x1037 = args[2][118 * steps + ((cycle - 0) & mask)];
     assert(x1037 != Fp::invalid());
-    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/eq(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/eq(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
     auto x1038 = args[2][119 * steps + ((cycle - 0) & mask)];
     assert(x1038 != Fp::invalid());
-    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/read_iop_header(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/read_iop_header(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
     auto x1039 = args[2][120 * steps + ((cycle - 0) & mask)];
     assert(x1039 != Fp::invalid());
-    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/read_iop_body(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/read_iop_body(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
     auto x1040 = args[2][121 * steps + ((cycle - 0) & mask)];
     assert(x1040 != Fp::invalid());
-    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/mix_rng(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/mix_rng(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
     auto x1041 = args[2][122 * steps + ((cycle - 0) & mask)];
     assert(x1041 != Fp::invalid());
-    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/select(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/select(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
     auto x1042 = args[2][123 * steps + ((cycle - 0) & mask)];
     assert(x1042 != Fp::invalid());
-    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/extract(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/extract(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
     auto x1043 = args[2][124 * steps + ((cycle - 0) & mask)];
     assert(x1043 != Fp::invalid());
     // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/micro_ops(recursion::MicroInsts)/inst[2](recursion::MicroInst)/operand[0](Reg)"("zirgen/circuit/recursion/micro.cpp":14:0))
@@ -5342,7 +5342,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
     // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/micro_ops(recursion::MicroInsts)/inst[2](recursion::MicroInst)/operand[2](Reg)"("zirgen/circuit/recursion/micro.cpp":16:0))
     auto x1046 = args[0][19 * steps + ((cycle - 0) & mask)];
     assert(x1046 != Fp::invalid());
-    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/constop(Reg)"("zirgen/circuit/recursion/micro.cpp":19:0))
+    // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/constop(Bit)/bit(Reg)"("zirgen/circuit/recursion/micro.cpp":19:0))
     auto x1047 = args[2][114 * steps + ((cycle - 0) & mask)];
     assert(x1047 != Fp::invalid());
     if (x1047 != 0) {
@@ -7452,20 +7452,20 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
       }
     }
   }
-  // loc("top(recursion::Top)/code(recursion::Code)/select(OneHot)/macro_ops(Reg)"("./zirgen/components/mux.h":49:0))
+  // loc("top(recursion::Top)/code(recursion::Code)/select(OneHot)/macro_ops(Bit)/bit(Reg)"("./zirgen/components/mux.h":49:0))
   auto x1360 = args[0][2 * steps + ((cycle - 0) & mask)];
   assert(x1360 != Fp::invalid());
   if (x1360 != 0) {
     // loc("top(recursion::Top)/code(recursion::Code)/write_addr(Reg)"("zirgen/circuit/recursion/top.cpp":23:0))
     auto x1361 = args[0][0 * steps + ((cycle - 0) & mask)];
     assert(x1361 != Fp::invalid());
-    // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/macro_ops(recursion::MacroInst)/opcode(OneHot)/wom_init(Reg)"("./zirgen/components/mux.h":49:0))
+    // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/macro_ops(recursion::MacroInst)/opcode(OneHot)/wom_init(Bit)/bit(Reg)"("./zirgen/components/mux.h":49:0))
     auto x1362 = args[0][9 * steps + ((cycle - 0) & mask)];
     assert(x1362 != Fp::invalid());
     if (x1362 != 0) {
       host(ctx, "log", "WOM_INIT", host_args.data(), 0, host_outs.data(), 0);
     }
-    // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/macro_ops(recursion::MacroInst)/opcode(OneHot)/wom_fini(Reg)"("./zirgen/components/mux.h":49:0))
+    // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/macro_ops(recursion::MacroInst)/opcode(OneHot)/wom_fini(Bit)/bit(Reg)"("./zirgen/components/mux.h":49:0))
     auto x1363 = args[0][10 * steps + ((cycle - 0) & mask)];
     assert(x1363 != Fp::invalid());
     if (x1363 != 0) {
@@ -7501,7 +7501,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
         reg = x311;
       }
     }
-    // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/macro_ops(recursion::MacroInst)/opcode(OneHot)/bit_and_elem(Reg)"("./zirgen/components/mux.h":49:0))
+    // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/macro_ops(recursion::MacroInst)/opcode(OneHot)/bit_and_elem(Bit)/bit(Reg)"("./zirgen/components/mux.h":49:0))
     auto x1364 = args[0][11 * steps + ((cycle - 0) & mask)];
     assert(x1364 != Fp::invalid());
     if (x1364 != 0) {
@@ -8913,7 +8913,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
       host_args.at(11) = x1722;
       host(ctx, "log", "BIT_AND_ELEM, reading from [%u, %u],  A = [%x, %x], B = [%x, %x], type = %u, Out=%x, Result=%e", host_args.data(), 12, host_outs.data(), 0);
     }
-    // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/macro_ops(recursion::MacroInst)/opcode(OneHot)/bit_op_shorts(Reg)"("./zirgen/components/mux.h":49:0))
+    // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/macro_ops(recursion::MacroInst)/opcode(OneHot)/bit_op_shorts(Bit)/bit(Reg)"("./zirgen/components/mux.h":49:0))
     auto x1726 = args[0][12 * steps + ((cycle - 0) & mask)];
     assert(x1726 != Fp::invalid());
     if (x1726 != 0) {
@@ -10258,7 +10258,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
         host(ctx, "log", "  XOR Result = %e", host_args.data(), 4, host_outs.data(), 0);
       }
     }
-    // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/macro_ops(recursion::MacroInst)/opcode(OneHot)/sha_init(Reg)"("./zirgen/components/mux.h":49:0))
+    // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/macro_ops(recursion::MacroInst)/opcode(OneHot)/sha_init(Bit)/bit(Reg)"("./zirgen/components/mux.h":49:0))
     auto x2049 = args[0][13 * steps + ((cycle - 0) & mask)];
     assert(x2049 != Fp::invalid());
     if (x2049 != 0) {
@@ -11991,7 +11991,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
         }
       }
     }
-    // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/macro_ops(recursion::MacroInst)/opcode(OneHot)/sha_fini(Reg)"("./zirgen/components/mux.h":49:0))
+    // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/macro_ops(recursion::MacroInst)/opcode(OneHot)/sha_fini(Bit)/bit(Reg)"("./zirgen/components/mux.h":49:0))
     auto x2515 = args[0][14 * steps + ((cycle - 0) & mask)];
     assert(x2515 != Fp::invalid());
     if (x2515 != 0) {
@@ -14752,7 +14752,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
         host(ctx, "womWrite", "", host_args.data(), 5, host_outs.data(), 0);
       }
     }
-    // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/macro_ops(recursion::MacroInst)/opcode(OneHot)/sha_load(Reg)"("./zirgen/components/mux.h":49:0))
+    // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/macro_ops(recursion::MacroInst)/opcode(OneHot)/sha_load(Bit)/bit(Reg)"("./zirgen/components/mux.h":49:0))
     auto x3415 = args[0][15 * steps + ((cycle - 0) & mask)];
     assert(x3415 != Fp::invalid());
     if (x3415 != 0) {
@@ -20785,7 +20785,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
         }
       }
     }
-    // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/macro_ops(recursion::MacroInst)/opcode(OneHot)/sha_mix(Reg)"("./zirgen/components/mux.h":49:0))
+    // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/macro_ops(recursion::MacroInst)/opcode(OneHot)/sha_mix(Bit)/bit(Reg)"("./zirgen/components/mux.h":49:0))
     auto x5752 = args[0][16 * steps + ((cycle - 0) & mask)];
     assert(x5752 != Fp::invalid());
     if (x5752 != 0) {
@@ -27813,7 +27813,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
         }
       }
     }
-    // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/macro_ops(recursion::MacroInst)/opcode(OneHot)/set_global(Reg)"("./zirgen/components/mux.h":49:0))
+    // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/macro_ops(recursion::MacroInst)/opcode(OneHot)/set_global(Bit)/bit(Reg)"("./zirgen/components/mux.h":49:0))
     auto x8654 = args[0][17 * steps + ((cycle - 0) & mask)];
     assert(x8654 != Fp::invalid());
     if (x8654 != 0) {
@@ -27826,7 +27826,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
       {
         // loc("./zirgen/components/onehot.h":37:0)
         auto x8656 = (x8655 == 0) ? Fp(1) : Fp(0);
-        // loc("./zirgen/components/onehot.h":37:0)
+        // loc("./zirgen/components/bits.h":27:0)
         {
           auto& reg = args[2][11 * steps + cycle];
           assert(reg == Fp::invalid() || reg == x8656);
@@ -27836,7 +27836,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
         auto x8657 = x8655 - x310;
         // loc("./zirgen/components/onehot.h":37:0)
         auto x8658 = (x8657 == 0) ? Fp(1) : Fp(0);
-        // loc("./zirgen/components/onehot.h":37:0)
+        // loc("./zirgen/components/bits.h":27:0)
         {
           auto& reg = args[2][12 * steps + cycle];
           assert(reg == Fp::invalid() || reg == x8658);
@@ -27846,7 +27846,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
         auto x8659 = x8655 - x309;
         // loc("./zirgen/components/onehot.h":37:0)
         auto x8660 = (x8659 == 0) ? Fp(1) : Fp(0);
-        // loc("./zirgen/components/onehot.h":37:0)
+        // loc("./zirgen/components/bits.h":27:0)
         {
           auto& reg = args[2][13 * steps + cycle];
           assert(reg == Fp::invalid() || reg == x8660);
@@ -27856,23 +27856,23 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
         auto x8661 = x8655 - x308;
         // loc("./zirgen/components/onehot.h":37:0)
         auto x8662 = (x8661 == 0) ? Fp(1) : Fp(0);
-        // loc("./zirgen/components/onehot.h":37:0)
+        // loc("./zirgen/components/bits.h":27:0)
         {
           auto& reg = args[2][14 * steps + cycle];
           assert(reg == Fp::invalid() || reg == x8662);
           reg = x8662;
         }
       }
-      // loc("top(recursion::Top)/mux(Mux)/macro_ops(recursion::MacroOp)/mux(Mux)/set_global(recursion::SetGlobal)/select(OneHot)/hot[1](Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+      // loc("top(recursion::Top)/mux(Mux)/macro_ops(recursion::MacroOp)/mux(Mux)/set_global(recursion::SetGlobal)/select(OneHot)/hot[1](Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
       auto x8663 = args[2][12 * steps + ((cycle - 0) & mask)];
       assert(x8663 != Fp::invalid());
-      // loc("top(recursion::Top)/mux(Mux)/macro_ops(recursion::MacroOp)/mux(Mux)/set_global(recursion::SetGlobal)/select(OneHot)/hot[2](Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+      // loc("top(recursion::Top)/mux(Mux)/macro_ops(recursion::MacroOp)/mux(Mux)/set_global(recursion::SetGlobal)/select(OneHot)/hot[2](Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
       auto x8664 = args[2][13 * steps + ((cycle - 0) & mask)];
       assert(x8664 != Fp::invalid());
-      // loc("top(recursion::Top)/mux(Mux)/macro_ops(recursion::MacroOp)/mux(Mux)/set_global(recursion::SetGlobal)/select(OneHot)/hot[3](Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+      // loc("top(recursion::Top)/mux(Mux)/macro_ops(recursion::MacroOp)/mux(Mux)/set_global(recursion::SetGlobal)/select(OneHot)/hot[3](Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
       auto x8665 = args[2][14 * steps + ((cycle - 0) & mask)];
       assert(x8665 != Fp::invalid());
-      // loc("top(recursion::Top)/mux(Mux)/macro_ops(recursion::MacroOp)/mux(Mux)/set_global(recursion::SetGlobal)/select(OneHot)/hot[0](Reg)"("zirgen/circuit/recursion/macro.cpp":35:0))
+      // loc("top(recursion::Top)/mux(Mux)/macro_ops(recursion::MacroOp)/mux(Mux)/set_global(recursion::SetGlobal)/select(OneHot)/hot[0](Bit)/bit(Reg)"("zirgen/circuit/recursion/macro.cpp":35:0))
       auto x8666 = args[2][11 * steps + ((cycle - 0) & mask)];
       assert(x8666 != Fp::invalid());
       if (x8666 != 0) {
@@ -29073,7 +29073,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
       }
     }
   }
-  // loc("top(recursion::Top)/code(recursion::Code)/select(OneHot)/poseidon2_load(Reg)"("./zirgen/components/mux.h":49:0))
+  // loc("top(recursion::Top)/code(recursion::Code)/select(OneHot)/poseidon2_load(Bit)/bit(Reg)"("./zirgen/components/mux.h":49:0))
   auto x8811 = args[0][3 * steps + ((cycle - 0) & mask)];
   assert(x8811 != Fp::invalid());
   if (x8811 != 0) {
@@ -29457,7 +29457,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
     // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/poseidon2_load(recursion::Poseidon2MemInst)/keep_state(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
     auto x8872 = args[0][9 * steps + ((cycle - 0) & mask)];
     assert(x8872 != Fp::invalid());
-    // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/poseidon2_load(recursion::Poseidon2MemInst)/group(OneHot)/g0(Reg)"("zirgen/circuit/recursion/poseidon2.cpp":70:0))
+    // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/poseidon2_load(recursion::Poseidon2MemInst)/group(OneHot)/g0(Bit)/bit(Reg)"("zirgen/circuit/recursion/poseidon2.cpp":70:0))
     auto x8873 = args[0][12 * steps + ((cycle - 0) & mask)];
     assert(x8873 != Fp::invalid());
     // loc("zirgen/circuit/recursion/poseidon2.cpp":70:0)
@@ -29532,7 +29532,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
     auto x8904 = x8872 * x8903;
     // loc("zirgen/circuit/recursion/poseidon2.cpp":70:0)
     auto x8905 = x8904 + x8902;
-    // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/poseidon2_load(recursion::Poseidon2MemInst)/group(OneHot)/g1(Reg)"("zirgen/circuit/recursion/poseidon2.cpp":70:0))
+    // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/poseidon2_load(recursion::Poseidon2MemInst)/group(OneHot)/g1(Bit)/bit(Reg)"("zirgen/circuit/recursion/poseidon2.cpp":70:0))
     auto x8906 = args[0][13 * steps + ((cycle - 0) & mask)];
     assert(x8906 != Fp::invalid());
     // loc("zirgen/circuit/recursion/poseidon2.cpp":70:0)
@@ -29616,7 +29616,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
     auto x8941 = x8872 + x8939;
     // loc("zirgen/circuit/recursion/poseidon2.cpp":68:0)
     auto x8942 = x8941 - x8940;
-    // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/poseidon2_load(recursion::Poseidon2MemInst)/group(OneHot)/g2(Reg)"("zirgen/circuit/recursion/poseidon2.cpp":70:0))
+    // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/poseidon2_load(recursion::Poseidon2MemInst)/group(OneHot)/g2(Bit)/bit(Reg)"("zirgen/circuit/recursion/poseidon2.cpp":70:0))
     auto x8943 = args[0][14 * steps + ((cycle - 0) & mask)];
     assert(x8943 != Fp::invalid());
     // loc("zirgen/circuit/recursion/poseidon2.cpp":70:0)
@@ -30323,21 +30323,21 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
     host_args.at(4) = x8812;
     host(ctx, "log", "POSEIDON2_LOAD: keepState(%u), keepUpperState(%u) prepFull(%u), group(%u), doMont(%u)", host_args.data(), 5, host_outs.data(), 0);
   }
-  // loc("top(recursion::Top)/code(recursion::Code)/select(OneHot)/poseidon2_full(Reg)"("./zirgen/components/mux.h":49:0))
+  // loc("top(recursion::Top)/code(recursion::Code)/select(OneHot)/poseidon2_full(Bit)/bit(Reg)"("./zirgen/components/mux.h":49:0))
   auto x9216 = args[0][4 * steps + ((cycle - 0) & mask)];
   assert(x9216 != Fp::invalid());
   if (x9216 != 0) {
-    // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/poseidon2_full(recursion::Poseidon2FullInst)/cycle(OneHot)/c1(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+    // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/poseidon2_full(recursion::Poseidon2FullInst)/cycle(OneHot)/c1(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
     auto x9217 = args[0][9 * steps + ((cycle - 0) & mask)];
     assert(x9217 != Fp::invalid());
-    // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/poseidon2_full(recursion::Poseidon2FullInst)/cycle(OneHot)/c2(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+    // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/poseidon2_full(recursion::Poseidon2FullInst)/cycle(OneHot)/c2(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
     auto x9218 = args[0][10 * steps + ((cycle - 0) & mask)];
     assert(x9218 != Fp::invalid());
     // loc("./zirgen/components/onehot.h":46:0)
     auto x9219 = x9218 * x309;
     // loc("./zirgen/components/onehot.h":46:0)
     auto x9220 = x9217 + x9219;
-    // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/poseidon2_full(recursion::Poseidon2FullInst)/cycle(OneHot)/c3(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+    // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/poseidon2_full(recursion::Poseidon2FullInst)/cycle(OneHot)/c3(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
     auto x9221 = args[0][11 * steps + ((cycle - 0) & mask)];
     assert(x9221 != Fp::invalid());
     // loc("./zirgen/components/onehot.h":46:0)
@@ -31058,7 +31058,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
     auto x9482 = x9455 + x9458;
     // loc("zirgen/circuit/recursion/poseidon2.cpp":40:0)
     auto x9483 = x9451 + x9459;
-    // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/poseidon2_full(recursion::Poseidon2FullInst)/cycle(OneHot)/c0(Reg)"("zirgen/circuit/recursion/poseidon2.cpp":188:0))
+    // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/poseidon2_full(recursion::Poseidon2FullInst)/cycle(OneHot)/c0(Bit)/bit(Reg)"("zirgen/circuit/recursion/poseidon2.cpp":188:0))
     auto x9484 = args[0][8 * steps + ((cycle - 0) & mask)];
     assert(x9484 != Fp::invalid());
     // loc("zirgen/circuit/recursion/poseidon2.cpp":188:0)
@@ -32638,7 +32638,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
       reg = x10032;
     }
   }
-  // loc("top(recursion::Top)/code(recursion::Code)/select(OneHot)/poseidon2_partial(Reg)"("./zirgen/components/mux.h":49:0))
+  // loc("top(recursion::Top)/code(recursion::Code)/select(OneHot)/poseidon2_partial(Bit)/bit(Reg)"("./zirgen/components/mux.h":49:0))
   auto x10033 = args[0][5 * steps + ((cycle - 0) & mask)];
   assert(x10033 != Fp::invalid());
   if (x10033 != 0) {
@@ -36484,7 +36484,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
       reg = x11719;
     }
   }
-  // loc("top(recursion::Top)/code(recursion::Code)/select(OneHot)/poseidon2_store(Reg)"("./zirgen/components/mux.h":49:0))
+  // loc("top(recursion::Top)/code(recursion::Code)/select(OneHot)/poseidon2_store(Bit)/bit(Reg)"("./zirgen/components/mux.h":49:0))
   auto x11720 = args[0][6 * steps + ((cycle - 0) & mask)];
   assert(x11720 != Fp::invalid());
   if (x11720 != 0) {
@@ -36494,7 +36494,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
     // loc("top(recursion::Top)/mux(Mux)/poseidon2_store(recursion::Poseidon2Store)/Reg"("zirgen/circuit/recursion/poseidon2.cpp":354:0))
     auto x11722 = args[2][90 * steps + ((cycle - 1) & mask)];
     assert(x11722 != Fp::invalid());
-    // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/poseidon2_store(recursion::Poseidon2MemInst)/group(OneHot)/g0(Reg)"("zirgen/circuit/recursion/poseidon2.cpp":354:0))
+    // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/poseidon2_store(recursion::Poseidon2MemInst)/group(OneHot)/g0(Bit)/bit(Reg)"("zirgen/circuit/recursion/poseidon2.cpp":354:0))
     auto x11723 = args[0][12 * steps + ((cycle - 0) & mask)];
     assert(x11723 != Fp::invalid());
     // loc("zirgen/circuit/recursion/poseidon2.cpp":354:0)
@@ -36537,7 +36537,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
     // loc("top(recursion::Top)/mux(Mux)/poseidon2_store(recursion::Poseidon2Store)/Reg"("zirgen/circuit/recursion/poseidon2.cpp":354:0))
     auto x11739 = args[2][98 * steps + ((cycle - 1) & mask)];
     assert(x11739 != Fp::invalid());
-    // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/poseidon2_store(recursion::Poseidon2MemInst)/group(OneHot)/g1(Reg)"("zirgen/circuit/recursion/poseidon2.cpp":354:0))
+    // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/poseidon2_store(recursion::Poseidon2MemInst)/group(OneHot)/g1(Bit)/bit(Reg)"("zirgen/circuit/recursion/poseidon2.cpp":354:0))
     auto x11740 = args[0][13 * steps + ((cycle - 0) & mask)];
     assert(x11740 != Fp::invalid());
     // loc("zirgen/circuit/recursion/poseidon2.cpp":354:0)
@@ -36596,7 +36596,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
     // loc("top(recursion::Top)/mux(Mux)/poseidon2_store(recursion::Poseidon2Store)/Reg"("zirgen/circuit/recursion/poseidon2.cpp":354:0))
     auto x11764 = args[2][106 * steps + ((cycle - 1) & mask)];
     assert(x11764 != Fp::invalid());
-    // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/poseidon2_store(recursion::Poseidon2MemInst)/group(OneHot)/g2(Reg)"("zirgen/circuit/recursion/poseidon2.cpp":354:0))
+    // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/poseidon2_store(recursion::Poseidon2MemInst)/group(OneHot)/g2(Bit)/bit(Reg)"("zirgen/circuit/recursion/poseidon2.cpp":354:0))
     auto x11765 = args[0][14 * steps + ((cycle - 0) & mask)];
     assert(x11765 != Fp::invalid());
     // loc("zirgen/circuit/recursion/poseidon2.cpp":354:0)
@@ -37267,7 +37267,7 @@ Fp step_exec(void* ctx, HostBridge host, size_t steps, size_t cycle, Fp** args) 
     host_args.at(1) = x11789;
     host(ctx, "log", "POSEIDON2_OUTPUT: group(%u), doMont(%u)", host_args.data(), 2, host_outs.data(), 0);
   }
-  // loc("top(recursion::Top)/code(recursion::Code)/select(OneHot)/checked_bytes(Reg)"("./zirgen/components/mux.h":49:0))
+  // loc("top(recursion::Top)/code(recursion::Code)/select(OneHot)/checked_bytes(Bit)/bit(Reg)"("./zirgen/components/mux.h":49:0))
   auto x11850 = args[0][7 * steps + ((cycle - 0) & mask)];
   assert(x11850 != Fp::invalid());
   if (x11850 != 0) {

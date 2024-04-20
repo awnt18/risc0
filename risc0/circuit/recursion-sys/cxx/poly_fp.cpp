@@ -596,63 +596,63 @@ FpExt poly_fp(size_t cycle, size_t steps, FpExt* poly_mix, Fp** args) {
   Fp x283(192);
   // loc("zirgen/circuit/recursion/recursion.cpp":38:0)
   FpExt x284 = FpExt(0);
-  // loc("top(recursion::Top)/code(recursion::Code)/select(OneHot)/micro_ops(Reg)"("./zirgen/components/mux.h":49:0))
+  // loc("top(recursion::Top)/code(recursion::Code)/select(OneHot)/micro_ops(Bit)/bit(Reg)"("./zirgen/components/mux.h":49:0))
   auto x285 = args[0][1 * steps + ((cycle - kInvRate * 0) & mask)];
   // loc("top(recursion::Top)/code(recursion::Code)/write_addr(Reg)"("zirgen/circuit/recursion/top.cpp":23:0))
   auto x286 = args[0][0 * steps + ((cycle - kInvRate * 0) & mask)];
   // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/micro_ops(recursion::MicroInsts)/inst[0](recursion::MicroInst)/opcode(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
   auto x287 = args[0][8 * steps + ((cycle - kInvRate * 0) & mask)];
-  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/add(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/add(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
   auto x288 = args[2][91 * steps + ((cycle - kInvRate * 0) & mask)];
-  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/sub(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/sub(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
   auto x289 = args[2][92 * steps + ((cycle - kInvRate * 0) & mask)];
   // loc("./zirgen/components/onehot.h":46:0)
   auto x290 = x289 * x2;
   // loc("./zirgen/components/onehot.h":46:0)
   auto x291 = x288 + x290;
-  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/mul(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/mul(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
   auto x292 = args[2][93 * steps + ((cycle - kInvRate * 0) & mask)];
   // loc("./zirgen/components/onehot.h":46:0)
   auto x293 = x292 * x3;
   // loc("./zirgen/components/onehot.h":46:0)
   auto x294 = x291 + x293;
-  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/inv(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/inv(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
   auto x295 = args[2][94 * steps + ((cycle - kInvRate * 0) & mask)];
   // loc("./zirgen/components/onehot.h":46:0)
   auto x296 = x295 * x4;
   // loc("./zirgen/components/onehot.h":46:0)
   auto x297 = x294 + x296;
-  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/eq(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/eq(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
   auto x298 = args[2][95 * steps + ((cycle - kInvRate * 0) & mask)];
   // loc("./zirgen/components/onehot.h":46:0)
   auto x299 = x298 * x5;
   // loc("./zirgen/components/onehot.h":46:0)
   auto x300 = x297 + x299;
-  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/read_iop_header(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/read_iop_header(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
   auto x301 = args[2][96 * steps + ((cycle - kInvRate * 0) & mask)];
   // loc("./zirgen/components/onehot.h":46:0)
   auto x302 = x301 * x6;
   // loc("./zirgen/components/onehot.h":46:0)
   auto x303 = x300 + x302;
-  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/read_iop_body(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/read_iop_body(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
   auto x304 = args[2][97 * steps + ((cycle - kInvRate * 0) & mask)];
   // loc("./zirgen/components/onehot.h":46:0)
   auto x305 = x304 * x7;
   // loc("./zirgen/components/onehot.h":46:0)
   auto x306 = x303 + x305;
-  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/mix_rng(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/mix_rng(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
   auto x307 = args[2][98 * steps + ((cycle - kInvRate * 0) & mask)];
   // loc("./zirgen/components/onehot.h":46:0)
   auto x308 = x307 * x8;
   // loc("./zirgen/components/onehot.h":46:0)
   auto x309 = x306 + x308;
-  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/select(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/select(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
   auto x310 = args[2][99 * steps + ((cycle - kInvRate * 0) & mask)];
   // loc("./zirgen/components/onehot.h":46:0)
   auto x311 = x310 * x9;
   // loc("./zirgen/components/onehot.h":46:0)
   auto x312 = x309 + x311;
-  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/extract(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/extract(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
   auto x313 = args[2][100 * steps + ((cycle - kInvRate * 0) & mask)];
   // loc("./zirgen/components/onehot.h":46:0)
   auto x314 = x313 * x10;
@@ -668,7 +668,7 @@ FpExt poly_fp(size_t cycle, size_t steps, FpExt* poly_mix, Fp** args) {
   auto x319 = args[0][10 * steps + ((cycle - kInvRate * 0) & mask)];
   // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/micro_ops(recursion::MicroInsts)/inst[0](recursion::MicroInst)/operand[2](Reg)"("zirgen/circuit/recursion/micro.cpp":16:0))
   auto x320 = args[0][11 * steps + ((cycle - kInvRate * 0) & mask)];
-  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/constop(Reg)"("zirgen/circuit/recursion/micro.cpp":19:0))
+  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[0](recursion::MicroOp)/decode(OneHot)/constop(Bit)/bit(Reg)"("zirgen/circuit/recursion/micro.cpp":19:0))
   auto x321 = args[2][90 * steps + ((cycle - kInvRate * 0) & mask)];
   // loc("zirgen/circuit/recursion/wom.cpp":12:0)
   auto x322 = args[2][5 * steps + ((cycle - kInvRate * 0) & mask)];
@@ -1146,57 +1146,57 @@ FpExt poly_fp(size_t cycle, size_t steps, FpExt* poly_mix, Fp** args) {
   auto x558 = x286 + x1;
   // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/micro_ops(recursion::MicroInsts)/inst[1](recursion::MicroInst)/opcode(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
   auto x559 = args[0][12 * steps + ((cycle - kInvRate * 0) & mask)];
-  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/add(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/add(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
   auto x560 = args[2][103 * steps + ((cycle - kInvRate * 0) & mask)];
-  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/sub(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/sub(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
   auto x561 = args[2][104 * steps + ((cycle - kInvRate * 0) & mask)];
   // loc("./zirgen/components/onehot.h":46:0)
   auto x562 = x561 * x2;
   // loc("./zirgen/components/onehot.h":46:0)
   auto x563 = x560 + x562;
-  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/mul(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/mul(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
   auto x564 = args[2][105 * steps + ((cycle - kInvRate * 0) & mask)];
   // loc("./zirgen/components/onehot.h":46:0)
   auto x565 = x564 * x3;
   // loc("./zirgen/components/onehot.h":46:0)
   auto x566 = x563 + x565;
-  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/inv(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/inv(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
   auto x567 = args[2][106 * steps + ((cycle - kInvRate * 0) & mask)];
   // loc("./zirgen/components/onehot.h":46:0)
   auto x568 = x567 * x4;
   // loc("./zirgen/components/onehot.h":46:0)
   auto x569 = x566 + x568;
-  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/eq(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/eq(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
   auto x570 = args[2][107 * steps + ((cycle - kInvRate * 0) & mask)];
   // loc("./zirgen/components/onehot.h":46:0)
   auto x571 = x570 * x5;
   // loc("./zirgen/components/onehot.h":46:0)
   auto x572 = x569 + x571;
-  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/read_iop_header(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/read_iop_header(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
   auto x573 = args[2][108 * steps + ((cycle - kInvRate * 0) & mask)];
   // loc("./zirgen/components/onehot.h":46:0)
   auto x574 = x573 * x6;
   // loc("./zirgen/components/onehot.h":46:0)
   auto x575 = x572 + x574;
-  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/read_iop_body(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/read_iop_body(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
   auto x576 = args[2][109 * steps + ((cycle - kInvRate * 0) & mask)];
   // loc("./zirgen/components/onehot.h":46:0)
   auto x577 = x576 * x7;
   // loc("./zirgen/components/onehot.h":46:0)
   auto x578 = x575 + x577;
-  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/mix_rng(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/mix_rng(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
   auto x579 = args[2][110 * steps + ((cycle - kInvRate * 0) & mask)];
   // loc("./zirgen/components/onehot.h":46:0)
   auto x580 = x579 * x8;
   // loc("./zirgen/components/onehot.h":46:0)
   auto x581 = x578 + x580;
-  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/select(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/select(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
   auto x582 = args[2][111 * steps + ((cycle - kInvRate * 0) & mask)];
   // loc("./zirgen/components/onehot.h":46:0)
   auto x583 = x582 * x9;
   // loc("./zirgen/components/onehot.h":46:0)
   auto x584 = x581 + x583;
-  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/extract(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/extract(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
   auto x585 = args[2][112 * steps + ((cycle - kInvRate * 0) & mask)];
   // loc("./zirgen/components/onehot.h":46:0)
   auto x586 = x585 * x10;
@@ -1212,7 +1212,7 @@ FpExt poly_fp(size_t cycle, size_t steps, FpExt* poly_mix, Fp** args) {
   auto x591 = args[0][14 * steps + ((cycle - kInvRate * 0) & mask)];
   // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/micro_ops(recursion::MicroInsts)/inst[1](recursion::MicroInst)/operand[2](Reg)"("zirgen/circuit/recursion/micro.cpp":16:0))
   auto x592 = args[0][15 * steps + ((cycle - kInvRate * 0) & mask)];
-  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/constop(Reg)"("zirgen/circuit/recursion/micro.cpp":19:0))
+  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[1](recursion::MicroOp)/decode(OneHot)/constop(Bit)/bit(Reg)"("zirgen/circuit/recursion/micro.cpp":19:0))
   auto x593 = args[2][102 * steps + ((cycle - kInvRate * 0) & mask)];
   // loc("zirgen/circuit/recursion/wom.cpp":12:0)
   auto x594 = args[2][20 * steps + ((cycle - kInvRate * 0) & mask)];
@@ -1690,57 +1690,57 @@ FpExt poly_fp(size_t cycle, size_t steps, FpExt* poly_mix, Fp** args) {
   auto x830 = x286 + x2;
   // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/micro_ops(recursion::MicroInsts)/inst[2](recursion::MicroInst)/opcode(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
   auto x831 = args[0][16 * steps + ((cycle - kInvRate * 0) & mask)];
-  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/add(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/add(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
   auto x832 = args[2][115 * steps + ((cycle - kInvRate * 0) & mask)];
-  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/sub(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/sub(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
   auto x833 = args[2][116 * steps + ((cycle - kInvRate * 0) & mask)];
   // loc("./zirgen/components/onehot.h":46:0)
   auto x834 = x833 * x2;
   // loc("./zirgen/components/onehot.h":46:0)
   auto x835 = x832 + x834;
-  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/mul(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/mul(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
   auto x836 = args[2][117 * steps + ((cycle - kInvRate * 0) & mask)];
   // loc("./zirgen/components/onehot.h":46:0)
   auto x837 = x836 * x3;
   // loc("./zirgen/components/onehot.h":46:0)
   auto x838 = x835 + x837;
-  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/inv(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/inv(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
   auto x839 = args[2][118 * steps + ((cycle - kInvRate * 0) & mask)];
   // loc("./zirgen/components/onehot.h":46:0)
   auto x840 = x839 * x4;
   // loc("./zirgen/components/onehot.h":46:0)
   auto x841 = x838 + x840;
-  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/eq(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/eq(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
   auto x842 = args[2][119 * steps + ((cycle - kInvRate * 0) & mask)];
   // loc("./zirgen/components/onehot.h":46:0)
   auto x843 = x842 * x5;
   // loc("./zirgen/components/onehot.h":46:0)
   auto x844 = x841 + x843;
-  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/read_iop_header(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/read_iop_header(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
   auto x845 = args[2][120 * steps + ((cycle - kInvRate * 0) & mask)];
   // loc("./zirgen/components/onehot.h":46:0)
   auto x846 = x845 * x6;
   // loc("./zirgen/components/onehot.h":46:0)
   auto x847 = x844 + x846;
-  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/read_iop_body(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/read_iop_body(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
   auto x848 = args[2][121 * steps + ((cycle - kInvRate * 0) & mask)];
   // loc("./zirgen/components/onehot.h":46:0)
   auto x849 = x848 * x7;
   // loc("./zirgen/components/onehot.h":46:0)
   auto x850 = x847 + x849;
-  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/mix_rng(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/mix_rng(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
   auto x851 = args[2][122 * steps + ((cycle - kInvRate * 0) & mask)];
   // loc("./zirgen/components/onehot.h":46:0)
   auto x852 = x851 * x8;
   // loc("./zirgen/components/onehot.h":46:0)
   auto x853 = x850 + x852;
-  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/select(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/select(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
   auto x854 = args[2][123 * steps + ((cycle - kInvRate * 0) & mask)];
   // loc("./zirgen/components/onehot.h":46:0)
   auto x855 = x854 * x9;
   // loc("./zirgen/components/onehot.h":46:0)
   auto x856 = x853 + x855;
-  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/extract(Reg)"("./zirgen/compiler/edsl/edsl.h":117:0))
+  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/extract(Bit)/bit(Reg)"("./zirgen/compiler/edsl/component.h":154:0))
   auto x857 = args[2][124 * steps + ((cycle - kInvRate * 0) & mask)];
   // loc("./zirgen/components/onehot.h":46:0)
   auto x858 = x857 * x10;
@@ -1756,7 +1756,7 @@ FpExt poly_fp(size_t cycle, size_t steps, FpExt* poly_mix, Fp** args) {
   auto x863 = args[0][18 * steps + ((cycle - kInvRate * 0) & mask)];
   // loc("top(recursion::Top)/code(recursion::Code)/inst(Mux)/micro_ops(recursion::MicroInsts)/inst[2](recursion::MicroInst)/operand[2](Reg)"("zirgen/circuit/recursion/micro.cpp":16:0))
   auto x864 = args[0][19 * steps + ((cycle - kInvRate * 0) & mask)];
-  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/constop(Reg)"("zirgen/circuit/recursion/micro.cpp":19:0))
+  // loc("top(recursion::Top)/mux(Mux)/micro_ops(recursion::MicroOps)/op[2](recursion::MicroOp)/decode(OneHot)/constop(Bit)/bit(Reg)"("zirgen/circuit/recursion/micro.cpp":19:0))
   auto x865 = args[2][114 * steps + ((cycle - kInvRate * 0) & mask)];
   // loc("zirgen/circuit/recursion/wom.cpp":12:0)
   auto x866 = args[2][35 * steps + ((cycle - kInvRate * 0) & mask)];
@@ -2232,7 +2232,7 @@ FpExt poly_fp(size_t cycle, size_t steps, FpExt* poly_mix, Fp** args) {
   FpExt x1101 = x1082 + x857 * x1100 * poly_mix[131];
   // loc("./zirgen/components/mux.h":49:0)
   FpExt x1102 = x284 + x285 * x1101 * poly_mix[0];
-  // loc("top(recursion::Top)/code(recursion::Code)/select(OneHot)/macro_ops(Reg)"("./zirgen/components/mux.h":49:0))
+  // loc("top(recursion::Top)/code(recursion::Code)/select(OneHot)/macro_ops(Bit)/bit(Reg)"("./zirgen/components/mux.h":49:0))
   auto x1103 = args[0][2 * steps + ((cycle - kInvRate * 0) & mask)];
   // loc("./zirgen/components/mux.h":49:0)
   FpExt x1104 = x284 + x318 * x284 * poly_mix[0];
@@ -9650,7 +9650,7 @@ FpExt poly_fp(size_t cycle, size_t steps, FpExt* poly_mix, Fp** args) {
   FpExt x4810 = x4683 + x862 * x4809 * poly_mix[89];
   // loc("./zirgen/components/mux.h":49:0)
   FpExt x4811 = x1102 + x1103 * x4810 * poly_mix[132];
-  // loc("top(recursion::Top)/code(recursion::Code)/select(OneHot)/poseidon2_load(Reg)"("./zirgen/components/mux.h":49:0))
+  // loc("top(recursion::Top)/code(recursion::Code)/select(OneHot)/poseidon2_load(Bit)/bit(Reg)"("./zirgen/components/mux.h":49:0))
   auto x4812 = args[0][3 * steps + ((cycle - kInvRate * 0) & mask)];
   // loc("zirgen/circuit/recursion/poseidon2.cpp":55:0)
   auto x4813 = x1 - x287;
@@ -10478,7 +10478,7 @@ FpExt poly_fp(size_t cycle, size_t steps, FpExt* poly_mix, Fp** args) {
   FpExt x5224 = x5217 + x5223 * poly_mix[31];
   // loc("./zirgen/components/mux.h":49:0)
   FpExt x5225 = x4811 + x4812 * x5224 * poly_mix[134];
-  // loc("top(recursion::Top)/code(recursion::Code)/select(OneHot)/poseidon2_full(Reg)"("./zirgen/components/mux.h":49:0))
+  // loc("top(recursion::Top)/code(recursion::Code)/select(OneHot)/poseidon2_full(Bit)/bit(Reg)"("./zirgen/components/mux.h":49:0))
   auto x5226 = args[0][4 * steps + ((cycle - kInvRate * 0) & mask)];
   // loc("top(recursion::Top)/mux(Mux)/poseidon2_full(recursion::Poseidon2Full)/Reg"("zirgen/circuit/recursion/poseidon2.cpp":201:0))
   auto x5227 = args[2][92 * steps + ((cycle - kInvRate * 1) & mask)];
@@ -12334,7 +12334,7 @@ FpExt poly_fp(size_t cycle, size_t steps, FpExt* poly_mix, Fp** args) {
   FpExt x6152 = x6149 + x6151 * poly_mix[95];
   // loc("./zirgen/components/mux.h":49:0)
   FpExt x6153 = x5225 + x5226 * x6152 * poly_mix[136];
-  // loc("top(recursion::Top)/code(recursion::Code)/select(OneHot)/poseidon2_partial(Reg)"("./zirgen/components/mux.h":49:0))
+  // loc("top(recursion::Top)/code(recursion::Code)/select(OneHot)/poseidon2_partial(Bit)/bit(Reg)"("./zirgen/components/mux.h":49:0))
   auto x6154 = args[0][5 * steps + ((cycle - kInvRate * 0) & mask)];
   // loc("zirgen/circuit/recursion/poseidon2.cpp":291:0)
   auto x6155 = x322 - x2514;
@@ -15846,7 +15846,7 @@ FpExt poly_fp(size_t cycle, size_t steps, FpExt* poly_mix, Fp** args) {
   FpExt x7908 = x7905 + x7907 * poly_mix[66];
   // loc("./zirgen/components/mux.h":49:0)
   FpExt x7909 = x6153 + x6154 * x7908 * poly_mix[137];
-  // loc("top(recursion::Top)/code(recursion::Code)/select(OneHot)/poseidon2_store(Reg)"("./zirgen/components/mux.h":49:0))
+  // loc("top(recursion::Top)/code(recursion::Code)/select(OneHot)/poseidon2_store(Bit)/bit(Reg)"("./zirgen/components/mux.h":49:0))
   auto x7910 = args[0][6 * steps + ((cycle - kInvRate * 0) & mask)];
   // loc("zirgen/circuit/recursion/poseidon2.cpp":354:0)
   auto x7911 = x559 * x2514;
@@ -16168,7 +16168,7 @@ FpExt poly_fp(size_t cycle, size_t steps, FpExt* poly_mix, Fp** args) {
   FpExt x8069 = x8067 + x8068 * poly_mix[63];
   // loc("./zirgen/components/mux.h":49:0)
   FpExt x8070 = x7909 + x7910 * x8069 * poly_mix[138];
-  // loc("top(recursion::Top)/code(recursion::Code)/select(OneHot)/checked_bytes(Reg)"("./zirgen/components/mux.h":49:0))
+  // loc("top(recursion::Top)/code(recursion::Code)/select(OneHot)/checked_bytes(Bit)/bit(Reg)"("./zirgen/components/mux.h":49:0))
   auto x8071 = args[0][7 * steps + ((cycle - kInvRate * 0) & mask)];
   // loc("zirgen/circuit/recursion/wom.cpp":82:0)
   auto x8072 = x322 - x287;
@@ -23780,1021 +23780,1187 @@ FpExt poly_fp(size_t cycle, size_t steps, FpExt* poly_mix, Fp** args) {
   FpExt x11875 = x11873 + x11874 * poly_mix[3];
   // loc("zirgen/compiler/edsl/component.cpp":39:0)
   FpExt x11876 = x11774 + x8071 * x11875 * poly_mix[153];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11877 = x1 - x285;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11878 = x285 * x11877;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x11879 = x11876 + x11878 * poly_mix[154];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11880 = x1 - x1103;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11881 = x1103 * x11880;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x11882 = x11879 + x11881 * poly_mix[155];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11883 = x1 - x4812;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11884 = x4812 * x11883;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x11885 = x11882 + x11884 * poly_mix[156];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11886 = x1 - x5226;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11887 = x5226 * x11886;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x11888 = x11885 + x11887 * poly_mix[157];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11889 = x1 - x6154;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11890 = x6154 * x11889;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x11891 = x11888 + x11890 * poly_mix[158];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11892 = x1 - x7910;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11893 = x7910 * x11892;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x11894 = x11891 + x11893 * poly_mix[159];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11895 = x1 - x8071;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11896 = x8071 * x11895;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x11897 = x11894 + x11896 * poly_mix[160];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11898 = x287 * x4813;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x11899 = x284 + x11898 * poly_mix[0];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11900 = x1 - x318;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11901 = x318 * x11900;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x11902 = x11899 + x11901 * poly_mix[1];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11903 = x319 * x474;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x11904 = x11902 + x11903 * poly_mix[2];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11905 = x320 * x539;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x11906 = x11904 + x11905 * poly_mix[3];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11907 = x1 - x559;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11908 = x559 * x11907;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x11909 = x11906 + x11908 * poly_mix[4];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11910 = x1 - x590;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11911 = x590 * x11910;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x11912 = x11909 + x11911 * poly_mix[5];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11913 = x591 * x746;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x11914 = x11912 + x11913 * poly_mix[6];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11915 = x592 * x811;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x11916 = x11914 + x11915 * poly_mix[7];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11917 = x1 - x831;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11918 = x831 * x11917;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x11919 = x11916 + x11918 * poly_mix[8];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11920 = x1 - x862;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11921 = x862 * x11920;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x11922 = x11919 + x11921 * poly_mix[9];
+  // loc("zirgen/compiler/edsl/component.cpp":39:0)
+  FpExt x11923 = x11897 + x1103 * x11922 * poly_mix[161];
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x11924 = x284 + x11908 * poly_mix[0];
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x11925 = x11924 + x11911 * poly_mix[1];
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x11926 = x11925 + x11913 * poly_mix[2];
   // loc("./zirgen/components/onehot.h":28:0)
-  auto x11877 = x1 - x559;
+  FpExt x11927 = x11926 + x11908 * poly_mix[3];
   // loc("./zirgen/components/onehot.h":28:0)
-  auto x11878 = x559 * x11877;
-  // loc("./zirgen/components/onehot.h":28:0)
-  FpExt x11879 = x284 + x11878 * poly_mix[0];
-  // loc("./zirgen/components/onehot.h":28:0)
-  auto x11880 = x1 - x590;
-  // loc("./zirgen/components/onehot.h":28:0)
-  auto x11881 = x590 * x11880;
-  // loc("./zirgen/components/onehot.h":28:0)
-  FpExt x11882 = x11879 + x11881 * poly_mix[1];
+  FpExt x11928 = x11927 + x11911 * poly_mix[4];
   // loc("./zirgen/components/onehot.h":29:0)
-  auto x11883 = x559 + x590;
+  auto x11929 = x559 + x590;
   // loc("./zirgen/components/onehot.h":28:0)
-  auto x11884 = x591 * x746;
-  // loc("./zirgen/components/onehot.h":28:0)
-  FpExt x11885 = x11882 + x11884 * poly_mix[2];
+  FpExt x11930 = x11928 + x11913 * poly_mix[5];
   // loc("./zirgen/components/onehot.h":29:0)
-  auto x11886 = x11883 + x591;
+  auto x11931 = x11929 + x591;
   // loc("./zirgen/components/onehot.h":31:0)
-  auto x11887 = x11886 - x1;
+  auto x11932 = x11931 - x1;
   // loc("./zirgen/components/onehot.h":31:0)
-  FpExt x11888 = x11885 + x11887 * poly_mix[3];
+  FpExt x11933 = x11930 + x11932 * poly_mix[6];
   // loc("zirgen/compiler/edsl/component.cpp":39:0)
-  FpExt x11889 = x11876 + x4812 * x11888 * poly_mix[154];
+  FpExt x11934 = x11923 + x4812 * x11933 * poly_mix[162];
   // loc("zirgen/compiler/edsl/component.cpp":39:0)
-  FpExt x11890 = x11889 + x7910 * x11888 * poly_mix[155];
+  FpExt x11935 = x11934 + x5226 * x11906 * poly_mix[163];
+  // loc("zirgen/compiler/edsl/component.cpp":39:0)
+  FpExt x11936 = x11935 + x7910 * x11933 * poly_mix[164];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11937 = x1 - x321;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11938 = x321 * x11937;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x11939 = x284 + x11938 * poly_mix[0];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11940 = x1 - x288;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11941 = x288 * x11940;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x11942 = x11939 + x11941 * poly_mix[1];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11943 = x1 - x289;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11944 = x289 * x11943;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x11945 = x11942 + x11944 * poly_mix[2];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11946 = x1 - x292;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11947 = x292 * x11946;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x11948 = x11945 + x11947 * poly_mix[3];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11949 = x1 - x295;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11950 = x295 * x11949;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x11951 = x11948 + x11950 * poly_mix[4];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11952 = x1 - x298;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11953 = x298 * x11952;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x11954 = x11951 + x11953 * poly_mix[5];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11955 = x1 - x301;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11956 = x301 * x11955;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x11957 = x11954 + x11956 * poly_mix[6];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11958 = x1 - x304;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11959 = x304 * x11958;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x11960 = x11957 + x11959 * poly_mix[7];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11961 = x1 - x307;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11962 = x307 * x11961;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x11963 = x11960 + x11962 * poly_mix[8];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11964 = x1 - x310;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11965 = x310 * x11964;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x11966 = x11963 + x11965 * poly_mix[9];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11967 = x1 - x313;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11968 = x313 * x11967;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x11969 = x11966 + x11968 * poly_mix[10];
   // loc("./zirgen/components/onehot.h":28:0)
-  auto x11891 = x1 - x321;
+  FpExt x11970 = x11969 + x11938 * poly_mix[11];
   // loc("./zirgen/components/onehot.h":28:0)
-  auto x11892 = x321 * x11891;
-  // loc("./zirgen/components/onehot.h":28:0)
-  FpExt x11893 = x284 + x11892 * poly_mix[0];
-  // loc("./zirgen/components/onehot.h":28:0)
-  auto x11894 = x1 - x288;
-  // loc("./zirgen/components/onehot.h":28:0)
-  auto x11895 = x288 * x11894;
-  // loc("./zirgen/components/onehot.h":28:0)
-  FpExt x11896 = x11893 + x11895 * poly_mix[1];
+  FpExt x11971 = x11970 + x11941 * poly_mix[12];
   // loc("./zirgen/components/onehot.h":29:0)
-  auto x11897 = x321 + x288;
+  auto x11972 = x321 + x288;
   // loc("./zirgen/components/onehot.h":28:0)
-  auto x11898 = x1 - x289;
-  // loc("./zirgen/components/onehot.h":28:0)
-  auto x11899 = x289 * x11898;
-  // loc("./zirgen/components/onehot.h":28:0)
-  FpExt x11900 = x11896 + x11899 * poly_mix[2];
+  FpExt x11973 = x11971 + x11944 * poly_mix[13];
   // loc("./zirgen/components/onehot.h":29:0)
-  auto x11901 = x11897 + x289;
+  auto x11974 = x11972 + x289;
   // loc("./zirgen/components/onehot.h":28:0)
-  auto x11902 = x1 - x292;
-  // loc("./zirgen/components/onehot.h":28:0)
-  auto x11903 = x292 * x11902;
-  // loc("./zirgen/components/onehot.h":28:0)
-  FpExt x11904 = x11900 + x11903 * poly_mix[3];
+  FpExt x11975 = x11973 + x11947 * poly_mix[14];
   // loc("./zirgen/components/onehot.h":29:0)
-  auto x11905 = x11901 + x292;
+  auto x11976 = x11974 + x292;
   // loc("./zirgen/components/onehot.h":28:0)
-  auto x11906 = x1 - x295;
-  // loc("./zirgen/components/onehot.h":28:0)
-  auto x11907 = x295 * x11906;
-  // loc("./zirgen/components/onehot.h":28:0)
-  FpExt x11908 = x11904 + x11907 * poly_mix[4];
+  FpExt x11977 = x11975 + x11950 * poly_mix[15];
   // loc("./zirgen/components/onehot.h":29:0)
-  auto x11909 = x11905 + x295;
+  auto x11978 = x11976 + x295;
   // loc("./zirgen/components/onehot.h":28:0)
-  auto x11910 = x1 - x298;
-  // loc("./zirgen/components/onehot.h":28:0)
-  auto x11911 = x298 * x11910;
-  // loc("./zirgen/components/onehot.h":28:0)
-  FpExt x11912 = x11908 + x11911 * poly_mix[5];
+  FpExt x11979 = x11977 + x11953 * poly_mix[16];
   // loc("./zirgen/components/onehot.h":29:0)
-  auto x11913 = x11909 + x298;
+  auto x11980 = x11978 + x298;
   // loc("./zirgen/components/onehot.h":28:0)
-  auto x11914 = x1 - x301;
-  // loc("./zirgen/components/onehot.h":28:0)
-  auto x11915 = x301 * x11914;
-  // loc("./zirgen/components/onehot.h":28:0)
-  FpExt x11916 = x11912 + x11915 * poly_mix[6];
+  FpExt x11981 = x11979 + x11956 * poly_mix[17];
   // loc("./zirgen/components/onehot.h":29:0)
-  auto x11917 = x11913 + x301;
+  auto x11982 = x11980 + x301;
   // loc("./zirgen/components/onehot.h":28:0)
-  auto x11918 = x1 - x304;
-  // loc("./zirgen/components/onehot.h":28:0)
-  auto x11919 = x304 * x11918;
-  // loc("./zirgen/components/onehot.h":28:0)
-  FpExt x11920 = x11916 + x11919 * poly_mix[7];
+  FpExt x11983 = x11981 + x11959 * poly_mix[18];
   // loc("./zirgen/components/onehot.h":29:0)
-  auto x11921 = x11917 + x304;
+  auto x11984 = x11982 + x304;
   // loc("./zirgen/components/onehot.h":28:0)
-  auto x11922 = x1 - x307;
-  // loc("./zirgen/components/onehot.h":28:0)
-  auto x11923 = x307 * x11922;
-  // loc("./zirgen/components/onehot.h":28:0)
-  FpExt x11924 = x11920 + x11923 * poly_mix[8];
+  FpExt x11985 = x11983 + x11962 * poly_mix[19];
   // loc("./zirgen/components/onehot.h":29:0)
-  auto x11925 = x11921 + x307;
+  auto x11986 = x11984 + x307;
   // loc("./zirgen/components/onehot.h":28:0)
-  auto x11926 = x1 - x310;
-  // loc("./zirgen/components/onehot.h":28:0)
-  auto x11927 = x310 * x11926;
-  // loc("./zirgen/components/onehot.h":28:0)
-  FpExt x11928 = x11924 + x11927 * poly_mix[9];
+  FpExt x11987 = x11985 + x11965 * poly_mix[20];
   // loc("./zirgen/components/onehot.h":29:0)
-  auto x11929 = x11925 + x310;
+  auto x11988 = x11986 + x310;
   // loc("./zirgen/components/onehot.h":28:0)
-  auto x11930 = x1 - x313;
-  // loc("./zirgen/components/onehot.h":28:0)
-  auto x11931 = x313 * x11930;
-  // loc("./zirgen/components/onehot.h":28:0)
-  FpExt x11932 = x11928 + x11931 * poly_mix[10];
+  FpExt x11989 = x11987 + x11968 * poly_mix[21];
   // loc("./zirgen/components/onehot.h":29:0)
-  auto x11933 = x11929 + x313;
+  auto x11990 = x11988 + x313;
   // loc("./zirgen/components/onehot.h":31:0)
-  auto x11934 = x11933 - x1;
+  auto x11991 = x11990 - x1;
   // loc("./zirgen/components/onehot.h":31:0)
-  FpExt x11935 = x11932 + x11934 * poly_mix[11];
+  FpExt x11992 = x11989 + x11991 * poly_mix[22];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11993 = x1 - x593;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11994 = x593 * x11993;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x11995 = x11992 + x11994 * poly_mix[23];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11996 = x1 - x560;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11997 = x560 * x11996;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x11998 = x11995 + x11997 * poly_mix[24];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x11999 = x1 - x561;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x12000 = x561 * x11999;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x12001 = x11998 + x12000 * poly_mix[25];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x12002 = x1 - x564;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x12003 = x564 * x12002;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x12004 = x12001 + x12003 * poly_mix[26];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x12005 = x1 - x567;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x12006 = x567 * x12005;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x12007 = x12004 + x12006 * poly_mix[27];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x12008 = x1 - x570;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x12009 = x570 * x12008;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x12010 = x12007 + x12009 * poly_mix[28];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x12011 = x1 - x573;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x12012 = x573 * x12011;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x12013 = x12010 + x12012 * poly_mix[29];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x12014 = x1 - x576;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x12015 = x576 * x12014;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x12016 = x12013 + x12015 * poly_mix[30];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x12017 = x1 - x579;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x12018 = x579 * x12017;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x12019 = x12016 + x12018 * poly_mix[31];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x12020 = x1 - x582;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x12021 = x582 * x12020;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x12022 = x12019 + x12021 * poly_mix[32];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x12023 = x1 - x585;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x12024 = x585 * x12023;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x12025 = x12022 + x12024 * poly_mix[33];
   // loc("./zirgen/components/onehot.h":28:0)
-  auto x11936 = x1 - x593;
+  FpExt x12026 = x12025 + x11994 * poly_mix[34];
   // loc("./zirgen/components/onehot.h":28:0)
-  auto x11937 = x593 * x11936;
-  // loc("./zirgen/components/onehot.h":28:0)
-  FpExt x11938 = x11935 + x11937 * poly_mix[12];
-  // loc("./zirgen/components/onehot.h":28:0)
-  auto x11939 = x1 - x560;
-  // loc("./zirgen/components/onehot.h":28:0)
-  auto x11940 = x560 * x11939;
-  // loc("./zirgen/components/onehot.h":28:0)
-  FpExt x11941 = x11938 + x11940 * poly_mix[13];
+  FpExt x12027 = x12026 + x11997 * poly_mix[35];
   // loc("./zirgen/components/onehot.h":29:0)
-  auto x11942 = x593 + x560;
+  auto x12028 = x593 + x560;
   // loc("./zirgen/components/onehot.h":28:0)
-  auto x11943 = x1 - x561;
-  // loc("./zirgen/components/onehot.h":28:0)
-  auto x11944 = x561 * x11943;
-  // loc("./zirgen/components/onehot.h":28:0)
-  FpExt x11945 = x11941 + x11944 * poly_mix[14];
+  FpExt x12029 = x12027 + x12000 * poly_mix[36];
   // loc("./zirgen/components/onehot.h":29:0)
-  auto x11946 = x11942 + x561;
+  auto x12030 = x12028 + x561;
   // loc("./zirgen/components/onehot.h":28:0)
-  auto x11947 = x1 - x564;
-  // loc("./zirgen/components/onehot.h":28:0)
-  auto x11948 = x564 * x11947;
-  // loc("./zirgen/components/onehot.h":28:0)
-  FpExt x11949 = x11945 + x11948 * poly_mix[15];
+  FpExt x12031 = x12029 + x12003 * poly_mix[37];
   // loc("./zirgen/components/onehot.h":29:0)
-  auto x11950 = x11946 + x564;
+  auto x12032 = x12030 + x564;
   // loc("./zirgen/components/onehot.h":28:0)
-  auto x11951 = x1 - x567;
-  // loc("./zirgen/components/onehot.h":28:0)
-  auto x11952 = x567 * x11951;
-  // loc("./zirgen/components/onehot.h":28:0)
-  FpExt x11953 = x11949 + x11952 * poly_mix[16];
+  FpExt x12033 = x12031 + x12006 * poly_mix[38];
   // loc("./zirgen/components/onehot.h":29:0)
-  auto x11954 = x11950 + x567;
+  auto x12034 = x12032 + x567;
   // loc("./zirgen/components/onehot.h":28:0)
-  auto x11955 = x1 - x570;
-  // loc("./zirgen/components/onehot.h":28:0)
-  auto x11956 = x570 * x11955;
-  // loc("./zirgen/components/onehot.h":28:0)
-  FpExt x11957 = x11953 + x11956 * poly_mix[17];
+  FpExt x12035 = x12033 + x12009 * poly_mix[39];
   // loc("./zirgen/components/onehot.h":29:0)
-  auto x11958 = x11954 + x570;
+  auto x12036 = x12034 + x570;
   // loc("./zirgen/components/onehot.h":28:0)
-  auto x11959 = x1 - x573;
-  // loc("./zirgen/components/onehot.h":28:0)
-  auto x11960 = x573 * x11959;
-  // loc("./zirgen/components/onehot.h":28:0)
-  FpExt x11961 = x11957 + x11960 * poly_mix[18];
+  FpExt x12037 = x12035 + x12012 * poly_mix[40];
   // loc("./zirgen/components/onehot.h":29:0)
-  auto x11962 = x11958 + x573;
+  auto x12038 = x12036 + x573;
   // loc("./zirgen/components/onehot.h":28:0)
-  auto x11963 = x1 - x576;
-  // loc("./zirgen/components/onehot.h":28:0)
-  auto x11964 = x576 * x11963;
-  // loc("./zirgen/components/onehot.h":28:0)
-  FpExt x11965 = x11961 + x11964 * poly_mix[19];
+  FpExt x12039 = x12037 + x12015 * poly_mix[41];
   // loc("./zirgen/components/onehot.h":29:0)
-  auto x11966 = x11962 + x576;
+  auto x12040 = x12038 + x576;
   // loc("./zirgen/components/onehot.h":28:0)
-  auto x11967 = x1 - x579;
-  // loc("./zirgen/components/onehot.h":28:0)
-  auto x11968 = x579 * x11967;
-  // loc("./zirgen/components/onehot.h":28:0)
-  FpExt x11969 = x11965 + x11968 * poly_mix[20];
+  FpExt x12041 = x12039 + x12018 * poly_mix[42];
   // loc("./zirgen/components/onehot.h":29:0)
-  auto x11970 = x11966 + x579;
+  auto x12042 = x12040 + x579;
   // loc("./zirgen/components/onehot.h":28:0)
-  auto x11971 = x1 - x582;
-  // loc("./zirgen/components/onehot.h":28:0)
-  auto x11972 = x582 * x11971;
-  // loc("./zirgen/components/onehot.h":28:0)
-  FpExt x11973 = x11969 + x11972 * poly_mix[21];
+  FpExt x12043 = x12041 + x12021 * poly_mix[43];
   // loc("./zirgen/components/onehot.h":29:0)
-  auto x11974 = x11970 + x582;
+  auto x12044 = x12042 + x582;
   // loc("./zirgen/components/onehot.h":28:0)
-  auto x11975 = x1 - x585;
-  // loc("./zirgen/components/onehot.h":28:0)
-  auto x11976 = x585 * x11975;
-  // loc("./zirgen/components/onehot.h":28:0)
-  FpExt x11977 = x11973 + x11976 * poly_mix[22];
+  FpExt x12045 = x12043 + x12024 * poly_mix[44];
   // loc("./zirgen/components/onehot.h":29:0)
-  auto x11978 = x11974 + x585;
+  auto x12046 = x12044 + x585;
   // loc("./zirgen/components/onehot.h":31:0)
-  auto x11979 = x11978 - x1;
+  auto x12047 = x12046 - x1;
   // loc("./zirgen/components/onehot.h":31:0)
-  FpExt x11980 = x11977 + x11979 * poly_mix[23];
+  FpExt x12048 = x12045 + x12047 * poly_mix[45];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x12049 = x1 - x865;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x12050 = x865 * x12049;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x12051 = x12048 + x12050 * poly_mix[46];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x12052 = x1 - x832;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x12053 = x832 * x12052;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x12054 = x12051 + x12053 * poly_mix[47];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x12055 = x1 - x833;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x12056 = x833 * x12055;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x12057 = x12054 + x12056 * poly_mix[48];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x12058 = x1 - x836;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x12059 = x836 * x12058;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x12060 = x12057 + x12059 * poly_mix[49];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x12061 = x1 - x839;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x12062 = x839 * x12061;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x12063 = x12060 + x12062 * poly_mix[50];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x12064 = x1 - x842;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x12065 = x842 * x12064;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x12066 = x12063 + x12065 * poly_mix[51];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x12067 = x1 - x845;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x12068 = x845 * x12067;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x12069 = x12066 + x12068 * poly_mix[52];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x12070 = x1 - x848;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x12071 = x848 * x12070;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x12072 = x12069 + x12071 * poly_mix[53];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x12073 = x1 - x851;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x12074 = x851 * x12073;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x12075 = x12072 + x12074 * poly_mix[54];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x12076 = x1 - x854;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x12077 = x854 * x12076;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x12078 = x12075 + x12077 * poly_mix[55];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x12079 = x1 - x857;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x12080 = x857 * x12079;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x12081 = x12078 + x12080 * poly_mix[56];
   // loc("./zirgen/components/onehot.h":28:0)
-  auto x11981 = x1 - x865;
+  FpExt x12082 = x12081 + x12050 * poly_mix[57];
   // loc("./zirgen/components/onehot.h":28:0)
-  auto x11982 = x865 * x11981;
-  // loc("./zirgen/components/onehot.h":28:0)
-  FpExt x11983 = x11980 + x11982 * poly_mix[24];
-  // loc("./zirgen/components/onehot.h":28:0)
-  auto x11984 = x1 - x832;
-  // loc("./zirgen/components/onehot.h":28:0)
-  auto x11985 = x832 * x11984;
-  // loc("./zirgen/components/onehot.h":28:0)
-  FpExt x11986 = x11983 + x11985 * poly_mix[25];
+  FpExt x12083 = x12082 + x12053 * poly_mix[58];
   // loc("./zirgen/components/onehot.h":29:0)
-  auto x11987 = x865 + x832;
+  auto x12084 = x865 + x832;
   // loc("./zirgen/components/onehot.h":28:0)
-  auto x11988 = x1 - x833;
-  // loc("./zirgen/components/onehot.h":28:0)
-  auto x11989 = x833 * x11988;
-  // loc("./zirgen/components/onehot.h":28:0)
-  FpExt x11990 = x11986 + x11989 * poly_mix[26];
+  FpExt x12085 = x12083 + x12056 * poly_mix[59];
   // loc("./zirgen/components/onehot.h":29:0)
-  auto x11991 = x11987 + x833;
+  auto x12086 = x12084 + x833;
   // loc("./zirgen/components/onehot.h":28:0)
-  auto x11992 = x1 - x836;
-  // loc("./zirgen/components/onehot.h":28:0)
-  auto x11993 = x836 * x11992;
-  // loc("./zirgen/components/onehot.h":28:0)
-  FpExt x11994 = x11990 + x11993 * poly_mix[27];
+  FpExt x12087 = x12085 + x12059 * poly_mix[60];
   // loc("./zirgen/components/onehot.h":29:0)
-  auto x11995 = x11991 + x836;
+  auto x12088 = x12086 + x836;
   // loc("./zirgen/components/onehot.h":28:0)
-  auto x11996 = x1 - x839;
-  // loc("./zirgen/components/onehot.h":28:0)
-  auto x11997 = x839 * x11996;
-  // loc("./zirgen/components/onehot.h":28:0)
-  FpExt x11998 = x11994 + x11997 * poly_mix[28];
+  FpExt x12089 = x12087 + x12062 * poly_mix[61];
   // loc("./zirgen/components/onehot.h":29:0)
-  auto x11999 = x11995 + x839;
+  auto x12090 = x12088 + x839;
   // loc("./zirgen/components/onehot.h":28:0)
-  auto x12000 = x1 - x842;
-  // loc("./zirgen/components/onehot.h":28:0)
-  auto x12001 = x842 * x12000;
-  // loc("./zirgen/components/onehot.h":28:0)
-  FpExt x12002 = x11998 + x12001 * poly_mix[29];
+  FpExt x12091 = x12089 + x12065 * poly_mix[62];
   // loc("./zirgen/components/onehot.h":29:0)
-  auto x12003 = x11999 + x842;
+  auto x12092 = x12090 + x842;
   // loc("./zirgen/components/onehot.h":28:0)
-  auto x12004 = x1 - x845;
-  // loc("./zirgen/components/onehot.h":28:0)
-  auto x12005 = x845 * x12004;
-  // loc("./zirgen/components/onehot.h":28:0)
-  FpExt x12006 = x12002 + x12005 * poly_mix[30];
+  FpExt x12093 = x12091 + x12068 * poly_mix[63];
   // loc("./zirgen/components/onehot.h":29:0)
-  auto x12007 = x12003 + x845;
+  auto x12094 = x12092 + x845;
   // loc("./zirgen/components/onehot.h":28:0)
-  auto x12008 = x1 - x848;
-  // loc("./zirgen/components/onehot.h":28:0)
-  auto x12009 = x848 * x12008;
-  // loc("./zirgen/components/onehot.h":28:0)
-  FpExt x12010 = x12006 + x12009 * poly_mix[31];
+  FpExt x12095 = x12093 + x12071 * poly_mix[64];
   // loc("./zirgen/components/onehot.h":29:0)
-  auto x12011 = x12007 + x848;
+  auto x12096 = x12094 + x848;
   // loc("./zirgen/components/onehot.h":28:0)
-  auto x12012 = x1 - x851;
-  // loc("./zirgen/components/onehot.h":28:0)
-  auto x12013 = x851 * x12012;
-  // loc("./zirgen/components/onehot.h":28:0)
-  FpExt x12014 = x12010 + x12013 * poly_mix[32];
+  FpExt x12097 = x12095 + x12074 * poly_mix[65];
   // loc("./zirgen/components/onehot.h":29:0)
-  auto x12015 = x12011 + x851;
+  auto x12098 = x12096 + x851;
   // loc("./zirgen/components/onehot.h":28:0)
-  auto x12016 = x1 - x854;
-  // loc("./zirgen/components/onehot.h":28:0)
-  auto x12017 = x854 * x12016;
-  // loc("./zirgen/components/onehot.h":28:0)
-  FpExt x12018 = x12014 + x12017 * poly_mix[33];
+  FpExt x12099 = x12097 + x12077 * poly_mix[66];
   // loc("./zirgen/components/onehot.h":29:0)
-  auto x12019 = x12015 + x854;
+  auto x12100 = x12098 + x854;
   // loc("./zirgen/components/onehot.h":28:0)
-  auto x12020 = x1 - x857;
-  // loc("./zirgen/components/onehot.h":28:0)
-  auto x12021 = x857 * x12020;
-  // loc("./zirgen/components/onehot.h":28:0)
-  FpExt x12022 = x12018 + x12021 * poly_mix[34];
+  FpExt x12101 = x12099 + x12080 * poly_mix[67];
   // loc("./zirgen/components/onehot.h":29:0)
-  auto x12023 = x12019 + x857;
+  auto x12102 = x12100 + x857;
   // loc("./zirgen/components/onehot.h":31:0)
-  auto x12024 = x12023 - x1;
+  auto x12103 = x12102 - x1;
   // loc("./zirgen/components/onehot.h":31:0)
-  FpExt x12025 = x12022 + x12024 * poly_mix[35];
+  FpExt x12104 = x12101 + x12103 * poly_mix[68];
   // loc("zirgen/compiler/edsl/component.cpp":39:0)
-  FpExt x12026 = x11890 + x285 * x12025 * poly_mix[156];
+  FpExt x12105 = x11936 + x285 * x12104 * poly_mix[165];
   // loc("./zirgen/components/bits.h":55:0)
-  auto x12027 = x3 - x322;
+  auto x12106 = x3 - x322;
   // loc("./zirgen/components/bits.h":55:0)
-  auto x12028 = x2 - x322;
+  auto x12107 = x2 - x322;
   // loc("./zirgen/components/bits.h":55:0)
-  auto x12029 = x1 - x322;
+  auto x12108 = x1 - x322;
   // loc("./zirgen/components/bits.h":55:0)
-  auto x12030 = x322 * x12029;
+  auto x12109 = x322 * x12108;
   // loc("./zirgen/components/bits.h":55:0)
-  auto x12031 = x12030 * x12028;
+  auto x12110 = x12109 * x12107;
   // loc("./zirgen/components/bits.h":55:0)
-  auto x12032 = x12031 * x12027;
+  auto x12111 = x12110 * x12106;
   // loc("./zirgen/components/bits.h":55:0)
-  FpExt x12033 = x284 + x12032 * poly_mix[0];
+  FpExt x12112 = x284 + x12111 * poly_mix[0];
   // loc("./zirgen/components/bits.h":55:0)
-  auto x12034 = x3 - x324;
+  auto x12113 = x3 - x324;
   // loc("./zirgen/components/bits.h":55:0)
-  auto x12035 = x2 - x324;
+  auto x12114 = x2 - x324;
   // loc("./zirgen/components/bits.h":55:0)
-  auto x12036 = x1 - x324;
+  auto x12115 = x1 - x324;
   // loc("./zirgen/components/bits.h":55:0)
-  auto x12037 = x324 * x12036;
+  auto x12116 = x324 * x12115;
   // loc("./zirgen/components/bits.h":55:0)
-  auto x12038 = x12037 * x12035;
+  auto x12117 = x12116 * x12114;
   // loc("./zirgen/components/bits.h":55:0)
-  auto x12039 = x12038 * x12034;
+  auto x12118 = x12117 * x12113;
   // loc("./zirgen/components/bits.h":55:0)
-  FpExt x12040 = x12033 + x12039 * poly_mix[1];
+  FpExt x12119 = x12112 + x12118 * poly_mix[1];
   // loc("./zirgen/components/bits.h":55:0)
-  auto x12041 = x3 - x326;
+  auto x12120 = x3 - x326;
   // loc("./zirgen/components/bits.h":55:0)
-  auto x12042 = x2 - x326;
+  auto x12121 = x2 - x326;
   // loc("./zirgen/components/bits.h":55:0)
-  auto x12043 = x1 - x326;
+  auto x12122 = x1 - x326;
   // loc("./zirgen/components/bits.h":55:0)
-  auto x12044 = x326 * x12043;
+  auto x12123 = x326 * x12122;
   // loc("./zirgen/components/bits.h":55:0)
-  auto x12045 = x12044 * x12042;
+  auto x12124 = x12123 * x12121;
   // loc("./zirgen/components/bits.h":55:0)
-  auto x12046 = x12045 * x12041;
+  auto x12125 = x12124 * x12120;
   // loc("./zirgen/components/bits.h":55:0)
-  FpExt x12047 = x12040 + x12046 * poly_mix[2];
+  FpExt x12126 = x12119 + x12125 * poly_mix[2];
   // loc("./zirgen/components/bits.h":55:0)
-  auto x12048 = x3 - x328;
+  auto x12127 = x3 - x328;
   // loc("./zirgen/components/bits.h":55:0)
-  auto x12049 = x2 - x328;
+  auto x12128 = x2 - x328;
   // loc("./zirgen/components/bits.h":55:0)
-  auto x12050 = x1 - x328;
+  auto x12129 = x1 - x328;
   // loc("./zirgen/components/bits.h":55:0)
-  auto x12051 = x328 * x12050;
+  auto x12130 = x328 * x12129;
   // loc("./zirgen/components/bits.h":55:0)
-  auto x12052 = x12051 * x12049;
+  auto x12131 = x12130 * x12128;
   // loc("./zirgen/components/bits.h":55:0)
-  auto x12053 = x12052 * x12048;
+  auto x12132 = x12131 * x12127;
   // loc("./zirgen/components/bits.h":55:0)
-  FpExt x12054 = x12047 + x12053 * poly_mix[3];
+  FpExt x12133 = x12126 + x12132 * poly_mix[3];
   // loc("./zirgen/components/bits.h":55:0)
-  auto x12055 = x3 - x330;
+  auto x12134 = x3 - x330;
   // loc("./zirgen/components/bits.h":55:0)
-  auto x12056 = x2 - x330;
+  auto x12135 = x2 - x330;
   // loc("./zirgen/components/bits.h":55:0)
-  auto x12057 = x1 - x330;
+  auto x12136 = x1 - x330;
   // loc("./zirgen/components/bits.h":55:0)
-  auto x12058 = x330 * x12057;
+  auto x12137 = x330 * x12136;
   // loc("./zirgen/components/bits.h":55:0)
-  auto x12059 = x12058 * x12056;
+  auto x12138 = x12137 * x12135;
   // loc("./zirgen/components/bits.h":55:0)
-  auto x12060 = x12059 * x12055;
+  auto x12139 = x12138 * x12134;
   // loc("./zirgen/components/bits.h":55:0)
-  FpExt x12061 = x12054 + x12060 * poly_mix[4];
+  FpExt x12140 = x12133 + x12139 * poly_mix[4];
   // loc("./zirgen/components/bits.h":55:0)
-  auto x12062 = x3 - x332;
+  auto x12141 = x3 - x332;
   // loc("./zirgen/components/bits.h":55:0)
-  auto x12063 = x2 - x332;
+  auto x12142 = x2 - x332;
   // loc("./zirgen/components/bits.h":55:0)
-  auto x12064 = x1 - x332;
+  auto x12143 = x1 - x332;
   // loc("./zirgen/components/bits.h":55:0)
-  auto x12065 = x332 * x12064;
+  auto x12144 = x332 * x12143;
   // loc("./zirgen/components/bits.h":55:0)
-  auto x12066 = x12065 * x12063;
+  auto x12145 = x12144 * x12142;
   // loc("./zirgen/components/bits.h":55:0)
-  auto x12067 = x12066 * x12062;
+  auto x12146 = x12145 * x12141;
   // loc("./zirgen/components/bits.h":55:0)
-  FpExt x12068 = x12061 + x12067 * poly_mix[5];
+  FpExt x12147 = x12140 + x12146 * poly_mix[5];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12069 = x1 - x868;
+  auto x12148 = x1 - x868;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12070 = x868 * x12069;
+  auto x12149 = x868 * x12148;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12071 = x284 + x12070 * poly_mix[0];
+  FpExt x12150 = x284 + x12149 * poly_mix[0];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12072 = x1 - x870;
+  auto x12151 = x1 - x870;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12073 = x870 * x12072;
+  auto x12152 = x870 * x12151;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12074 = x12071 + x12073 * poly_mix[1];
+  FpExt x12153 = x12150 + x12152 * poly_mix[1];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12075 = x1 - x872;
+  auto x12154 = x1 - x872;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12076 = x872 * x12075;
+  auto x12155 = x872 * x12154;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12077 = x12074 + x12076 * poly_mix[2];
+  FpExt x12156 = x12153 + x12155 * poly_mix[2];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12078 = x1 - x874;
+  auto x12157 = x1 - x874;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12079 = x874 * x12078;
+  auto x12158 = x874 * x12157;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12080 = x12077 + x12079 * poly_mix[3];
+  FpExt x12159 = x12156 + x12158 * poly_mix[3];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12081 = x1 - x876;
+  auto x12160 = x1 - x876;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12082 = x876 * x12081;
+  auto x12161 = x876 * x12160;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12083 = x12080 + x12082 * poly_mix[4];
+  FpExt x12162 = x12159 + x12161 * poly_mix[4];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12084 = x1 - x878;
+  auto x12163 = x1 - x878;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12085 = x878 * x12084;
+  auto x12164 = x878 * x12163;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12086 = x12083 + x12085 * poly_mix[5];
+  FpExt x12165 = x12162 + x12164 * poly_mix[5];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12087 = x1 - x880;
+  auto x12166 = x1 - x880;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12088 = x880 * x12087;
+  auto x12167 = x880 * x12166;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12089 = x12086 + x12088 * poly_mix[6];
+  FpExt x12168 = x12165 + x12167 * poly_mix[6];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12090 = x1 - x882;
+  auto x12169 = x1 - x882;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12091 = x882 * x12090;
+  auto x12170 = x882 * x12169;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12092 = x12089 + x12091 * poly_mix[7];
+  FpExt x12171 = x12168 + x12170 * poly_mix[7];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12093 = x1 - x884;
+  auto x12172 = x1 - x884;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12094 = x884 * x12093;
+  auto x12173 = x884 * x12172;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12095 = x12092 + x12094 * poly_mix[8];
+  FpExt x12174 = x12171 + x12173 * poly_mix[8];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12096 = x1 - x886;
+  auto x12175 = x1 - x886;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12097 = x886 * x12096;
+  auto x12176 = x886 * x12175;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12098 = x12095 + x12097 * poly_mix[9];
+  FpExt x12177 = x12174 + x12176 * poly_mix[9];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12099 = x12098 + x1022 * poly_mix[10];
+  FpExt x12178 = x12177 + x1022 * poly_mix[10];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12100 = x1 - x892;
+  auto x12179 = x1 - x892;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12101 = x892 * x12100;
+  auto x12180 = x892 * x12179;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12102 = x12099 + x12101 * poly_mix[11];
+  FpExt x12181 = x12178 + x12180 * poly_mix[11];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12103 = x1 - x895;
+  auto x12182 = x1 - x895;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12104 = x895 * x12103;
+  auto x12183 = x895 * x12182;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12105 = x12102 + x12104 * poly_mix[12];
+  FpExt x12184 = x12181 + x12183 * poly_mix[12];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12106 = x1 - x898;
+  auto x12185 = x1 - x898;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12107 = x898 * x12106;
+  auto x12186 = x898 * x12185;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12108 = x12105 + x12107 * poly_mix[13];
+  FpExt x12187 = x12184 + x12186 * poly_mix[13];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12109 = x1 - x1159;
+  auto x12188 = x1 - x1159;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12110 = x1159 * x12109;
+  auto x12189 = x1159 * x12188;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12111 = x12108 + x12110 * poly_mix[14];
+  FpExt x12190 = x12187 + x12189 * poly_mix[14];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12112 = x1 - x1162;
+  auto x12191 = x1 - x1162;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12113 = x1162 * x12112;
+  auto x12192 = x1162 * x12191;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12114 = x12111 + x12113 * poly_mix[15];
+  FpExt x12193 = x12190 + x12192 * poly_mix[15];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12115 = x1 - x1168;
+  auto x12194 = x1 - x1168;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12116 = x1168 * x12115;
+  auto x12195 = x1168 * x12194;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12117 = x12114 + x12116 * poly_mix[16];
+  FpExt x12196 = x12193 + x12195 * poly_mix[16];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12118 = x1 - x1171;
+  auto x12197 = x1 - x1171;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12119 = x1171 * x12118;
+  auto x12198 = x1171 * x12197;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12120 = x12117 + x12119 * poly_mix[17];
+  FpExt x12199 = x12196 + x12198 * poly_mix[17];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12121 = x1 - x1177;
+  auto x12200 = x1 - x1177;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12122 = x1177 * x12121;
+  auto x12201 = x1177 * x12200;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12123 = x12120 + x12122 * poly_mix[18];
+  FpExt x12202 = x12199 + x12201 * poly_mix[18];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12124 = x1 - x1180;
+  auto x12203 = x1 - x1180;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12125 = x1180 * x12124;
+  auto x12204 = x1180 * x12203;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12126 = x12123 + x12125 * poly_mix[19];
+  FpExt x12205 = x12202 + x12204 * poly_mix[19];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12127 = x1 - x1186;
+  auto x12206 = x1 - x1186;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12128 = x1186 * x12127;
+  auto x12207 = x1186 * x12206;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12129 = x12126 + x12128 * poly_mix[20];
+  FpExt x12208 = x12205 + x12207 * poly_mix[20];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12130 = x1 - x1189;
+  auto x12209 = x1 - x1189;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12131 = x1189 * x12130;
+  auto x12210 = x1189 * x12209;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12132 = x12129 + x12131 * poly_mix[21];
+  FpExt x12211 = x12208 + x12210 * poly_mix[21];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12133 = x1 - x1195;
+  auto x12212 = x1 - x1195;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12134 = x1195 * x12133;
+  auto x12213 = x1195 * x12212;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12135 = x12132 + x12134 * poly_mix[22];
+  FpExt x12214 = x12211 + x12213 * poly_mix[22];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12136 = x1 - x1198;
+  auto x12215 = x1 - x1198;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12137 = x1198 * x12136;
+  auto x12216 = x1198 * x12215;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12138 = x12135 + x12137 * poly_mix[23];
+  FpExt x12217 = x12214 + x12216 * poly_mix[23];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12139 = x1 - x1204;
+  auto x12218 = x1 - x1204;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12140 = x1204 * x12139;
+  auto x12219 = x1204 * x12218;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12141 = x12138 + x12140 * poly_mix[24];
+  FpExt x12220 = x12217 + x12219 * poly_mix[24];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12142 = x1 - x1207;
+  auto x12221 = x1 - x1207;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12143 = x1207 * x12142;
+  auto x12222 = x1207 * x12221;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12144 = x12141 + x12143 * poly_mix[25];
+  FpExt x12223 = x12220 + x12222 * poly_mix[25];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12145 = x1 - x1213;
+  auto x12224 = x1 - x1213;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12146 = x1213 * x12145;
+  auto x12225 = x1213 * x12224;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12147 = x12144 + x12146 * poly_mix[26];
+  FpExt x12226 = x12223 + x12225 * poly_mix[26];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12148 = x1 - x1216;
+  auto x12227 = x1 - x1216;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12149 = x1216 * x12148;
+  auto x12228 = x1216 * x12227;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12150 = x12147 + x12149 * poly_mix[27];
+  FpExt x12229 = x12226 + x12228 * poly_mix[27];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12151 = x1 - x1222;
+  auto x12230 = x1 - x1222;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12152 = x1222 * x12151;
+  auto x12231 = x1222 * x12230;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12153 = x12150 + x12152 * poly_mix[28];
+  FpExt x12232 = x12229 + x12231 * poly_mix[28];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12154 = x1 - x1225;
+  auto x12233 = x1 - x1225;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12155 = x1225 * x12154;
+  auto x12234 = x1225 * x12233;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12156 = x12153 + x12155 * poly_mix[29];
+  FpExt x12235 = x12232 + x12234 * poly_mix[29];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12157 = x1 - x1231;
+  auto x12236 = x1 - x1231;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12158 = x1231 * x12157;
+  auto x12237 = x1231 * x12236;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12159 = x12156 + x12158 * poly_mix[30];
+  FpExt x12238 = x12235 + x12237 * poly_mix[30];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12160 = x1 - x1234;
+  auto x12239 = x1 - x1234;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12161 = x1234 * x12160;
+  auto x12240 = x1234 * x12239;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12162 = x12159 + x12161 * poly_mix[31];
+  FpExt x12241 = x12238 + x12240 * poly_mix[31];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12163 = x1 - x1240;
+  auto x12242 = x1 - x1240;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12164 = x1240 * x12163;
+  auto x12243 = x1240 * x12242;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12165 = x12162 + x12164 * poly_mix[32];
+  FpExt x12244 = x12241 + x12243 * poly_mix[32];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12166 = x1 - x1243;
+  auto x12245 = x1 - x1243;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12167 = x1243 * x12166;
+  auto x12246 = x1243 * x12245;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12168 = x12165 + x12167 * poly_mix[33];
+  FpExt x12247 = x12244 + x12246 * poly_mix[33];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12169 = x1 - x1249;
+  auto x12248 = x1 - x1249;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12170 = x1249 * x12169;
+  auto x12249 = x1249 * x12248;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12171 = x12168 + x12170 * poly_mix[34];
+  FpExt x12250 = x12247 + x12249 * poly_mix[34];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12172 = x1 - x1252;
+  auto x12251 = x1 - x1252;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12173 = x1252 * x12172;
+  auto x12252 = x1252 * x12251;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12174 = x12171 + x12173 * poly_mix[35];
+  FpExt x12253 = x12250 + x12252 * poly_mix[35];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12175 = x1 - x1258;
+  auto x12254 = x1 - x1258;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12176 = x1258 * x12175;
+  auto x12255 = x1258 * x12254;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12177 = x12174 + x12176 * poly_mix[36];
+  FpExt x12256 = x12253 + x12255 * poly_mix[36];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12178 = x1 - x1261;
+  auto x12257 = x1 - x1261;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12179 = x1261 * x12178;
+  auto x12258 = x1261 * x12257;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12180 = x12177 + x12179 * poly_mix[37];
+  FpExt x12259 = x12256 + x12258 * poly_mix[37];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12181 = x1 - x1267;
+  auto x12260 = x1 - x1267;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12182 = x1267 * x12181;
+  auto x12261 = x1267 * x12260;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12183 = x12180 + x12182 * poly_mix[38];
+  FpExt x12262 = x12259 + x12261 * poly_mix[38];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12184 = x1 - x1270;
+  auto x12263 = x1 - x1270;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12185 = x1270 * x12184;
+  auto x12264 = x1270 * x12263;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12186 = x12183 + x12185 * poly_mix[39];
+  FpExt x12265 = x12262 + x12264 * poly_mix[39];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12187 = x1 - x1276;
+  auto x12266 = x1 - x1276;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12188 = x1276 * x12187;
+  auto x12267 = x1276 * x12266;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12189 = x12186 + x12188 * poly_mix[40];
+  FpExt x12268 = x12265 + x12267 * poly_mix[40];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12190 = x1 - x1279;
+  auto x12269 = x1 - x1279;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12191 = x1279 * x12190;
+  auto x12270 = x1279 * x12269;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12192 = x12189 + x12191 * poly_mix[41];
+  FpExt x12271 = x12268 + x12270 * poly_mix[41];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12193 = x1 - x1285;
+  auto x12272 = x1 - x1285;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12194 = x1285 * x12193;
+  auto x12273 = x1285 * x12272;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12195 = x12192 + x12194 * poly_mix[42];
+  FpExt x12274 = x12271 + x12273 * poly_mix[42];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12196 = x1 - x1288;
+  auto x12275 = x1 - x1288;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12197 = x1288 * x12196;
+  auto x12276 = x1288 * x12275;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12198 = x12195 + x12197 * poly_mix[43];
+  FpExt x12277 = x12274 + x12276 * poly_mix[43];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12199 = x1 - x1294;
+  auto x12278 = x1 - x1294;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12200 = x1294 * x12199;
+  auto x12279 = x1294 * x12278;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12201 = x12198 + x12200 * poly_mix[44];
+  FpExt x12280 = x12277 + x12279 * poly_mix[44];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12202 = x1 - x1297;
+  auto x12281 = x1 - x1297;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12203 = x1297 * x12202;
+  auto x12282 = x1297 * x12281;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12204 = x12201 + x12203 * poly_mix[45];
+  FpExt x12283 = x12280 + x12282 * poly_mix[45];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12205 = x1 - x1303;
+  auto x12284 = x1 - x1303;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12206 = x1303 * x12205;
+  auto x12285 = x1303 * x12284;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12207 = x12204 + x12206 * poly_mix[46];
+  FpExt x12286 = x12283 + x12285 * poly_mix[46];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12208 = x1 - x1306;
+  auto x12287 = x1 - x1306;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12209 = x1306 * x12208;
+  auto x12288 = x1306 * x12287;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12210 = x12207 + x12209 * poly_mix[47];
+  FpExt x12289 = x12286 + x12288 * poly_mix[47];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12211 = x1 - x1312;
+  auto x12290 = x1 - x1312;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12212 = x1312 * x12211;
+  auto x12291 = x1312 * x12290;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12213 = x12210 + x12212 * poly_mix[48];
+  FpExt x12292 = x12289 + x12291 * poly_mix[48];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12214 = x1 - x1315;
+  auto x12293 = x1 - x1315;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12215 = x1315 * x12214;
+  auto x12294 = x1315 * x12293;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12216 = x12213 + x12215 * poly_mix[49];
+  FpExt x12295 = x12292 + x12294 * poly_mix[49];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12217 = x1 - x1321;
+  auto x12296 = x1 - x1321;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12218 = x1321 * x12217;
+  auto x12297 = x1321 * x12296;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12219 = x12216 + x12218 * poly_mix[50];
+  FpExt x12298 = x12295 + x12297 * poly_mix[50];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12220 = x1 - x1324;
+  auto x12299 = x1 - x1324;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12221 = x1324 * x12220;
+  auto x12300 = x1324 * x12299;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12222 = x12219 + x12221 * poly_mix[51];
+  FpExt x12301 = x12298 + x12300 * poly_mix[51];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12223 = x1 - x1330;
+  auto x12302 = x1 - x1330;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12224 = x1330 * x12223;
+  auto x12303 = x1330 * x12302;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12225 = x12222 + x12224 * poly_mix[52];
+  FpExt x12304 = x12301 + x12303 * poly_mix[52];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12226 = x1 - x1333;
+  auto x12305 = x1 - x1333;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12227 = x1333 * x12226;
+  auto x12306 = x1333 * x12305;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12228 = x12225 + x12227 * poly_mix[53];
+  FpExt x12307 = x12304 + x12306 * poly_mix[53];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12229 = x12228 + x11892 * poly_mix[54];
+  FpExt x12308 = x12307 + x11938 * poly_mix[54];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12230 = x12229 + x11895 * poly_mix[55];
+  FpExt x12309 = x12308 + x11941 * poly_mix[55];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12231 = x12230 + x11899 * poly_mix[56];
+  FpExt x12310 = x12309 + x11944 * poly_mix[56];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12232 = x12231 + x11903 * poly_mix[57];
+  FpExt x12311 = x12310 + x11947 * poly_mix[57];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12233 = x12232 + x11907 * poly_mix[58];
+  FpExt x12312 = x12311 + x11950 * poly_mix[58];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12234 = x12233 + x11911 * poly_mix[59];
+  FpExt x12313 = x12312 + x11953 * poly_mix[59];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12235 = x12234 + x11915 * poly_mix[60];
+  FpExt x12314 = x12313 + x11956 * poly_mix[60];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12236 = x12235 + x11919 * poly_mix[61];
+  FpExt x12315 = x12314 + x11959 * poly_mix[61];
   // loc("zirgen/compiler/edsl/component.cpp":39:0)
-  FpExt x12237 = x12068 + x320 * x12236 * poly_mix[6];
+  FpExt x12316 = x12147 + x320 * x12315 * poly_mix[6];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12238 = x12236 + x11923 * poly_mix[62];
+  FpExt x12317 = x12315 + x11962 * poly_mix[62];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12239 = x12238 + x11927 * poly_mix[63];
+  FpExt x12318 = x12317 + x11965 * poly_mix[63];
   // loc("zirgen/compiler/edsl/component.cpp":39:0)
-  FpExt x12240 = x12237 + x559 * x12239 * poly_mix[68];
+  FpExt x12319 = x12316 + x559 * x12318 * poly_mix[68];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12241 = x1 - x606;
+  auto x12320 = x1 - x606;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12242 = x606 * x12241;
+  auto x12321 = x606 * x12320;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12243 = x284 + x12242 * poly_mix[0];
+  FpExt x12322 = x284 + x12321 * poly_mix[0];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12244 = x1 - x608;
+  auto x12323 = x1 - x608;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12245 = x608 * x12244;
+  auto x12324 = x608 * x12323;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12246 = x12243 + x12245 * poly_mix[1];
+  FpExt x12325 = x12322 + x12324 * poly_mix[1];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12247 = x1 - x610;
+  auto x12326 = x1 - x610;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12248 = x610 * x12247;
+  auto x12327 = x610 * x12326;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12249 = x12246 + x12248 * poly_mix[2];
+  FpExt x12328 = x12325 + x12327 * poly_mix[2];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12250 = x1 - x612;
+  auto x12329 = x1 - x612;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12251 = x612 * x12250;
+  auto x12330 = x612 * x12329;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12252 = x12249 + x12251 * poly_mix[3];
+  FpExt x12331 = x12328 + x12330 * poly_mix[3];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12253 = x1 - x614;
+  auto x12332 = x1 - x614;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12254 = x614 * x12253;
+  auto x12333 = x614 * x12332;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12255 = x12252 + x12254 * poly_mix[4];
+  FpExt x12334 = x12331 + x12333 * poly_mix[4];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12256 = x12255 + x750 * poly_mix[5];
+  FpExt x12335 = x12334 + x750 * poly_mix[5];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12257 = x1 - x620;
+  auto x12336 = x1 - x620;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12258 = x620 * x12257;
+  auto x12337 = x620 * x12336;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12259 = x12256 + x12258 * poly_mix[6];
+  FpExt x12338 = x12335 + x12337 * poly_mix[6];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12260 = x1 - x623;
+  auto x12339 = x1 - x623;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12261 = x623 * x12260;
+  auto x12340 = x623 * x12339;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12262 = x12259 + x12261 * poly_mix[7];
+  FpExt x12341 = x12338 + x12340 * poly_mix[7];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12263 = x1 - x626;
+  auto x12342 = x1 - x626;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12264 = x626 * x12263;
+  auto x12343 = x626 * x12342;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12265 = x12262 + x12264 * poly_mix[8];
+  FpExt x12344 = x12341 + x12343 * poly_mix[8];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12266 = x1 - x866;
+  auto x12345 = x1 - x866;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12267 = x866 * x12266;
+  auto x12346 = x866 * x12345;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12268 = x12265 + x12267 * poly_mix[9];
+  FpExt x12347 = x12344 + x12346 * poly_mix[9];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12269 = x12268 + x12070 * poly_mix[10];
+  FpExt x12348 = x12347 + x12149 * poly_mix[10];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12270 = x12269 + x12073 * poly_mix[11];
+  FpExt x12349 = x12348 + x12152 * poly_mix[11];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12271 = x12270 + x12076 * poly_mix[12];
+  FpExt x12350 = x12349 + x12155 * poly_mix[12];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12272 = x12271 + x12079 * poly_mix[13];
+  FpExt x12351 = x12350 + x12158 * poly_mix[13];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12273 = x12272 + x12082 * poly_mix[14];
+  FpExt x12352 = x12351 + x12161 * poly_mix[14];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12274 = x12273 + x12085 * poly_mix[15];
+  FpExt x12353 = x12352 + x12164 * poly_mix[15];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12275 = x12274 + x12088 * poly_mix[16];
+  FpExt x12354 = x12353 + x12167 * poly_mix[16];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12276 = x12275 + x12091 * poly_mix[17];
+  FpExt x12355 = x12354 + x12170 * poly_mix[17];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12277 = x12276 + x12094 * poly_mix[18];
+  FpExt x12356 = x12355 + x12173 * poly_mix[18];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12278 = x12277 + x12097 * poly_mix[19];
+  FpExt x12357 = x12356 + x12176 * poly_mix[19];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12279 = x12278 + x1022 * poly_mix[20];
+  FpExt x12358 = x12357 + x1022 * poly_mix[20];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12280 = x12279 + x12101 * poly_mix[21];
+  FpExt x12359 = x12358 + x12180 * poly_mix[21];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12281 = x12280 + x12104 * poly_mix[22];
+  FpExt x12360 = x12359 + x12183 * poly_mix[22];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12282 = x12281 + x12107 * poly_mix[23];
+  FpExt x12361 = x12360 + x12186 * poly_mix[23];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12283 = x12282 + x12110 * poly_mix[24];
+  FpExt x12362 = x12361 + x12189 * poly_mix[24];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12284 = x12283 + x12113 * poly_mix[25];
+  FpExt x12363 = x12362 + x12192 * poly_mix[25];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12285 = x12284 + x12116 * poly_mix[26];
+  FpExt x12364 = x12363 + x12195 * poly_mix[26];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12286 = x12285 + x12119 * poly_mix[27];
+  FpExt x12365 = x12364 + x12198 * poly_mix[27];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12287 = x12286 + x12122 * poly_mix[28];
+  FpExt x12366 = x12365 + x12201 * poly_mix[28];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12288 = x12287 + x12125 * poly_mix[29];
+  FpExt x12367 = x12366 + x12204 * poly_mix[29];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12289 = x12288 + x12128 * poly_mix[30];
+  FpExt x12368 = x12367 + x12207 * poly_mix[30];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12290 = x12289 + x12131 * poly_mix[31];
+  FpExt x12369 = x12368 + x12210 * poly_mix[31];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12291 = x12290 + x12140 * poly_mix[32];
+  FpExt x12370 = x12369 + x12219 * poly_mix[32];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12292 = x12291 + x12143 * poly_mix[33];
+  FpExt x12371 = x12370 + x12222 * poly_mix[33];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12293 = x12292 + x12146 * poly_mix[34];
+  FpExt x12372 = x12371 + x12225 * poly_mix[34];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12294 = x12293 + x12149 * poly_mix[35];
+  FpExt x12373 = x12372 + x12228 * poly_mix[35];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12295 = x12294 + x12152 * poly_mix[36];
+  FpExt x12374 = x12373 + x12231 * poly_mix[36];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12296 = x12295 + x12155 * poly_mix[37];
+  FpExt x12375 = x12374 + x12234 * poly_mix[37];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12297 = x12296 + x12158 * poly_mix[38];
+  FpExt x12376 = x12375 + x12237 * poly_mix[38];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12298 = x12297 + x12161 * poly_mix[39];
+  FpExt x12377 = x12376 + x12240 * poly_mix[39];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12299 = x12298 + x12164 * poly_mix[40];
+  FpExt x12378 = x12377 + x12243 * poly_mix[40];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12300 = x12299 + x12167 * poly_mix[41];
+  FpExt x12379 = x12378 + x12246 * poly_mix[41];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12301 = x12300 + x12170 * poly_mix[42];
+  FpExt x12380 = x12379 + x12249 * poly_mix[42];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12302 = x12301 + x12173 * poly_mix[43];
+  FpExt x12381 = x12380 + x12252 * poly_mix[43];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12303 = x12302 + x12176 * poly_mix[44];
+  FpExt x12382 = x12381 + x12255 * poly_mix[44];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12304 = x12303 + x12179 * poly_mix[45];
+  FpExt x12383 = x12382 + x12258 * poly_mix[45];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12305 = x12304 + x12182 * poly_mix[46];
+  FpExt x12384 = x12383 + x12261 * poly_mix[46];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12306 = x12305 + x12185 * poly_mix[47];
+  FpExt x12385 = x12384 + x12264 * poly_mix[47];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12307 = x12306 + x12188 * poly_mix[48];
+  FpExt x12386 = x12385 + x12267 * poly_mix[48];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12308 = x12307 + x12191 * poly_mix[49];
+  FpExt x12387 = x12386 + x12270 * poly_mix[49];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12309 = x12308 + x12194 * poly_mix[50];
+  FpExt x12388 = x12387 + x12273 * poly_mix[50];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12310 = x12309 + x12197 * poly_mix[51];
+  FpExt x12389 = x12388 + x12276 * poly_mix[51];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12311 = x12310 + x12200 * poly_mix[52];
+  FpExt x12390 = x12389 + x12279 * poly_mix[52];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12312 = x12311 + x12203 * poly_mix[53];
+  FpExt x12391 = x12390 + x12282 * poly_mix[53];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12313 = x12312 + x12206 * poly_mix[54];
+  FpExt x12392 = x12391 + x12285 * poly_mix[54];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12314 = x12313 + x12209 * poly_mix[55];
+  FpExt x12393 = x12392 + x12288 * poly_mix[55];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12315 = x12314 + x12212 * poly_mix[56];
+  FpExt x12394 = x12393 + x12291 * poly_mix[56];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12316 = x12315 + x12215 * poly_mix[57];
+  FpExt x12395 = x12394 + x12294 * poly_mix[57];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12317 = x12316 + x12218 * poly_mix[58];
+  FpExt x12396 = x12395 + x12297 * poly_mix[58];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12318 = x12317 + x12221 * poly_mix[59];
+  FpExt x12397 = x12396 + x12300 * poly_mix[59];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12319 = x12318 + x12224 * poly_mix[60];
+  FpExt x12398 = x12397 + x12303 * poly_mix[60];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12320 = x12319 + x12227 * poly_mix[61];
+  FpExt x12399 = x12398 + x12306 * poly_mix[61];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12321 = x12320 + x11892 * poly_mix[62];
+  FpExt x12400 = x12399 + x11938 * poly_mix[62];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12322 = x12321 + x11895 * poly_mix[63];
+  FpExt x12401 = x12400 + x11941 * poly_mix[63];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12323 = x12322 + x11907 * poly_mix[64];
+  FpExt x12402 = x12401 + x11950 * poly_mix[64];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12324 = x12323 + x11911 * poly_mix[65];
+  FpExt x12403 = x12402 + x11953 * poly_mix[65];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12325 = x12324 + x11915 * poly_mix[66];
+  FpExt x12404 = x12403 + x11956 * poly_mix[66];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12326 = x12325 + x11919 * poly_mix[67];
+  FpExt x12405 = x12404 + x11959 * poly_mix[67];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12327 = x12326 + x11923 * poly_mix[68];
+  FpExt x12406 = x12405 + x11962 * poly_mix[68];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12328 = x12327 + x11927 * poly_mix[69];
+  FpExt x12407 = x12406 + x11965 * poly_mix[69];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12329 = x12328 + x11931 * poly_mix[70];
+  FpExt x12408 = x12407 + x11968 * poly_mix[70];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12330 = x1 - x476;
+  auto x12409 = x1 - x476;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12331 = x476 * x12330;
+  auto x12410 = x476 * x12409;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12332 = x12329 + x12331 * poly_mix[71];
+  FpExt x12411 = x12408 + x12410 * poly_mix[71];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12333 = x12332 + x11937 * poly_mix[72];
+  FpExt x12412 = x12411 + x11994 * poly_mix[72];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12334 = x12333 + x11940 * poly_mix[73];
+  FpExt x12413 = x12412 + x11997 * poly_mix[73];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12335 = x12334 + x11944 * poly_mix[74];
+  FpExt x12414 = x12413 + x12000 * poly_mix[74];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12336 = x12335 + x11948 * poly_mix[75];
+  FpExt x12415 = x12414 + x12003 * poly_mix[75];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12337 = x12336 + x11952 * poly_mix[76];
+  FpExt x12416 = x12415 + x12006 * poly_mix[76];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12338 = x12337 + x11956 * poly_mix[77];
+  FpExt x12417 = x12416 + x12009 * poly_mix[77];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12339 = x12338 + x11960 * poly_mix[78];
+  FpExt x12418 = x12417 + x12012 * poly_mix[78];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12340 = x12339 + x11964 * poly_mix[79];
+  FpExt x12419 = x12418 + x12015 * poly_mix[79];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12341 = x12340 + x11968 * poly_mix[80];
+  FpExt x12420 = x12419 + x12018 * poly_mix[80];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12342 = x12341 + x11972 * poly_mix[81];
+  FpExt x12421 = x12420 + x12021 * poly_mix[81];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12343 = x12342 + x11976 * poly_mix[82];
+  FpExt x12422 = x12421 + x12024 * poly_mix[82];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12344 = x1 - x748;
+  auto x12423 = x1 - x748;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12345 = x748 * x12344;
+  auto x12424 = x748 * x12423;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12346 = x12343 + x12345 * poly_mix[83];
+  FpExt x12425 = x12422 + x12424 * poly_mix[83];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12347 = x12346 + x11982 * poly_mix[84];
+  FpExt x12426 = x12425 + x12050 * poly_mix[84];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12348 = x12347 + x11985 * poly_mix[85];
+  FpExt x12427 = x12426 + x12053 * poly_mix[85];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12349 = x12348 + x11989 * poly_mix[86];
+  FpExt x12428 = x12427 + x12056 * poly_mix[86];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12350 = x12349 + x11993 * poly_mix[87];
+  FpExt x12429 = x12428 + x12059 * poly_mix[87];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12351 = x12350 + x11997 * poly_mix[88];
+  FpExt x12430 = x12429 + x12062 * poly_mix[88];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12352 = x12351 + x12001 * poly_mix[89];
+  FpExt x12431 = x12430 + x12065 * poly_mix[89];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12353 = x12352 + x12005 * poly_mix[90];
+  FpExt x12432 = x12431 + x12068 * poly_mix[90];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12354 = x12353 + x12009 * poly_mix[91];
+  FpExt x12433 = x12432 + x12071 * poly_mix[91];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12355 = x12354 + x12013 * poly_mix[92];
+  FpExt x12434 = x12433 + x12074 * poly_mix[92];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12356 = x12355 + x12017 * poly_mix[93];
+  FpExt x12435 = x12434 + x12077 * poly_mix[93];
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12357 = x12356 + x12021 * poly_mix[94];
+  FpExt x12436 = x12435 + x12080 * poly_mix[94];
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12358 = x1 - x1020;
+  auto x12437 = x1 - x1020;
   // loc("./zirgen/components/bits.h":24:0)
-  auto x12359 = x1020 * x12358;
+  auto x12438 = x1020 * x12437;
   // loc("./zirgen/components/bits.h":24:0)
-  FpExt x12360 = x12357 + x12359 * poly_mix[95];
+  FpExt x12439 = x12436 + x12438 * poly_mix[95];
   // loc("zirgen/compiler/edsl/component.cpp":39:0)
-  FpExt x12361 = x12240 + x590 * x12360 * poly_mix[106];
+  FpExt x12440 = x12319 + x590 * x12439 * poly_mix[106];
   // loc("zirgen/compiler/edsl/component.cpp":39:0)
-  FpExt x12362 = x12361 + x591 * x12360 * poly_mix[117];
+  FpExt x12441 = x12440 + x591 * x12439 * poly_mix[117];
   // loc("zirgen/compiler/edsl/component.cpp":39:0)
-  FpExt x12363 = x12362 + x592 * x12360 * poly_mix[128];
+  FpExt x12442 = x12441 + x592 * x12439 * poly_mix[128];
   // loc("zirgen/compiler/edsl/component.cpp":39:0)
-  FpExt x12364 = x12363 + x831 * x12360 * poly_mix[133];
+  FpExt x12443 = x12442 + x831 * x12439 * poly_mix[133];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x12444 = x1 - x334;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x12445 = x334 * x12444;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x12446 = x284 + x12445 * poly_mix[0];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x12447 = x1 - x336;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x12448 = x336 * x12447;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x12449 = x12446 + x12448 * poly_mix[1];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x12450 = x1 - x338;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x12451 = x338 * x12450;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x12452 = x12449 + x12451 * poly_mix[2];
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x12453 = x1 - x340;
+  // loc("./zirgen/components/bits.h":24:0)
+  auto x12454 = x340 * x12453;
+  // loc("./zirgen/components/bits.h":24:0)
+  FpExt x12455 = x12452 + x12454 * poly_mix[3];
   // loc("./zirgen/components/onehot.h":28:0)
-  auto x12365 = x1 - x334;
+  FpExt x12456 = x12455 + x12445 * poly_mix[4];
   // loc("./zirgen/components/onehot.h":28:0)
-  auto x12366 = x334 * x12365;
-  // loc("./zirgen/components/onehot.h":28:0)
-  FpExt x12367 = x284 + x12366 * poly_mix[0];
-  // loc("./zirgen/components/onehot.h":28:0)
-  auto x12368 = x1 - x336;
-  // loc("./zirgen/components/onehot.h":28:0)
-  auto x12369 = x336 * x12368;
-  // loc("./zirgen/components/onehot.h":28:0)
-  FpExt x12370 = x12367 + x12369 * poly_mix[1];
+  FpExt x12457 = x12456 + x12448 * poly_mix[5];
   // loc("./zirgen/components/onehot.h":29:0)
-  auto x12371 = x334 + x336;
+  auto x12458 = x334 + x336;
   // loc("./zirgen/components/onehot.h":28:0)
-  auto x12372 = x1 - x338;
-  // loc("./zirgen/components/onehot.h":28:0)
-  auto x12373 = x338 * x12372;
-  // loc("./zirgen/components/onehot.h":28:0)
-  FpExt x12374 = x12370 + x12373 * poly_mix[2];
+  FpExt x12459 = x12457 + x12451 * poly_mix[6];
   // loc("./zirgen/components/onehot.h":29:0)
-  auto x12375 = x12371 + x338;
+  auto x12460 = x12458 + x338;
   // loc("./zirgen/components/onehot.h":28:0)
-  auto x12376 = x1 - x340;
-  // loc("./zirgen/components/onehot.h":28:0)
-  auto x12377 = x340 * x12376;
-  // loc("./zirgen/components/onehot.h":28:0)
-  FpExt x12378 = x12374 + x12377 * poly_mix[3];
+  FpExt x12461 = x12459 + x12454 * poly_mix[7];
   // loc("./zirgen/components/onehot.h":29:0)
-  auto x12379 = x12375 + x340;
+  auto x12462 = x12460 + x340;
   // loc("./zirgen/components/onehot.h":31:0)
-  auto x12380 = x12379 - x1;
+  auto x12463 = x12462 - x1;
   // loc("./zirgen/components/onehot.h":31:0)
-  FpExt x12381 = x12378 + x12380 * poly_mix[4];
+  FpExt x12464 = x12461 + x12463 * poly_mix[8];
   // loc("zirgen/compiler/edsl/component.cpp":39:0)
-  FpExt x12382 = x12364 + x862 * x12381 * poly_mix[135];
+  FpExt x12465 = x12443 + x862 * x12464 * poly_mix[135];
   // loc("zirgen/compiler/edsl/component.cpp":39:0)
-  FpExt x12383 = x12026 + x1103 * x12382 * poly_mix[157];
-  return x12383;
+  FpExt x12466 = x12105 + x1103 * x12465 * poly_mix[166];
+  return x12466;
 }
 
 } // namespace risc0::circuit::recursion
